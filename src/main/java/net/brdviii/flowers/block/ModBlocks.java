@@ -43,6 +43,10 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_BACHELOR_BUTTON = registerBlock("potted_bachelor_button", createFlowerPotBlock(ModBlocks.BACHELOR_BUTTON));
 
+    public static final Block BANEBERRY = registerBlock("baneberry",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_BANEBERRY = registerBlock("potted_baneberry", createFlowerPotBlock(ModBlocks.BANEBERRY));
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -64,6 +68,7 @@ public class ModBlocks {
             entries.add(ModBlocks.BABY_BLUE_EYES);
             entries.add(ModBlocks.BABY_BLUE_EYES_SMALL);
             entries.add(ModBlocks.BACHELOR_BUTTON);
+            entries.add(ModBlocks.BANEBERRY);
         });
     }
 }

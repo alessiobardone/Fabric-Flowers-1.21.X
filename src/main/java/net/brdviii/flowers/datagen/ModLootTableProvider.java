@@ -27,6 +27,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BABY_BLUE_EYES);
         addDrop(ModBlocks.BABY_BLUE_EYES_SMALL);
         addDrop(ModBlocks.BACHELOR_BUTTON);
+        addDrop(ModBlocks.BANEBERRY);
+
 
     }
 }

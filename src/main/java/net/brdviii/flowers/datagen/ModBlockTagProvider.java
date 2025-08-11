@@ -26,7 +26,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.AUSTRALIAN_FLAME_PEA)
                 .add(ModBlocks.BABY_BLUE_EYES)
                 .add(ModBlocks.BABY_BLUE_EYES_SMALL)
-                .add(ModBlocks.BACHELOR_BUTTON);
+                .add(ModBlocks.BACHELOR_BUTTON)
+                .add(ModBlocks.BANEBERRY);
     }
 
 }
