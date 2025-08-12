@@ -73,6 +73,37 @@ public class ModBlocks {
     public static final Block BLUE_BELL_SWEET_PEAS = registerBlock("blue_bell_sweet_peas",
             new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
 
+    public static final Block BLUE_EYED_GRASS = registerBlock("blue_eyed_grass",
+            new ShortPlantBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
+
+    public static final Block BLUE_TINSEL_LILY = registerBlock("blue_tinsel_lily",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_BLUE_TINSEL_LILY = registerBlock("potted_blue_tinsel_lily", createFlowerPotBlock(ModBlocks.BLUE_TINSEL_LILY));
+
+    public static final Block BORAGE = registerBlock("borage",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_BORAGE = registerBlock("potted_borage", createFlowerPotBlock(ModBlocks.BORAGE));
+
+    public static final Block BRIGHT_MAGENTA_SWEET_PEAS = registerBlock("bright_magenta_sweet_peas",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block BUCKWHEAT = registerBlock("buckwheat",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_BUCKWHEAT = registerBlock("potted_buckwheat", createFlowerPotBlock(ModBlocks.BUCKWHEAT));
+
+    public static final Block BUCKWHEAT_RED = registerBlock("buckwheat_red",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_BUCKWHEAT_RED = registerBlock("potted_buckwheat_red", createFlowerPotBlock(ModBlocks.BUCKWHEAT_RED));
+
+    public static final Block CACTUS = registerBlock("cactus",
+            new ShortPlantBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
+
+    public static final Block CALIFORNIA_POPPY = registerBlock("california_poppy",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CALIFORNIA_POPPY = registerBlock("potted_california_poppy", createFlowerPotBlock(ModBlocks.CALIFORNIA_POPPY));
+
+
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -102,6 +133,14 @@ public class ModBlocks {
             entries.add(ModBlocks.BLUE_BACHELOR_BUTTON);
             entries.add(ModBlocks.BLUE_BELL_BACHELOR_BUTTON);
             entries.add(ModBlocks.BLUE_BELL_SWEET_PEAS);
+            entries.add(ModBlocks.BLUE_EYED_GRASS);
+            entries.add(ModBlocks.BLUE_TINSEL_LILY);
+            entries.add(ModBlocks.BORAGE);
+            entries.add(ModBlocks.BRIGHT_MAGENTA_SWEET_PEAS);
+            entries.add(ModBlocks.BUCKWHEAT);
+            entries.add(ModBlocks.BUCKWHEAT_RED);
+            entries.add(ModBlocks.CACTUS);
+            entries.add(ModBlocks.CALIFORNIA_POPPY);
         });
     }
 }

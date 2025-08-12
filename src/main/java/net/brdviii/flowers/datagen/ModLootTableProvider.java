@@ -35,6 +35,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLUE_BACHELOR_BUTTON);
         addDrop(ModBlocks.BLUE_BELL_BACHELOR_BUTTON);
         addDrop(ModBlocks.BLUE_BELL_SWEET_PEAS);
+        addDrop(ModBlocks.BLUE_EYED_GRASS);
+        addDrop(ModBlocks.BLUE_TINSEL_LILY);
+        addDrop(ModBlocks.BORAGE);
+        addDrop(ModBlocks.BRIGHT_MAGENTA_SWEET_PEAS);
+        addDrop(ModBlocks.BUCKWHEAT);
+        addDrop(ModBlocks.BUCKWHEAT_RED);
+        addDrop(ModBlocks.CACTUS);
+        addDrop(ModBlocks.CALIFORNIA_POPPY);
 
     }
 }
