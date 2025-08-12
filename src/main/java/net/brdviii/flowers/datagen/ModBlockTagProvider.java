@@ -51,6 +51,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BEACH_GRASS)
                 .add(ModBlocks.BLUE_EYED_GRASS)
                 .add(ModBlocks.CACTUS);
+
+        getOrCreateTagBuilder(BlockTags.FLOWERS)
+                .add(ModBlocks.CLOVER_LILY);
     }
 
 }

@@ -49,6 +49,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CHRYSANTHENUM);
         addDrop(ModBlocks.CINQUEFOIL);
         addDrop(ModBlocks.CLOUD_BLUE_CORYDALIS);
+        addDrop(ModBlocks.CLOVER_LILY);
         addDrop(ModBlocks.COASTAL_LOTUS);
         addDrop(ModBlocks.COMMELINA);
         addDrop(ModBlocks.COMMON_PERIWINKLE);
