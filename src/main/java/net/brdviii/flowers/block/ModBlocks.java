@@ -47,6 +47,32 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_BANEBERRY = registerBlock("potted_baneberry", createFlowerPotBlock(ModBlocks.BANEBERRY));
 
+    public static final Block BEACH_GRASS = registerBlock("beach_grass",
+            new ShortPlantBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
+
+    public static final Block BEACH_STRAWBERRY = registerBlock("beach_strawberry",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_BEACH_STRAWBERRY = registerBlock("potted_beach_strawberry", createFlowerPotBlock(ModBlocks.BEACH_STRAWBERRY));
+
+    public static final Block BIRDS_EYE_GILIA = registerBlock("birds_eye_gilia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_BIRDS_EYE_GILIA = registerBlock("potted_birds_eye_gilia", createFlowerPotBlock(ModBlocks.BIRDS_EYE_GILIA));
+
+    public static final Block BLEEDING_HEART = registerBlock("bleeding_heart",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_BLEEDING_HEART = registerBlock("potted_bleeding_heart", createFlowerPotBlock(ModBlocks.BLEEDING_HEART));
+
+    public static final Block BLUE_BACHELOR_BUTTON = registerBlock("blue_bachelor_button",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_BLUE_BACHELOR_BUTTON = registerBlock("potted_blue_bachelor_button", createFlowerPotBlock(ModBlocks.BLUE_BACHELOR_BUTTON));
+
+    public static final Block BLUE_BELL_BACHELOR_BUTTON = registerBlock("blue_bell_bachelor_button",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_BLUE_BELL_BACHELOR_BUTTON = registerBlock("potted_blue_bell_bachelor_button", createFlowerPotBlock(ModBlocks.BLUE_BELL_BACHELOR_BUTTON));
+
+    public static final Block BLUE_BELL_SWEET_PEAS = registerBlock("blue_bell_sweet_peas",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -69,6 +95,13 @@ public class ModBlocks {
             entries.add(ModBlocks.BABY_BLUE_EYES_SMALL);
             entries.add(ModBlocks.BACHELOR_BUTTON);
             entries.add(ModBlocks.BANEBERRY);
+            entries.add(ModBlocks.BEACH_GRASS);
+            entries.add(ModBlocks.BEACH_STRAWBERRY);
+            entries.add(ModBlocks.BIRDS_EYE_GILIA);
+            entries.add(ModBlocks.BLEEDING_HEART);
+            entries.add(ModBlocks.BLUE_BACHELOR_BUTTON);
+            entries.add(ModBlocks.BLUE_BELL_BACHELOR_BUTTON);
+            entries.add(ModBlocks.BLUE_BELL_SWEET_PEAS);
         });
     }
 }
