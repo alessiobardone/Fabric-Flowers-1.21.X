@@ -37,5 +37,15 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.BUCKWHEAT_RED,"Red Buckwheat");
         translationBuilder.add(ModBlocks.CACTUS,"Cactus");
         translationBuilder.add(ModBlocks.CALIFORNIA_POPPY,"California Poppy");
+        translationBuilder.add(ModBlocks.CALIFORNIA_SEA_THRIFT,"California Sea Thrift");
+        translationBuilder.add(ModBlocks.CALLA_LILY,"Calla Lily");
+        translationBuilder.add(ModBlocks.CAPE_ALOE,"Cape Aloe");
+        translationBuilder.add(ModBlocks.CHRYSANTHENUM,"Chrysanthenum");
+        translationBuilder.add(ModBlocks.CINQUEFOIL,"Cinquefoil");
+        translationBuilder.add(ModBlocks.CLOUD_BLUE_CORYDALIS,"Cloud Blue Corydalis");
+        translationBuilder.add(ModBlocks.COASTAL_LOTUS,"Coastal Lotus");
+        translationBuilder.add(ModBlocks.COMMELINA,"Commelina");
+        translationBuilder.add(ModBlocks.COMMON_PERIWINKLE,"Common Periwinkle");
+        translationBuilder.add(ModBlocks.CORYDALIS,"Corydalis");
     }
 }

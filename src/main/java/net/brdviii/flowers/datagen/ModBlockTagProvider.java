@@ -18,7 +18,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.TALL_FLOWERS)
                 .add(ModBlocks.BLUE_BELL_SWEET_PEAS)
-                .add(ModBlocks.BRIGHT_MAGENTA_SWEET_PEAS);
+                .add(ModBlocks.BRIGHT_MAGENTA_SWEET_PEAS)
+                .add(ModBlocks.CAPE_ALOE);
 
 
         getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
@@ -34,7 +35,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BORAGE)
                 .add(ModBlocks.BUCKWHEAT)
                 .add(ModBlocks.BUCKWHEAT_RED)
-                .add(ModBlocks.CALIFORNIA_POPPY);
+                .add(ModBlocks.CALIFORNIA_POPPY)
+                .add(ModBlocks.CALIFORNIA_SEA_THRIFT)
+                .add(ModBlocks.CALLA_LILY)
+                .add(ModBlocks.CHRYSANTHENUM)
+                .add(ModBlocks.CINQUEFOIL)
+                .add(ModBlocks.CLOUD_BLUE_CORYDALIS)
+                .add(ModBlocks.COASTAL_LOTUS)
+                .add(ModBlocks.COMMELINA)
+                .add(ModBlocks.COMMON_PERIWINKLE)
+                .add(ModBlocks.CORYDALIS);
+
 
         getOrCreateTagBuilder(BlockTags.LEAVES)
                 .add(ModBlocks.BEACH_GRASS)

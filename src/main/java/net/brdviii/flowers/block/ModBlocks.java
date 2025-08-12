@@ -102,6 +102,45 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_CALIFORNIA_POPPY = registerBlock("potted_california_poppy", createFlowerPotBlock(ModBlocks.CALIFORNIA_POPPY));
 
+    public static final Block CALIFORNIA_SEA_THRIFT = registerBlock("california_sea_thrift",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CALIFORNIA_SEA_THRIFT = registerBlock("potted_california_sea_thrift", createFlowerPotBlock(ModBlocks.CALIFORNIA_SEA_THRIFT));
+
+    public static final Block CALLA_LILY = registerBlock("calla_lily",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CALLA_LILY = registerBlock("potted_calla_lily", createFlowerPotBlock(ModBlocks.CALLA_LILY));
+
+    public static final Block CAPE_ALOE = registerBlock("cape_aloe",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block CHRYSANTHENUM = registerBlock("chrysanthenum",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CHRYSANTHENUM = registerBlock("potted_chrysanthenum", createFlowerPotBlock(ModBlocks.CHRYSANTHENUM));
+
+    public static final Block CINQUEFOIL = registerBlock("cinquefoil",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CINQUEFOIL = registerBlock("potted_cinquefoil", createFlowerPotBlock(ModBlocks.CINQUEFOIL));
+
+    public static final Block CLOUD_BLUE_CORYDALIS = registerBlock("cloud_blue_corydalis",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CLOUD_BLUE_CORYDALIS = registerBlock("potted_cloud_blue_corydalis", createFlowerPotBlock(ModBlocks.CLOUD_BLUE_CORYDALIS));
+
+    public static final Block COASTAL_LOTUS = registerBlock("coastal_lotus",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_COASTAL_LOTUS = registerBlock("potted_coastal_lotus", createFlowerPotBlock(ModBlocks.COASTAL_LOTUS));
+
+    public static final Block COMMELINA = registerBlock("commelina",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_COMMELINA = registerBlock("potted_commelina", createFlowerPotBlock(ModBlocks.COMMELINA));
+
+    public static final Block COMMON_PERIWINKLE = registerBlock("common_periwinkle",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_COMMON_PERIWINKLE = registerBlock("potted_common_periwinkle", createFlowerPotBlock(ModBlocks.COMMON_PERIWINKLE));
+
+    public static final Block CORYDALIS = registerBlock("corydalis",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CORYDALIS = registerBlock("potted_corydalis", createFlowerPotBlock(ModBlocks.CORYDALIS));
+
 
 
 
@@ -141,6 +180,16 @@ public class ModBlocks {
             entries.add(ModBlocks.BUCKWHEAT_RED);
             entries.add(ModBlocks.CACTUS);
             entries.add(ModBlocks.CALIFORNIA_POPPY);
+            entries.add(ModBlocks.CALIFORNIA_SEA_THRIFT);
+            entries.add(ModBlocks.CALLA_LILY);
+            entries.add(ModBlocks.CAPE_ALOE);
+            entries.add(ModBlocks.CHRYSANTHENUM);
+            entries.add(ModBlocks.CINQUEFOIL);
+            entries.add(ModBlocks.CLOUD_BLUE_CORYDALIS);
+            entries.add(ModBlocks.COASTAL_LOTUS);
+            entries.add(ModBlocks.COMMELINA);
+            entries.add(ModBlocks.COMMON_PERIWINKLE);
+            entries.add(ModBlocks.CORYDALIS);
         });
     }
 }
