@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      { "model": "flowers:block/devils_claw", "weight":1 },
+      { "model": "flowers:block/devils_claw_vine", "weight":1 }
+    ]
+  }
+}

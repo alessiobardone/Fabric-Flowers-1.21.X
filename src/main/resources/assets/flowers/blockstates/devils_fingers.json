@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      { "model": "flowers:block/devils_fingers", "weight":1 },
+      { "model": "flowers:block/devils_fingers_single", "weight":1 }
+    ]
+  }
+}

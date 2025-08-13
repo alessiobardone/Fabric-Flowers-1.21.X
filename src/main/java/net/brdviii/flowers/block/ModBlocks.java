@@ -183,6 +183,43 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_DARK_BLUE_BORAGE = registerBlock("potted_dark_blue_borage", createFlowerPotBlock(ModBlocks.DARK_BLUE_BORAGE));
 
+    public static final Block DARK_BLUE_SWEET_PEAS = registerBlock("dark_blue_sweet_peas",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block DARKOSTO_TRAPOSTO = registerBlock("darkosto_traposto",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_DARKOSTO_TRAPOSTO = registerBlock("potted_darkosto_traposto", createFlowerPotBlock(ModBlocks.DARKOSTO_TRAPOSTO));
+
+    public static final Block DATURA = registerBlock("datura",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block DAY_LILY = registerBlock("day_lily",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_DAY_LILY = registerBlock("potted_day_lily", createFlowerPotBlock(ModBlocks.DAY_LILY));
+
+    public static final Block DESERT_PAINTBRUSH = registerBlock("desert_paintbrush",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_DESERT_PAINTBRUSH = registerBlock("potted_desert_paintbrush", createFlowerPotBlock(ModBlocks.DESERT_PAINTBRUSH));
+
+    public static final Block DESERT_SAND_VERBENA = registerBlock("desert_sand_verbena",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_DESERT_SAND_VERBENA = registerBlock("potted_desert_sand_verbena", createFlowerPotBlock(ModBlocks.DESERT_SAND_VERBENA));
+
+    public static final Block DESERT_STURT_PEA = registerBlock("desert_sturt_pea",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_DESERT_STURT_PEA = registerBlock("potted_desert_sturt_pea", createFlowerPotBlock(ModBlocks.DESERT_STURT_PEA));
+
+    public static final Block DEVILS_CLAW = registerBlock("devils_claw",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_DEVILS_CLAW = registerBlock("potted_devils_claw", createFlowerPotBlock(ModBlocks.DEVILS_CLAW));
+
+    public static final Block DEVILS_FINGERS = registerBlock("devils_fingers",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_DEVILS_FINGERS = registerBlock("potted_devils_fingers", createFlowerPotBlock(ModBlocks.DEVILS_FINGERS));
+
+    public static final Block DRIED_SUNFLOWER = registerBlock("dried_sunflower",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
 
 
 
@@ -245,6 +282,16 @@ public class ModBlocks {
             entries.add(ModBlocks.CYAN_HYACINTH);
             entries.add(ModBlocks.DAHLIA);
             entries.add(ModBlocks.DARK_BLUE_BORAGE);
+            entries.add(ModBlocks.DARK_BLUE_SWEET_PEAS);
+            entries.add(ModBlocks.DARKOSTO_TRAPOSTO);
+            entries.add(ModBlocks.DATURA);
+            entries.add(ModBlocks.DAY_LILY);
+            entries.add(ModBlocks.DESERT_PAINTBRUSH);
+            entries.add(ModBlocks.DESERT_SAND_VERBENA);
+            entries.add(ModBlocks.DESERT_STURT_PEA);
+            entries.add(ModBlocks.DEVILS_CLAW);
+            entries.add(ModBlocks.DEVILS_FINGERS);
+            entries.add(ModBlocks.DRIED_SUNFLOWER);
         });
     }
 }

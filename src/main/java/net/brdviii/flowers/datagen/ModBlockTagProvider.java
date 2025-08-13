@@ -20,7 +20,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLUE_BELL_SWEET_PEAS)
                 .add(ModBlocks.BRIGHT_MAGENTA_SWEET_PEAS)
                 .add(ModBlocks.CAPE_ALOE)
-                .add(ModBlocks.CRIMSON_GLADIOLA);
+                .add(ModBlocks.CRIMSON_GLADIOLA)
+                .add(ModBlocks.DARK_BLUE_SWEET_PEAS)
+                .add(ModBlocks.DATURA)
+                .add(ModBlocks.DRIED_SUNFLOWER);
 
 
         getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
@@ -54,7 +57,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CROCUS_MIX)
                 .add(ModBlocks.CYAN_HYACINTH)
                 .add(ModBlocks.DAHLIA)
-                .add(ModBlocks.DARK_BLUE_BORAGE);
+                .add(ModBlocks.DARK_BLUE_BORAGE)
+                .add(ModBlocks.DARKOSTO_TRAPOSTO)
+                .add(ModBlocks.DAY_LILY)
+                .add(ModBlocks.DESERT_PAINTBRUSH)
+                .add(ModBlocks.DESERT_SAND_VERBENA)
+                .add(ModBlocks.DESERT_STURT_PEA)
+                .add(ModBlocks.DEVILS_CLAW)
+                .add(ModBlocks.DEVILS_FINGERS);
+
 
 
         getOrCreateTagBuilder(BlockTags.LEAVES)
