@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "": [
+      { "model": "flowers:block/clover_lily_0" },
+      { "model": "flowers:block/clover_lily_0", "y": 90 },
+      { "model": "flowers:block/clover_lily_0", "y": 180 },
+      { "model": "flowers:block/clover_lily_0", "y": 270 },
+
+      { "model": "flowers:block/clover_lily_1" },
+      { "model": "flowers:block/clover_lily_1", "y": 90 },
+      { "model": "flowers:block/clover_lily_1", "y": 180 },
+      { "model": "flowers:block/clover_lily_1", "y": 270 },
+
+      { "model": "flowers:block/clover_lily_2" },
+      { "model": "flowers:block/clover_lily_2", "y": 90 },
+      { "model": "flowers:block/clover_lily_2", "y": 180 },
+      { "model": "flowers:block/clover_lily_2", "y": 270 },
+
+      { "model": "flowers:block/clover_lily_3" },
+      { "model": "flowers:block/clover_lily_3", "y": 90 },
+      { "model": "flowers:block/clover_lily_3", "y": 180 },
+      { "model": "flowers:block/clover_lily_3", "y": 270 }
+    ]
+  }
+}
+
+
+

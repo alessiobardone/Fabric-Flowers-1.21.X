@@ -125,6 +125,9 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_CLOUD_BLUE_CORYDALIS = registerBlock("potted_cloud_blue_corydalis", createFlowerPotBlock(ModBlocks.CLOUD_BLUE_CORYDALIS));
 
+    public static final Block CLOVER_LILY = registerBlockWithoutItem("clover_lily",
+            new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
+
     public static final Block COASTAL_LOTUS = registerBlock("coastal_lotus",
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_COASTAL_LOTUS = registerBlock("potted_coastal_lotus", createFlowerPotBlock(ModBlocks.COASTAL_LOTUS));
@@ -142,7 +145,9 @@ public class ModBlocks {
     public static final Block POTTED_CORYDALIS = registerBlock("potted_corydalis", createFlowerPotBlock(ModBlocks.CORYDALIS));
 
 
-
+    private static Block registerBlockWithoutItem(String name, Block block){
+        return Registry.register(Registries.BLOCK, Identifier.of(Flowers.MOD_ID, name), block);
+    }
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -186,6 +191,7 @@ public class ModBlocks {
             entries.add(ModBlocks.CHRYSANTHENUM);
             entries.add(ModBlocks.CINQUEFOIL);
             entries.add(ModBlocks.CLOUD_BLUE_CORYDALIS);
+            //entries.add(ModBlocks.CLOVER_LILY);
             entries.add(ModBlocks.COASTAL_LOTUS);
             entries.add(ModBlocks.COMMELINA);
             entries.add(ModBlocks.COMMON_PERIWINKLE);
