@@ -144,6 +144,47 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_CORYDALIS = registerBlock("potted_corydalis", createFlowerPotBlock(ModBlocks.CORYDALIS));
 
+    public static final Block COSMOS = registerBlock("cosmos",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_COSMOS = registerBlock("potted_cosmos", createFlowerPotBlock(ModBlocks.COSMOS));
+
+    public static final Block COSMOS_MIX = registerBlock("cosmos_mix",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_COSMOS_MIX = registerBlock("potted_cosmos_mix", createFlowerPotBlock(ModBlocks.COSMOS_MIX));
+
+    public static final Block CRACKING_RUSSULA = registerBlock("cracking_russula",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CRACKING_RUSSULA = registerBlock("potted_cracking_russula", createFlowerPotBlock(ModBlocks.CRACKING_RUSSULA));
+
+    public static final Block CREEPING_THYME = registerBlock("creeping_thyme",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CREEPING_THYME = registerBlock("potted_creeping_thyme", createFlowerPotBlock(ModBlocks.CREEPING_THYME));
+
+    public static final Block CRIMSON_GLADIOLA = registerBlock("crimson_gladiola",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block CRINOLINE_STINKHORN = registerBlock("crinoline_stinkhorn",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CRINOLINE_STINKHORN = registerBlock("potted_crinoline_stinkhorn", createFlowerPotBlock(ModBlocks.CRINOLINE_STINKHORN));
+
+    public static final Block CROCUS_MIX = registerBlock("crocus_mix",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CROCUS_MIX = registerBlock("potted_crocus_mix", createFlowerPotBlock(ModBlocks.CROCUS_MIX));
+
+    public static final Block CYAN_HYACINTH = registerBlock("cyan_hyacinth",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_CYAN_HYACINTH = registerBlock("potted_cyan_hyacinth", createFlowerPotBlock(ModBlocks.CYAN_HYACINTH));
+
+    public static final Block DAHLIA = registerBlock("dahlia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_DAHLIA = registerBlock("potted_dahlia", createFlowerPotBlock(ModBlocks.DAHLIA));
+
+    public static final Block DARK_BLUE_BORAGE = registerBlock("dark_blue_borage",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_DARK_BLUE_BORAGE = registerBlock("potted_dark_blue_borage", createFlowerPotBlock(ModBlocks.DARK_BLUE_BORAGE));
+
+
+
 
     private static Block registerBlockWithoutItem(String name, Block block){
         return Registry.register(Registries.BLOCK, Identifier.of(Flowers.MOD_ID, name), block);
@@ -191,11 +232,19 @@ public class ModBlocks {
             entries.add(ModBlocks.CHRYSANTHENUM);
             entries.add(ModBlocks.CINQUEFOIL);
             entries.add(ModBlocks.CLOUD_BLUE_CORYDALIS);
-            //entries.add(ModBlocks.CLOVER_LILY);
             entries.add(ModBlocks.COASTAL_LOTUS);
             entries.add(ModBlocks.COMMELINA);
             entries.add(ModBlocks.COMMON_PERIWINKLE);
-            entries.add(ModBlocks.CORYDALIS);
+            entries.add(ModBlocks.COSMOS);
+            entries.add(ModBlocks.COSMOS_MIX);
+            entries.add(ModBlocks.CRACKING_RUSSULA);
+            entries.add(ModBlocks.CREEPING_THYME);
+            entries.add(ModBlocks.CRIMSON_GLADIOLA);
+            entries.add(ModBlocks.CRINOLINE_STINKHORN);
+            entries.add(ModBlocks.CROCUS_MIX);
+            entries.add(ModBlocks.CYAN_HYACINTH);
+            entries.add(ModBlocks.DAHLIA);
+            entries.add(ModBlocks.DARK_BLUE_BORAGE);
         });
     }
 }
