@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "flowers:block/clover_lily"
+    "layer0": "flowers:block/clover_lily_3"
   }
 }

@@ -1,8 +1,8 @@
 {
   "ambientocclusion": false,
   "textures": {
-    "particle": "flowers:block/clover_lily",
-    "texture": "flowers:block/clover_lily"
+    "particle": "flowers:block/clover_lily_3",
+    "texture": "flowers:block/clover_lily_3"
   },
   "elements": [
     {

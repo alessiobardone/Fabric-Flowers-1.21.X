@@ -2,7 +2,6 @@ package net.brdviii.flowers.block;
 
 
 import net.brdviii.flowers.Flowers;
-import net.brdviii.flowers.block.custom.CloverLilyBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
@@ -127,7 +126,7 @@ public class ModBlocks {
     public static final Block POTTED_CLOUD_BLUE_CORYDALIS = registerBlock("potted_cloud_blue_corydalis", createFlowerPotBlock(ModBlocks.CLOUD_BLUE_CORYDALIS));
 
     public static final Block CLOVER_LILY = registerBlockWithoutItem("clover_lily",
-            new CloverLilyBlock());
+            new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
 
     public static final Block COASTAL_LOTUS = registerBlock("coastal_lotus",
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
@@ -192,7 +191,7 @@ public class ModBlocks {
             entries.add(ModBlocks.CHRYSANTHENUM);
             entries.add(ModBlocks.CINQUEFOIL);
             entries.add(ModBlocks.CLOUD_BLUE_CORYDALIS);
-            entries.add(ModBlocks.CLOVER_LILY);
+            //entries.add(ModBlocks.CLOVER_LILY);
             entries.add(ModBlocks.COASTAL_LOTUS);
             entries.add(ModBlocks.COMMELINA);
             entries.add(ModBlocks.COMMON_PERIWINKLE);
