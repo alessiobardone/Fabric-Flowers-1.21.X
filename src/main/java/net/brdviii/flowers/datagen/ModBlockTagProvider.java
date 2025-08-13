@@ -23,7 +23,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CRIMSON_GLADIOLA)
                 .add(ModBlocks.DARK_BLUE_SWEET_PEAS)
                 .add(ModBlocks.DATURA)
-                .add(ModBlocks.DRIED_SUNFLOWER);
+                .add(ModBlocks.DRIED_SUNFLOWER)
+                .add(ModBlocks.FLOWERING_CURRENT)
+                .add(ModBlocks.GLADIOLA)
+                .add(ModBlocks.GLORIOSA_LILY);
+
 
 
         getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
@@ -64,7 +68,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DESERT_SAND_VERBENA)
                 .add(ModBlocks.DESERT_STURT_PEA)
                 .add(ModBlocks.DEVILS_CLAW)
-                .add(ModBlocks.DEVILS_FINGERS);
+                .add(ModBlocks.ECHINACEA)
+                .add(ModBlocks.ENGELMANNS_HEDGEHOG_CACTUS)
+                .add(ModBlocks.FORGET_ME_NOT)
+                .add(ModBlocks.FUCHSIA);
+
 
 
 
@@ -74,7 +82,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CACTUS);
 
         getOrCreateTagBuilder(BlockTags.FLOWERS)
-                .add(ModBlocks.CLOVER_LILY);
+                .add(ModBlocks.CLOVER_LILY)
+                .add(ModBlocks.FROGBIT);
+
     }
 
 }

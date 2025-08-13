@@ -29,6 +29,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoubleBlock(ModBlocks.DARK_BLUE_SWEET_PEAS, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerDoubleBlock(ModBlocks.DATURA, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerDoubleBlock(ModBlocks.DRIED_SUNFLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(ModBlocks.FLOWERING_CURRENT, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(ModBlocks.GLADIOLA, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(ModBlocks.GLORIOSA_LILY, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.AFRICAN_DAISY,ModBlocks.POTTED_AFRICAN_DAISY,BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.ALBUCA_NAMAQUENSIS,ModBlocks.POTTED_ALBUCA_NAMAQUENSIS,BlockStateModelGenerator.TintType.NOT_TINTED);
@@ -71,6 +74,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DESERT_PAINTBRUSH,ModBlocks.POTTED_DESERT_PAINTBRUSH,BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DESERT_SAND_VERBENA,ModBlocks.POTTED_DESERT_SAND_VERBENA,BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DESERT_STURT_PEA,ModBlocks.POTTED_DESERT_STURT_PEA,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.ECHINACEA,ModBlocks.POTTED_ECHINACEA,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.ENGELMANNS_HEDGEHOG_CACTUS,ModBlocks.POTTED_ENGELMANNS_HEDGEHOG_CACTUS,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.FORGET_ME_NOT,ModBlocks.POTTED_FORGET_ME_NOT,BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerTintableCross(ModBlocks.BEACH_GRASS, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(ModBlocks.BLUE_EYED_GRASS, BlockStateModelGenerator.TintType.TINTED);

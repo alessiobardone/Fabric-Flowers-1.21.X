@@ -220,7 +220,33 @@ public class ModBlocks {
     public static final Block DRIED_SUNFLOWER = registerBlock("dried_sunflower",
             new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
 
+    public static final Block ECHINACEA = registerBlock("echinacea",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_ECHINACEA = registerBlock("potted_echinacea", createFlowerPotBlock(ModBlocks.ECHINACEA));
 
+    public static final Block ENGELMANNS_HEDGEHOG_CACTUS = registerBlock("engelmanns_hedgehog_cactus",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_ENGELMANNS_HEDGEHOG_CACTUS = registerBlock("potted_engelmanns_hedgehog_cactus", createFlowerPotBlock(ModBlocks.ENGELMANNS_HEDGEHOG_CACTUS));
+
+    public static final Block FLOWERING_CURRENT = registerBlock("flowering_current",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block FORGET_ME_NOT = registerBlock("forget_me_not",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_FORGET_ME_NOT = registerBlock("potted_forget_me_not", createFlowerPotBlock(ModBlocks.FORGET_ME_NOT));
+
+    public static final Block FROGBIT = registerBlockWithoutItem("frogbit",
+            new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
+
+    public static final Block FUCHSIA = registerBlock("fuchsia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_FUCHSIA = registerBlock("potted_fuchsia", createFlowerPotBlock(ModBlocks.FUCHSIA));
+
+    public static final Block GLADIOLA = registerBlock("gladiola",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block GLORIOSA_LILY = registerBlock("gloriosa_lily",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
 
 
     private static Block registerBlockWithoutItem(String name, Block block){
@@ -292,6 +318,13 @@ public class ModBlocks {
             entries.add(ModBlocks.DEVILS_CLAW);
             entries.add(ModBlocks.DEVILS_FINGERS);
             entries.add(ModBlocks.DRIED_SUNFLOWER);
+            entries.add(ModBlocks.ECHINACEA);
+            entries.add(ModBlocks.ENGELMANNS_HEDGEHOG_CACTUS);
+            entries.add(ModBlocks.FLOWERING_CURRENT);
+            entries.add(ModBlocks.FORGET_ME_NOT);
+            entries.add(ModBlocks.FUCHSIA);
+            entries.add(ModBlocks.GLADIOLA);
+            entries.add(ModBlocks.GLORIOSA_LILY);
         });
     }
 }

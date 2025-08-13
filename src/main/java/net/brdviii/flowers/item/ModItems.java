@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item CLOVER_LILY = registerItem("clover_lily",new PlaceableOnWaterItem(ModBlocks.CLOVER_LILY, new Item.Settings()));
+    public static final Item FROGBIT = registerItem("frogbit",new PlaceableOnWaterItem(ModBlocks.FROGBIT, new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -25,6 +26,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(ModItems.CLOVER_LILY);
+            entries.add(ModItems.FROGBIT);
         });
 
     }

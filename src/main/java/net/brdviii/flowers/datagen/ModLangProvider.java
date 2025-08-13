@@ -67,5 +67,13 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.DEVILS_CLAW,"Devils Claw");
         translationBuilder.add(ModBlocks.DEVILS_FINGERS,"Devils Fingers");
         translationBuilder.add(ModBlocks.DRIED_SUNFLOWER,"Dried Sunflower");
+        translationBuilder.add(ModBlocks.ECHINACEA,"Echinacea");
+        translationBuilder.add(ModBlocks.ENGELMANNS_HEDGEHOG_CACTUS,"Engelmanns Hedgehog Cactus");
+        translationBuilder.add(ModBlocks.FLOWERING_CURRENT,"Flowering Current");
+        translationBuilder.add(ModBlocks.FORGET_ME_NOT,"Forget Me Not");
+        translationBuilder.add(ModBlocks.FROGBIT,"Frogbit");
+        translationBuilder.add(ModBlocks.FUCHSIA,"Fuchsia");
+        translationBuilder.add(ModBlocks.GLADIOLA,"Gladiola");
+        translationBuilder.add(ModBlocks.GLORIOSA_LILY,"Gloriosa Lily");
     }
 }
