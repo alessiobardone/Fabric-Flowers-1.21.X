@@ -84,7 +84,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FLOWERS)
                 .add(ModBlocks.CLOVER_LILY)
                 .add(ModBlocks.FROGBIT)
-                .add(ModBlocks.PURPLE_LIGHT_LILY);
+                .add(ModBlocks.JOY_LIGHT_LILY)
+                .add(ModBlocks.LAVANDER_LIGHT_LILY)
+                .add(ModBlocks.PURPLE_LIGHT_LILY)
+                .add(ModBlocks.SUNFIRE_LIGHT_LILY);
+
 
 
     }

@@ -15,7 +15,10 @@ public class ModItems {
 
     public static final Item CLOVER_LILY = registerItem("clover_lily",new PlaceableOnWaterItem(ModBlocks.CLOVER_LILY, new Item.Settings()));
     public static final Item FROGBIT = registerItem("frogbit",new PlaceableOnWaterItem(ModBlocks.FROGBIT, new Item.Settings()));
+    public static final Item JOY_LIGHT_LILY = registerItem("joy_light_lily",new PlaceableOnWaterItem(ModBlocks.JOY_LIGHT_LILY, new Item.Settings()));
+    public static final Item LAVANDER_LIGHT_LILY = registerItem("lavander_light_lily",new PlaceableOnWaterItem(ModBlocks.LAVANDER_LIGHT_LILY, new Item.Settings()));
     public static final Item PURPLE_LIGHT_LILY = registerItem("purple_light_lily",new PlaceableOnWaterItem(ModBlocks.PURPLE_LIGHT_LILY, new Item.Settings()));
+    public static final Item SUNFIRE_LIGHT_LILY = registerItem("sunfire_light_lily",new PlaceableOnWaterItem(ModBlocks.SUNFIRE_LIGHT_LILY, new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -28,7 +31,11 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(ModItems.CLOVER_LILY);
             entries.add(ModItems.FROGBIT);
+            entries.add(ModItems.JOY_LIGHT_LILY);
+            entries.add(ModItems.LAVANDER_LIGHT_LILY);
             entries.add(ModItems.PURPLE_LIGHT_LILY);
+            entries.add(ModItems.SUNFIRE_LIGHT_LILY);
+
         });
 
     }
