@@ -248,6 +248,9 @@ public class ModBlocks {
     public static final Block GLORIOSA_LILY = registerBlock("gloriosa_lily",
             new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
 
+    public static final Block PURPLE_LIGHT_LILY = registerBlockWithoutItem("purple_light_lily",
+            new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
+
 
     private static Block registerBlockWithoutItem(String name, Block block){
         return Registry.register(Registries.BLOCK, Identifier.of(Flowers.MOD_ID, name), block);

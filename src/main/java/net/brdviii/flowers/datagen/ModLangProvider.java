@@ -75,5 +75,7 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.FUCHSIA,"Fuchsia");
         translationBuilder.add(ModBlocks.GLADIOLA,"Gladiola");
         translationBuilder.add(ModBlocks.GLORIOSA_LILY,"Gloriosa Lily");
+
+        translationBuilder.add(ModBlocks.PURPLE_LIGHT_LILY,"Purple Light Lily");
     }
 }
