@@ -248,6 +248,42 @@ public class ModBlocks {
     public static final Block GLORIOSA_LILY = registerBlock("gloriosa_lily",
             new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
 
+    public static final Block GOLDEN_BEAN = registerBlock("golden_bean",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_GOLDEN_BEAN = registerBlock("potted_golden_bean", createFlowerPotBlock(ModBlocks.GOLDEN_BEAN));
+
+    public static final Block GRAPE_HYACINTH = registerBlock("grape_hyacinth",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_GRAPE_HYACINTH = registerBlock("potted_grape_hyacinth", createFlowerPotBlock(ModBlocks.GRAPE_HYACINTH));
+
+    public static final Block HAWTHORNE = registerBlock("hawthorne",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block HIMALAYAN_BLUE_POPPY = registerBlock("himalayan_blue_poppy",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block INKY_CAP = registerBlock("inky_cap",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_INKY_CAP = registerBlock("potted_inky_cap", createFlowerPotBlock(ModBlocks.INKY_CAP));
+
+    public static final Block IRIS = registerBlock("iris",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block IRIS_FANCY = registerBlock("iris_fancy_dress",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block JEWEL_OF_THE_DESERT = registerBlock("jewel_of_the_desert",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_JEWEL_OF_THE_DESERT = registerBlock("potted_jewel_of_the_desert", createFlowerPotBlock(ModBlocks.JEWEL_OF_THE_DESERT));
+
+    public static final Block LADY_SLIPPER_ORCHID = registerBlock("lady_slipper_orchid",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_LADY_SLIPPER_ORCHID = registerBlock("potted_lady_slipper_orchid", createFlowerPotBlock(ModBlocks.LADY_SLIPPER_ORCHID));
+
+    public static final Block LANTANA = registerBlock("lantana",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_LANTANA = registerBlock("potted_lantana", createFlowerPotBlock(ModBlocks.LANTANA));
+
 
 
     public static final Block JOY_LARGE_LILY = registerBlockWithoutItem("joy_large_lily",
@@ -351,6 +387,16 @@ public class ModBlocks {
             entries.add(ModBlocks.FUCHSIA);
             entries.add(ModBlocks.GLADIOLA);
             entries.add(ModBlocks.GLORIOSA_LILY);
+            entries.add(ModBlocks.GOLDEN_BEAN);
+            entries.add(ModBlocks.GRAPE_HYACINTH);
+            entries.add(ModBlocks.HAWTHORNE);
+            entries.add(ModBlocks.HIMALAYAN_BLUE_POPPY);
+            entries.add(ModBlocks.INKY_CAP);
+            entries.add(ModBlocks.IRIS);
+            entries.add(ModBlocks.IRIS_FANCY);
+            entries.add(ModBlocks.JEWEL_OF_THE_DESERT);
+            entries.add(ModBlocks.LADY_SLIPPER_ORCHID);
+            entries.add(ModBlocks.LANTANA);
         });
     }
 }

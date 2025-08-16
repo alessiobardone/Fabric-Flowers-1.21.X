@@ -82,6 +82,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FUCHSIA);
         addDrop(ModBlocks.GLADIOLA);
         addDrop(ModBlocks.GLORIOSA_LILY);
+        addDrop(ModBlocks.GOLDEN_BEAN);
+        addDrop(ModBlocks.GRAPE_HYACINTH);
+        addDrop(ModBlocks.HAWTHORNE);
+        addDrop(ModBlocks.HIMALAYAN_BLUE_POPPY);
+        addDrop(ModBlocks.INKY_CAP);
+        addDrop(ModBlocks.IRIS);
+        addDrop(ModBlocks.IRIS_FANCY);
+        addDrop(ModBlocks.JEWEL_OF_THE_DESERT);
+        addDrop(ModBlocks.LADY_SLIPPER_ORCHID);
+        addDrop(ModBlocks.LANTANA);
 
         addDrop(ModBlocks.JOY_LARGE_LILY);
         addDrop(ModBlocks.JOY_LIGHT_LILY);
