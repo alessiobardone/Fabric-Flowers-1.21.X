@@ -248,13 +248,27 @@ public class ModBlocks {
     public static final Block GLORIOSA_LILY = registerBlock("gloriosa_lily",
             new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
 
+
+
+    public static final Block JOY_LARGE_LILY = registerBlockWithoutItem("joy_large_lily",
+            new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
+
     public static final Block JOY_LIGHT_LILY = registerBlockWithoutItem("joy_light_lily",
+            new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
+
+    public static final Block LAVANDER_LARGE_LILY = registerBlockWithoutItem("lavander_large_lily",
             new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
 
     public static final Block LAVANDER_LIGHT_LILY = registerBlockWithoutItem("lavander_light_lily",
             new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
 
+    public static final Block PURPLE_LARGE_LILY = registerBlockWithoutItem("purple_large_lily",
+            new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
+
     public static final Block PURPLE_LIGHT_LILY = registerBlockWithoutItem("purple_light_lily",
+            new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
+
+    public static final Block SUNFIRE_LARGE_LILY = registerBlockWithoutItem("sunfire_large_lily",
             new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
 
     public static final Block SUNFIRE_LIGHT_LILY = registerBlockWithoutItem("sunfire_light_lily",

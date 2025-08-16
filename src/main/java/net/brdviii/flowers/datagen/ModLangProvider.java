@@ -76,9 +76,13 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.GLADIOLA,"Gladiola");
         translationBuilder.add(ModBlocks.GLORIOSA_LILY,"Gloriosa Lily");
 
+        translationBuilder.add(ModBlocks.JOY_LARGE_LILY,"Joy Large Lily");
         translationBuilder.add(ModBlocks.JOY_LIGHT_LILY,"Joy Light Lily");
+        translationBuilder.add(ModBlocks.LAVANDER_LARGE_LILY,"Lavender Large Lily");
         translationBuilder.add(ModBlocks.LAVANDER_LIGHT_LILY,"Lavender Light Lily");
+        translationBuilder.add(ModBlocks.PURPLE_LARGE_LILY,"Purple Large Lily");
         translationBuilder.add(ModBlocks.PURPLE_LIGHT_LILY,"Purple Light Lily");
+        translationBuilder.add(ModBlocks.SUNFIRE_LARGE_LILY,"Sunfire Large Lily");
         translationBuilder.add(ModBlocks.SUNFIRE_LIGHT_LILY,"Sunfire Light Lily");
     }
 }
