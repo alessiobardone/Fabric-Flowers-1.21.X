@@ -284,6 +284,42 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_LANTANA = registerBlock("potted_lantana", createFlowerPotBlock(ModBlocks.LANTANA));
 
+    public static final Block LARKSPUR = registerBlock("larkspur",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block LAVENDER_LARKSPUR = registerBlock("lavender_larkspur",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block LEWISIA = registerBlock("lewisia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_LEWISIA = registerBlock("potted_lewisia", createFlowerPotBlock(ModBlocks.LEWISIA));
+
+    public static final Block LIGHT_BLUE_FORGET_ME_NOT = registerBlock("light_blue_forget_me_not",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_LIGHT_BLUE_FORGET_ME_NOT = registerBlock("potted_light_blue_forget_me_not", createFlowerPotBlock(ModBlocks.LIGHT_BLUE_FORGET_ME_NOT));
+
+    public static final Block LIGHT_BLUE_LOBELIA = registerBlock("light_blue_lobelia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_LIGHT_BLUE_LOBELIA = registerBlock("potted_light_blue_lobelia", createFlowerPotBlock(ModBlocks.LIGHT_BLUE_LOBELIA));
+
+    public static final Block LIGHT_PINK_GERANIUM = registerBlock("light_pink_geranium",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_LIGHT_PINK_GERANIUM = registerBlock("potted_light_pink_geranium", createFlowerPotBlock(ModBlocks.LIGHT_PINK_GERANIUM));
+
+    public static final Block LIGHT_PINK_LARKSPUR = registerBlock("light_pink_larkspur",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block MAGENTA_CLOVER = registerBlock("magenta_clover",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_MAGENTA_CLOVER = registerBlock("potted_magenta_clover", createFlowerPotBlock(ModBlocks.MAGENTA_CLOVER));
+
+    public static final Block MAGENTA_LARKSPUR = registerBlock("magenta_larkspur",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block MAGENTA_ORCHID = registerBlock("magenta_orchid",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_MAGENTA_ORCHID = registerBlock("potted_magenta_orchid", createFlowerPotBlock(ModBlocks.MAGENTA_ORCHID));
+
 
 
     public static final Block JOY_LARGE_LILY = registerBlockWithoutItem("joy_large_lily",
@@ -397,6 +433,16 @@ public class ModBlocks {
             entries.add(ModBlocks.JEWEL_OF_THE_DESERT);
             entries.add(ModBlocks.LADY_SLIPPER_ORCHID);
             entries.add(ModBlocks.LANTANA);
+            entries.add(ModBlocks.LARKSPUR);
+            entries.add(ModBlocks.LAVENDER_LARKSPUR);
+            entries.add(ModBlocks.LEWISIA);
+            entries.add(ModBlocks.LIGHT_BLUE_FORGET_ME_NOT);
+            entries.add(ModBlocks.LIGHT_BLUE_LOBELIA);
+            entries.add(ModBlocks.LIGHT_PINK_GERANIUM);
+            entries.add(ModBlocks.LIGHT_PINK_LARKSPUR);
+            entries.add(ModBlocks.MAGENTA_CLOVER);
+            entries.add(ModBlocks.MAGENTA_LARKSPUR);
+            entries.add(ModBlocks.MAGENTA_ORCHID);
         });
     }
 }

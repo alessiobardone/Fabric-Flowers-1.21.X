@@ -30,8 +30,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.HAWTHORNE)
                 .add(ModBlocks.HIMALAYAN_BLUE_POPPY)
                 .add(ModBlocks.IRIS)
-                .add(ModBlocks.IRIS_FANCY);
-
+                .add(ModBlocks.IRIS_FANCY)
+                .add(ModBlocks.LARKSPUR)
+                .add(ModBlocks.LAVENDER_LARKSPUR)
+                .add(ModBlocks.LIGHT_PINK_LARKSPUR)
+                .add(ModBlocks.MAGENTA_LARKSPUR);
 
 
 
@@ -82,7 +85,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.INKY_CAP)
                 .add(ModBlocks.JEWEL_OF_THE_DESERT)
                 .add(ModBlocks.LADY_SLIPPER_ORCHID)
-                .add(ModBlocks.LANTANA);
+                .add(ModBlocks.LANTANA)
+                .add(ModBlocks.LEWISIA)
+                .add(ModBlocks.LIGHT_BLUE_FORGET_ME_NOT)
+                .add(ModBlocks.LIGHT_BLUE_LOBELIA)
+                .add(ModBlocks.LIGHT_PINK_GERANIUM)
+                .add(ModBlocks.MAGENTA_CLOVER)
+                .add(ModBlocks.MAGENTA_ORCHID);
+
 
 
 

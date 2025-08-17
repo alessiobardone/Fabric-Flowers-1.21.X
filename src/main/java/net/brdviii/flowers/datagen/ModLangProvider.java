@@ -85,6 +85,16 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.JEWEL_OF_THE_DESERT,"Jewel Of The Desert");
         translationBuilder.add(ModBlocks.LADY_SLIPPER_ORCHID,"Lady Slipper Orchid");
         translationBuilder.add(ModBlocks.LANTANA,"Lantana");
+        translationBuilder.add(ModBlocks.LARKSPUR,"Larkspur");
+        translationBuilder.add(ModBlocks.LAVENDER_LARKSPUR,"Lavender Larkspur");
+        translationBuilder.add(ModBlocks.LEWISIA,"Lewisia");
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_FORGET_ME_NOT,"Light Blue Forget Me Not");
+        translationBuilder.add(ModBlocks.LIGHT_BLUE_LOBELIA,"Light Blue Lobelia");
+        translationBuilder.add(ModBlocks.LIGHT_PINK_GERANIUM,"Light Ping Geranium");
+        translationBuilder.add(ModBlocks.LIGHT_PINK_LARKSPUR,"Light Pink Larkspur");
+        translationBuilder.add(ModBlocks.MAGENTA_CLOVER,"Magenta Clover");
+        translationBuilder.add(ModBlocks.MAGENTA_LARKSPUR,"Magenta Larkspur");
+        translationBuilder.add(ModBlocks.MAGENTA_ORCHID,"Magenta Orchid");
 
 
         translationBuilder.add(ModBlocks.JOY_LARGE_LILY,"Joy Large Lily");
