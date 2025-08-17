@@ -320,6 +320,42 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_MAGENTA_ORCHID = registerBlock("potted_magenta_orchid", createFlowerPotBlock(ModBlocks.MAGENTA_ORCHID));
 
+    public static final Block MAGENTA_SWEET_PEAS = registerBlock("magenta_sweet_peas",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block MAGENTA_ZINNIA = registerBlock("magenta_zinnia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_MAGENTA_ZINNIA = registerBlock("potted_magenta_zinnia", createFlowerPotBlock(ModBlocks.MAGENTA_ZINNIA));
+
+    public static final Block MANZANITA_BUSH = registerBlock("manzanita_bush",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block MAROON_MALLOW = registerBlock("maroon_mallow",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_MAROON_MALLOW = registerBlock("potted_maroon_mallow", createFlowerPotBlock(ModBlocks.MAROON_MALLOW));
+
+    public static final Block MEDIUM_BLUE_LOBELIA = registerBlock("medium_blue_lobelia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_MEDIUM_BLUE_LOBELIA = registerBlock("potted_medium_blue_lobelia", createFlowerPotBlock(ModBlocks.MEDIUM_BLUE_LOBELIA));
+
+    public static final Block MENDOCINO_POPPY = registerBlock("mendocino_poppy",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block MEXICAN_SAGE = registerBlock("mexican_sage",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_MEXICAN_SAGE = registerBlock("potted_mexican_sage", createFlowerPotBlock(ModBlocks.MEXICAN_SAGE));
+
+    public static final Block MIXED_PINK_SWEET_PEAS = registerBlock("mixed_pink_sweet_peas",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block MIXED_ZINNIA = registerBlock("mixed_zinnia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_MIXED_ZINNIA = registerBlock("potted_mixed_zinnia", createFlowerPotBlock(ModBlocks.MIXED_ZINNIA));
+
+    public static final Block MOJAVE_INDIGO_BUSH = registerBlock("mojave_indigo_bush",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+
 
 
     public static final Block JOY_LARGE_LILY = registerBlockWithoutItem("joy_large_lily",
@@ -443,6 +479,16 @@ public class ModBlocks {
             entries.add(ModBlocks.MAGENTA_CLOVER);
             entries.add(ModBlocks.MAGENTA_LARKSPUR);
             entries.add(ModBlocks.MAGENTA_ORCHID);
+            entries.add(ModBlocks.MAGENTA_SWEET_PEAS);
+            entries.add(ModBlocks.MAGENTA_ZINNIA);
+            entries.add(ModBlocks.MANZANITA_BUSH);
+            entries.add(ModBlocks.MAROON_MALLOW);
+            entries.add(ModBlocks.MEDIUM_BLUE_LOBELIA);
+            entries.add(ModBlocks.MENDOCINO_POPPY);
+            entries.add(ModBlocks.MEXICAN_SAGE);
+            entries.add(ModBlocks.MIXED_PINK_SWEET_PEAS);
+            entries.add(ModBlocks.MIXED_ZINNIA);
+            entries.add(ModBlocks.MOJAVE_INDIGO_BUSH);
         });
     }
 }
