@@ -39,7 +39,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MANZANITA_BUSH)
                 .add(ModBlocks.MENDOCINO_POPPY)
                 .add(ModBlocks.MIXED_PINK_SWEET_PEAS)
-                .add(ModBlocks.MOJAVE_INDIGO_BUSH);
+                .add(ModBlocks.MOJAVE_INDIGO_BUSH)
+                .add(ModBlocks.OCOTILLO);
 
 
 
@@ -102,7 +103,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAROON_MALLOW)
                 .add(ModBlocks.MEDIUM_BLUE_LOBELIA)
                 .add(ModBlocks.MEXICAN_SAGE)
-                .add(ModBlocks.MIXED_ZINNIA);
+                .add(ModBlocks.MIXED_ZINNIA)
+                .add(ModBlocks.MORNING_GLORY)
+                .add(ModBlocks.NARCISSUS)
+                .add(ModBlocks.NASTURTIUM)
+                .add(ModBlocks.NASTURTIUM_PINK)
+                .add(ModBlocks.NOTCH_LEAF_SCORPION_WEED)
+                .add(ModBlocks.ORANGE_AUSTRALIAN_FLAME_PEA)
+                .add(ModBlocks.ORANGE_COSMOS)
+                .add(ModBlocks.ORANGE_DAY_LILY)
+                .add(ModBlocks.ORANGE_FREESIA);
 
 
 

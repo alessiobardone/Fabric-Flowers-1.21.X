@@ -355,6 +355,44 @@ public class ModBlocks {
     public static final Block MOJAVE_INDIGO_BUSH = registerBlock("mojave_indigo_bush",
             new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
 
+    public static final Block MORNING_GLORY = registerBlock("morning_glory",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_MORNING_GLORY = registerBlock("potted_morning_glory", createFlowerPotBlock(ModBlocks.MORNING_GLORY));
+
+    public static final Block NARCISSUS = registerBlock("narcissus",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_NARCISSUS = registerBlock("potted_narcissus", createFlowerPotBlock(ModBlocks.NARCISSUS));
+
+    public static final Block NASTURTIUM = registerBlock("nasturtium",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_NASTURTIUM = registerBlock("potted_nasturtium", createFlowerPotBlock(ModBlocks.NASTURTIUM));
+
+    public static final Block NASTURTIUM_PINK = registerBlock("nasturtium_pink",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_NASTURTIUM_PINK = registerBlock("potted_nasturtium_pink", createFlowerPotBlock(ModBlocks.NASTURTIUM_PINK));
+
+    public static final Block NOTCH_LEAF_SCORPION_WEED = registerBlock("notch_leaf_scorpion_weed",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_NOTCH_LEAF_SCORPION_WEED = registerBlock("potted_notch_leaf_scorpion_weed", createFlowerPotBlock(ModBlocks.NOTCH_LEAF_SCORPION_WEED));
+
+    public static final Block OCOTILLO = registerBlock("ocotillo",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block ORANGE_AUSTRALIAN_FLAME_PEA = registerBlock("orange_australian_flame_pea",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_ORANGE_AUSTRALIAN_FLAME_PEA = registerBlock("potted_orange_australian_flame_pea", createFlowerPotBlock(ModBlocks.ORANGE_AUSTRALIAN_FLAME_PEA));
+
+    public static final Block ORANGE_COSMOS = registerBlock("orange_cosmos",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_ORANGE_COSMOS = registerBlock("potted_orange_cosmos", createFlowerPotBlock(ModBlocks.ORANGE_COSMOS));
+
+    public static final Block ORANGE_DAY_LILY = registerBlock("orange_day_lily",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_ORANGE_DAY_LILY = registerBlock("potted_orange_day_lily", createFlowerPotBlock(ModBlocks.ORANGE_DAY_LILY));
+
+    public static final Block ORANGE_FREESIA = registerBlock("orange_freesia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_ORANGE_FREESIA = registerBlock("potted_orange_freesia", createFlowerPotBlock(ModBlocks.ORANGE_FREESIA));
 
 
 
@@ -489,6 +527,16 @@ public class ModBlocks {
             entries.add(ModBlocks.MIXED_PINK_SWEET_PEAS);
             entries.add(ModBlocks.MIXED_ZINNIA);
             entries.add(ModBlocks.MOJAVE_INDIGO_BUSH);
+            entries.add(ModBlocks.MORNING_GLORY);
+            entries.add(ModBlocks.NARCISSUS);
+            entries.add(ModBlocks.NASTURTIUM);
+            entries.add(ModBlocks.NASTURTIUM_PINK);
+            entries.add(ModBlocks.NOTCH_LEAF_SCORPION_WEED);
+            entries.add(ModBlocks.OCOTILLO);
+            entries.add(ModBlocks.ORANGE_AUSTRALIAN_FLAME_PEA);
+            entries.add(ModBlocks.ORANGE_COSMOS);
+            entries.add(ModBlocks.ORANGE_DAY_LILY);
+            entries.add(ModBlocks.ORANGE_FREESIA);
         });
     }
 }
