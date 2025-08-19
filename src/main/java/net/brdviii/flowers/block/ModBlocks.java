@@ -460,6 +460,43 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_PITCHER_PLANT = registerBlock("potted_pitcher_plant", createFlowerPotBlock(ModBlocks.PITCHER_PLANT));
 
+    public static final Block PURPLE_AFRICAN_DAISY = registerBlock("purple_african_daisy",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PURPLE_AFRICAN_DAISY = registerBlock("potted_purple_african_daisy", createFlowerPotBlock(ModBlocks.PURPLE_AFRICAN_DAISY));
+
+    public static final Block PURPLE_CALLA_LILY = registerBlock("purple_calla_lily",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PURPLE_CALLA_LILY = registerBlock("potted_purple_calla_lily", createFlowerPotBlock(ModBlocks.PURPLE_CALLA_LILY));
+
+    public static final Block PURPLE_CROCUS = registerBlock("purple_crocus",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PURPLE_CROCUS = registerBlock("potted_purple_crocus", createFlowerPotBlock(ModBlocks.PURPLE_CROCUS));
+
+    public static final Block PURPLE_FLAG = registerBlock("purple_flag",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PURPLE_FLAG = registerBlock("potted_purple_flag", createFlowerPotBlock(ModBlocks.PURPLE_FLAG));
+
+    public static final Block PURPLE_LARKSPUR = registerBlock("purple_larkspur",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block PURPLE_LUPIN = registerBlock("purple_lupin",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PURPLE_LUPIN = registerBlock("potted_purple_lupin", createFlowerPotBlock(ModBlocks.PURPLE_LUPIN));
+
+    public static final Block PURPLE_MAGENTA_SALVIA = registerBlock("purple_magenta_salvia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PURPLE_MAGENTA_SALVIA = registerBlock("potted_purple_magenta_salvia", createFlowerPotBlock(ModBlocks.PURPLE_MAGENTA_SALVIA));
+
+    public static final Block PURPLE_SWEET_PEAS = registerBlock("purple_sweet_peas",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block QUINCE = registerBlock("quince",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block RED_CLOVER = registerBlock("red_clover",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_RED_CLOVER = registerBlock("potted_red_clover", createFlowerPotBlock(ModBlocks.RED_CLOVER));
+
 
 
     public static final Block JOY_LARGE_LILY = registerBlockWithoutItem("joy_large_lily",
@@ -621,6 +658,16 @@ public class ModBlocks {
             entries.add(ModBlocks.PINK_LARKSPUR);
             entries.add(ModBlocks.PINK_PETTICOAT);
             entries.add(ModBlocks.PITCHER_PLANT);
+            entries.add(ModBlocks.PURPLE_AFRICAN_DAISY);
+            entries.add(ModBlocks.PURPLE_CALLA_LILY);
+            entries.add(ModBlocks.PURPLE_CROCUS);
+            entries.add(ModBlocks.PURPLE_FLAG);
+            entries.add(ModBlocks.PURPLE_LARKSPUR);
+            entries.add(ModBlocks.PURPLE_LUPIN);
+            entries.add(ModBlocks.PURPLE_MAGENTA_SALVIA);
+            entries.add(ModBlocks.PURPLE_SWEET_PEAS);
+            entries.add(ModBlocks.QUINCE);
+            entries.add(ModBlocks.RED_CLOVER);
         });
     }
 }

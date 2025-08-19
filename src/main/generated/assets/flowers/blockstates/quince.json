@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/quince_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/quince_top"
+    }
+  }
+}

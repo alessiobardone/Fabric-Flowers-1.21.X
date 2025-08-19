@@ -45,7 +45,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORNAMENTAL_CHERRY)
                 .add(ModBlocks.PARADOX_SUNFLOWER)
                 .add(ModBlocks.PEACH_GLADIOLA)
-                .add(ModBlocks.PINK_LARKSPUR);
+                .add(ModBlocks.PINK_LARKSPUR)
+                .add(ModBlocks.PURPLE_LARKSPUR)
+                .add(ModBlocks.PURPLE_SWEET_PEAS)
+                .add(ModBlocks.QUINCE);
 
 
 
@@ -130,7 +133,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_DESERT_SAND_VERBENA)
                 .add(ModBlocks.PINK_GERANIUM)
                 .add(ModBlocks.PINK_PETTICOAT)
-                .add(ModBlocks.PITCHER_PLANT);
+                .add(ModBlocks.PITCHER_PLANT)
+                .add(ModBlocks.PURPLE_AFRICAN_DAISY)
+                .add(ModBlocks.PURPLE_CALLA_LILY)
+                .add(ModBlocks.PURPLE_CROCUS)
+                .add(ModBlocks.PURPLE_FLAG)
+                .add(ModBlocks.PURPLE_LUPIN)
+                .add(ModBlocks.PURPLE_MAGENTA_SALVIA)
+                .add(ModBlocks.RED_CLOVER);
 
 
 
