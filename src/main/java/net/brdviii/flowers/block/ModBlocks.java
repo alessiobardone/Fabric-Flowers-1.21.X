@@ -2,7 +2,9 @@ package net.brdviii.flowers.block;
 
 
 import net.brdviii.flowers.Flowers;
+import net.brdviii.flowers.block.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
@@ -656,6 +658,37 @@ public class ModBlocks {
             new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
 
 
+    public static final Block WISTERIA_LAVANDER = registerBlock("wisteria_lavander",
+            new WisteriaLavanderBlock(AbstractBlock.Settings.copy(Blocks.CAVE_VINES)
+                    .luminance((BlockState state) -> 0)
+                    .ticksRandomly()));
+
+    public static final Block WISTERIA_LAVANDER_PLANT = registerBlock("wisteria_lavander_plant",
+            new WisteriaLavanderPlantBlock(AbstractBlock.Settings.copy(Blocks.CAVE_VINES_PLANT)
+                    .luminance((BlockState state) -> 0)
+                    .ticksRandomly()));
+
+    public static final Block WISTERIA_PURPLE = registerBlock("wisteria_purple",
+            new WisteriaPurpleBlock(AbstractBlock.Settings.copy(Blocks.CAVE_VINES)
+                    .luminance((BlockState state) -> 0)
+                    .ticksRandomly()));
+
+    public static final Block WISTERIA_PURPLE_PLANT = registerBlock("wisteria_purple_plant",
+            new WisteriaPurplePlantBlock(AbstractBlock.Settings.copy(Blocks.CAVE_VINES_PLANT)
+                    .luminance((BlockState state) -> 0)
+                    .ticksRandomly()));
+
+    public static final Block WISTERIA_WHITE = registerBlock("wisteria_white",
+            new WisteriaWhiteBlock(AbstractBlock.Settings.copy(Blocks.CAVE_VINES)
+                    .luminance((BlockState state) -> 0)
+                    .ticksRandomly()));
+
+    public static final Block WISTERIA_WHITE_PLANT = registerBlock("wisteria_white_plant",
+            new WisteriaWhitePlantBlock(AbstractBlock.Settings.copy(Blocks.CAVE_VINES_PLANT)
+                    .luminance((BlockState state) -> 0)
+                    .ticksRandomly()));
+
+
 
 
     public static final Block JOY_LARGE_LILY = registerBlockWithoutItem("joy_large_lily",
@@ -870,6 +903,10 @@ public class ModBlocks {
             entries.add(ModBlocks.YELLOW_PATCHES);
             entries.add(ModBlocks.YELLOW_STARTHISTLE);
             entries.add(ModBlocks.YUCCA_FLOWER);
+
+            entries.add(ModBlocks.WISTERIA_LAVANDER);
+            entries.add(ModBlocks.WISTERIA_PURPLE);
+            entries.add(ModBlocks.WISTERIA_WHITE);
         });
     }
 }

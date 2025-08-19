@@ -213,8 +213,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WATER_LILY_SMALL);
 
 
-
-
+        getOrCreateTagBuilder(BlockTags.CAVE_VINES)
+                .add(ModBlocks.WISTERIA_LAVANDER)
+                .add(ModBlocks.WISTERIA_LAVANDER_PLANT)
+                .add(ModBlocks.WISTERIA_PURPLE)
+                .add(ModBlocks.WISTERIA_PURPLE_PLANT)
+                .add(ModBlocks.WISTERIA_WHITE)
+                .add(ModBlocks.WISTERIA_WHITE_PLANT);
     }
 
 }
