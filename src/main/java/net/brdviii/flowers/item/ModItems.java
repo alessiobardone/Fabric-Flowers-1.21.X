@@ -30,7 +30,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        Flowers.LOGGER.info("Registering Mod Item");
+        Flowers.LOGGER.info("Registering Mod Item for " + Flowers.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(ModItems.CLOVER_LILY);
@@ -43,7 +43,6 @@ public class ModItems {
             entries.add(ModItems.PURPLE_LIGHT_LILY);
             entries.add(ModItems.SUNFIRE_LARGE_LILY);
             entries.add(ModItems.SUNFIRE_LIGHT_LILY);
-
         });
 
     }

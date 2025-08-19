@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/sundance_kid_sunflower_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/sundance_kid_sunflower_top"
+    }
+  }
+}

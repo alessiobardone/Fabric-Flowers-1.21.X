@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flowers:block/teddy_bear_sunflower_top"
+  }
+}

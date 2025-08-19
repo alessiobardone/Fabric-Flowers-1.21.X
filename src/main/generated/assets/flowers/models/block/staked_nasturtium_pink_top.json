@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flowers:block/staked_nasturtium_pink_top"
+  }
+}

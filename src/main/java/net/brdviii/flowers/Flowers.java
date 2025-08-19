@@ -1,7 +1,6 @@
 package net.brdviii.flowers;
 
 import net.brdviii.flowers.block.ModBlocks;
-import net.brdviii.flowers.block.entity.ModBlockEntities;
 import net.brdviii.flowers.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,6 +15,5 @@ public class Flowers implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
-		ModBlockEntities.registerBlockEntities();
 	}
 }

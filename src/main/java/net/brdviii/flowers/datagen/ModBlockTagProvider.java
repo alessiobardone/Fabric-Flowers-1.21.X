@@ -50,7 +50,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_SWEET_PEAS)
                 .add(ModBlocks.QUINCE)
                 .add(ModBlocks.RED_SUNFLOWER)
-                .add(ModBlocks.SKYSCRAPER_SUNFLOWER);
+                .add(ModBlocks.SKYSCRAPER_SUNFLOWER)
+                .add(ModBlocks.STACKED_MORNING_GLORY)
+                .add(ModBlocks.STACKED_NASTURTIUM)
+                .add(ModBlocks.STACKED_NASTURTIUM_PINK)
+                .add(ModBlocks.SUNDANCE_KID)
+                .add(ModBlocks.TALL_CACTUS)
+                .add(ModBlocks.TALL_CALLA_LILY)
+                .add(ModBlocks.TALL_COSMOS)
+                .add(ModBlocks.TALL_LUPIN)
+                .add(ModBlocks.TALL_ORANGE_COSMOS)
+                .add(ModBlocks.TEDDY_BEAR_SUNFLOWER);
 
 
 
@@ -150,7 +160,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ROYAL_BLUE_LOBELIA)
                 .add(ModBlocks.SALVIA)
                 .add(ModBlocks.SILVER_CARPET)
-                .add(ModBlocks.SNAPDRAGON_PINK);
+                .add(ModBlocks.SNAPDRAGON_PINK)
+                .add(ModBlocks.SNAPDRAGON_WHITE)
+                .add(ModBlocks.SPROUT)
+                .add(ModBlocks.STICKY_MONKEY)
+                .add(ModBlocks.STRIPED_ZINNIA)
+                .add(ModBlocks.SUNNY_ZINNIA);
+
+
 
 
 
@@ -160,7 +177,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BEACH_GRASS)
                 .add(ModBlocks.BLUE_EYED_GRASS)
                 .add(ModBlocks.CACTUS)
-                .add(ModBlocks.PARODIA_MURICATA);
+                .add(ModBlocks.PARODIA_MURICATA)
+                .add(ModBlocks.TUMBLE_WEED);
 
 
         getOrCreateTagBuilder(BlockTags.FLOWERS)

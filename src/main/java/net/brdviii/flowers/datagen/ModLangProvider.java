@@ -152,7 +152,23 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SALVIA,"Salvia");
         translationBuilder.add(ModBlocks.SILVER_CARPET,"Silver Carpet");
         translationBuilder.add(ModBlocks.SKYSCRAPER_SUNFLOWER,"Skyscraper Sunflower");
-        translationBuilder.add(ModBlocks.SNAPDRAGON_PINK,"Snapdragon Pink");
+        translationBuilder.add(ModBlocks.SNAPDRAGON_PINK,"Pink Snapdragon");
+        translationBuilder.add(ModBlocks.SNAPDRAGON_WHITE,"White Snapdragon");
+        translationBuilder.add(ModBlocks.SPROUT,"Sprout");
+        translationBuilder.add(ModBlocks.STACKED_MORNING_GLORY,"Staked Morning Glory");
+        translationBuilder.add(ModBlocks.STACKED_NASTURTIUM,"Staked Nasturtium");
+        translationBuilder.add(ModBlocks.STACKED_NASTURTIUM_PINK,"Staked Pink Nasturtium");
+        translationBuilder.add(ModBlocks.STICKY_MONKEY,"Sticky Monkey");
+        translationBuilder.add(ModBlocks.STRIPED_ZINNIA,"Striped Zinnia");
+        translationBuilder.add(ModBlocks.SUNDANCE_KID,"Sundance Kid");
+        translationBuilder.add(ModBlocks.SUNNY_ZINNIA,"Sunny Zinnia");
+        translationBuilder.add(ModBlocks.TALL_CACTUS,"Tall Cactus");
+        translationBuilder.add(ModBlocks.TALL_CALLA_LILY,"Tall Calla Lily");
+        translationBuilder.add(ModBlocks.TALL_COSMOS,"Tall Cosmos");
+        translationBuilder.add(ModBlocks.TALL_LUPIN,"tall Lupin");
+        translationBuilder.add(ModBlocks.TALL_ORANGE_COSMOS,"Tall Orange Cosmos");
+        translationBuilder.add(ModBlocks.TEDDY_BEAR_SUNFLOWER,"Teddy Bear Sunflower");
+        translationBuilder.add(ModBlocks.TUMBLE_WEED,"Tumble Weed");
 
 
         translationBuilder.add(ModBlocks.JOY_LARGE_LILY,"Joy Large Lily");

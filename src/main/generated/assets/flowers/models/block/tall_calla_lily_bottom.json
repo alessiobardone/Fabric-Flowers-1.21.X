@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flowers:block/tall_calla_lily_bottom"
+  }
+}

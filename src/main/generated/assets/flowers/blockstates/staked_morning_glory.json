@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/staked_morning_glory_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/staked_morning_glory_top"
+    }
+  }
+}

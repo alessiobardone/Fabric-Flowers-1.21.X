@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/teddy_bear_sunflower_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/teddy_bear_sunflower_top"
+    }
+  }
+}

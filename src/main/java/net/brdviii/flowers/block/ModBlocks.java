@@ -535,7 +535,58 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_SNAPDRAGON_PINK = registerBlock("potted_snapdragon_pink", createFlowerPotBlock(ModBlocks.SNAPDRAGON_PINK));
 
+    public static final Block SNAPDRAGON_WHITE = registerBlock("snapdragon_white",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_SNAPDRAGON_WHITE = registerBlock("potted_snapdragon_white", createFlowerPotBlock(ModBlocks.SNAPDRAGON_WHITE));
 
+    public static final Block SPROUT = registerBlock("sprout",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_SPROUT = registerBlock("potted_sprout", createFlowerPotBlock(ModBlocks.SPROUT));
+
+    public static final Block STACKED_MORNING_GLORY = registerBlock("staked_morning_glory",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block STACKED_NASTURTIUM = registerBlock("staked_nasturtium",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block STACKED_NASTURTIUM_PINK = registerBlock("staked_nasturtium_pink",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block STICKY_MONKEY = registerBlock("sticky_monkey",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_STICKY_MONKEY = registerBlock("potted_sticky_monkey", createFlowerPotBlock(ModBlocks.STICKY_MONKEY));
+
+    public static final Block STRIPED_ZINNIA = registerBlock("striped_zinnia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_STRIPED_ZINNIA = registerBlock("potted_striped_zinnia", createFlowerPotBlock(ModBlocks.STRIPED_ZINNIA));
+
+    public static final Block SUNDANCE_KID = registerBlock("sundance_kid_sunflower",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.SUNFLOWER)));
+
+    public static final Block SUNNY_ZINNIA = registerBlock("sunny_zinnia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_SUNNY_ZINNIA = registerBlock("potted_sunny_zinnia", createFlowerPotBlock(ModBlocks.SUNNY_ZINNIA));
+
+    public static final Block TALL_CACTUS = registerBlock("tall_cactus",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block TALL_CALLA_LILY = registerBlock("tall_calla_lily",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block TALL_COSMOS = registerBlock("tall_cosmos",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block TALL_LUPIN = registerBlock("tall_lupin",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block TALL_ORANGE_COSMOS = registerBlock("tall_orange_cosmos",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block TEDDY_BEAR_SUNFLOWER = registerBlock("teddy_bear_sunflower",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block TUMBLE_WEED = registerBlock("tumble_weed",
+            new ShortPlantBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
 
 
 
@@ -580,7 +631,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        Flowers.LOGGER.info("Registering Mod Block");
+        Flowers.LOGGER.info("Registering Mod Block for " + Flowers.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries ->{
             entries.add(ModBlocks.AFRICAN_DAISY);
             entries.add(ModBlocks.ALBUCA_NAMAQUENSIS);
@@ -719,6 +770,22 @@ public class ModBlocks {
             entries.add(ModBlocks.SILVER_CARPET);
             entries.add(ModBlocks.SKYSCRAPER_SUNFLOWER);
             entries.add(ModBlocks.SNAPDRAGON_PINK);
+            entries.add(ModBlocks.SNAPDRAGON_WHITE);
+            entries.add(ModBlocks.SPROUT);
+            entries.add(ModBlocks.STACKED_MORNING_GLORY);
+            entries.add(ModBlocks.STACKED_NASTURTIUM);
+            entries.add(ModBlocks.STACKED_NASTURTIUM_PINK);
+            entries.add(ModBlocks.STICKY_MONKEY);
+            entries.add(ModBlocks.STRIPED_ZINNIA);
+            entries.add(ModBlocks.SUNDANCE_KID);
+            entries.add(ModBlocks.SUNNY_ZINNIA);
+            entries.add(ModBlocks.TALL_CACTUS);
+            entries.add(ModBlocks.TALL_CALLA_LILY);
+            entries.add(ModBlocks.TALL_COSMOS);
+            entries.add(ModBlocks.TALL_LUPIN);
+            entries.add(ModBlocks.TALL_ORANGE_COSMOS);
+            entries.add(ModBlocks.TEDDY_BEAR_SUNFLOWER);
+            entries.add(ModBlocks.TUMBLE_WEED);
         });
     }
 }
