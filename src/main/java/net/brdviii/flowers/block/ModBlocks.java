@@ -218,7 +218,7 @@ public class ModBlocks {
     public static final Block POTTED_DEVILS_FINGERS = registerBlock("potted_devils_fingers", createFlowerPotBlock(ModBlocks.DEVILS_FINGERS));
 
     public static final Block DRIED_SUNFLOWER = registerBlock("dried_sunflower",
-            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.SUNFLOWER)));
 
     public static final Block ECHINACEA = registerBlock("echinacea",
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
@@ -510,7 +510,7 @@ public class ModBlocks {
     public static final Block POTTED_RED_POPPY = registerBlock("potted_red_poppy", createFlowerPotBlock(ModBlocks.RED_POPPY));
 
     public static final Block RED_SUNFLOWER = registerBlock("red_sunflower",
-            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.SUNFLOWER)));
 
     public static final Block ROCK_ROSE = registerBlock("rock_rose",
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
@@ -529,7 +529,7 @@ public class ModBlocks {
     public static final Block POTTED_SILVER_CARPET = registerBlock("potted_silver_carpet", createFlowerPotBlock(ModBlocks.SILVER_CARPET));
 
     public static final Block SKYSCRAPER_SUNFLOWER = registerBlock("skyscraper_sunflower",
-            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.SUNFLOWER)));
 
     public static final Block SNAPDRAGON_PINK = registerBlock("snapdragon_pink",
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));

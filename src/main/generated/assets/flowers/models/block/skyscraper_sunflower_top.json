@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "flowers:block/skyscraper_sunflower_top"
-  }
-}

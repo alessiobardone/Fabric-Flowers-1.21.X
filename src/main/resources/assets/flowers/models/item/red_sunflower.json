@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "flowers:block/skyscraper_sunflower_top"
+    "layer0": "flowers:block/red_sunflower_front"
   }
 }
