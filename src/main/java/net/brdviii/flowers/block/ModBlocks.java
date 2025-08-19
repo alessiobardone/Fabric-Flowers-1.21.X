@@ -394,6 +394,40 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
     public static final Block POTTED_ORANGE_FREESIA = registerBlock("potted_orange_freesia", createFlowerPotBlock(ModBlocks.ORANGE_FREESIA));
 
+    public static final Block ORANGE_GLADIOLA = registerBlock("orange_gladiola",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block ORANGE_LUPIN = registerBlock("orange_lupin",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_ORANGE_LUPIN = registerBlock("potted_orange_lupin", createFlowerPotBlock(ModBlocks.ORANGE_LUPIN));
+
+    public static final Block ORNAMENTAL_CHERRY = registerBlock("ornamental_cherry",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block OWLS_CLOVER = registerBlock("owls_clover",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_OWLS_CLOVER = registerBlock("potted_owls_clover", createFlowerPotBlock(ModBlocks.OWLS_CLOVER));
+
+    public static final Block PANSY = registerBlock("pansy",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PANSY = registerBlock("potted_pansy", createFlowerPotBlock(ModBlocks.PANSY));
+
+    public static final Block PANSY_PURPLE = registerBlock("pansy_purple",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PANSY_PURPLE = registerBlock("potted_pansy_purple", createFlowerPotBlock(ModBlocks.PANSY_PURPLE));
+
+    public static final Block PARADOX_SUNFLOWER = registerBlock("paradox_sunflower",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block PARODIA_MURICATA = registerBlock("parodia_muricata",
+            new ShortPlantBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
+
+    public static final Block PARROT_FLOWER = registerBlock("parrot_flower",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PARROT_FLOWER = registerBlock("potted_parrot_flower", createFlowerPotBlock(ModBlocks.PARROT_FLOWER));
+
+    public static final Block PEACH_GLADIOLA = registerBlock("peach_gladiola",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
 
 
     public static final Block JOY_LARGE_LILY = registerBlockWithoutItem("joy_large_lily",
@@ -537,6 +571,16 @@ public class ModBlocks {
             entries.add(ModBlocks.ORANGE_COSMOS);
             entries.add(ModBlocks.ORANGE_DAY_LILY);
             entries.add(ModBlocks.ORANGE_FREESIA);
+            entries.add(ModBlocks.ORANGE_GLADIOLA);
+            entries.add(ModBlocks.ORANGE_LUPIN);
+            entries.add(ModBlocks.ORNAMENTAL_CHERRY);
+            entries.add(ModBlocks.OWLS_CLOVER);
+            entries.add(ModBlocks.PANSY);
+            entries.add(ModBlocks.PANSY_PURPLE);
+            entries.add(ModBlocks.PARADOX_SUNFLOWER);
+            entries.add(ModBlocks.PARODIA_MURICATA);
+            entries.add(ModBlocks.PARROT_FLOWER);
+            entries.add(ModBlocks.PEACH_GLADIOLA);
         });
     }
 }

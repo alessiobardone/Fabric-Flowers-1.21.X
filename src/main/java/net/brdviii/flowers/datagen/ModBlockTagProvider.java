@@ -40,7 +40,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MENDOCINO_POPPY)
                 .add(ModBlocks.MIXED_PINK_SWEET_PEAS)
                 .add(ModBlocks.MOJAVE_INDIGO_BUSH)
-                .add(ModBlocks.OCOTILLO);
+                .add(ModBlocks.OCOTILLO)
+                .add(ModBlocks.ORANGE_GLADIOLA)
+                .add(ModBlocks.ORNAMENTAL_CHERRY)
+                .add(ModBlocks.PARADOX_SUNFLOWER)
+                .add(ModBlocks.PEACH_GLADIOLA);
+
 
 
 
@@ -112,7 +117,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORANGE_AUSTRALIAN_FLAME_PEA)
                 .add(ModBlocks.ORANGE_COSMOS)
                 .add(ModBlocks.ORANGE_DAY_LILY)
-                .add(ModBlocks.ORANGE_FREESIA);
+                .add(ModBlocks.ORANGE_FREESIA)
+                .add(ModBlocks.ORANGE_LUPIN)
+                .add(ModBlocks.OWLS_CLOVER)
+                .add(ModBlocks.PANSY)
+                .add(ModBlocks.PANSY_PURPLE)
+                .add(ModBlocks.PARROT_FLOWER);
+
 
 
 
@@ -120,7 +131,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.LEAVES)
                 .add(ModBlocks.BEACH_GRASS)
                 .add(ModBlocks.BLUE_EYED_GRASS)
-                .add(ModBlocks.CACTUS);
+                .add(ModBlocks.CACTUS)
+                .add(ModBlocks.PARODIA_MURICATA);
+
 
         getOrCreateTagBuilder(BlockTags.FLOWERS)
                 .add(ModBlocks.CLOVER_LILY)

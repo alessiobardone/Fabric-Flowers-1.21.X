@@ -115,6 +115,16 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.ORANGE_COSMOS,"Orange Cosmos");
         translationBuilder.add(ModBlocks.ORANGE_DAY_LILY,"Orange Day Lily");
         translationBuilder.add(ModBlocks.ORANGE_FREESIA,"Orange Freesia");
+        translationBuilder.add(ModBlocks.ORANGE_GLADIOLA,"Orange Gladiola");
+        translationBuilder.add(ModBlocks.ORANGE_LUPIN,"Orange Lupin");
+        translationBuilder.add(ModBlocks.ORNAMENTAL_CHERRY,"Ornamental Cherry");
+        translationBuilder.add(ModBlocks.OWLS_CLOVER,"Owls Clover");
+        translationBuilder.add(ModBlocks.PANSY,"Pansy");
+        translationBuilder.add(ModBlocks.PANSY_PURPLE,"Purple Pansy");
+        translationBuilder.add(ModBlocks.PARADOX_SUNFLOWER,"Paradox Sunflower");
+        translationBuilder.add(ModBlocks.PARODIA_MURICATA,"Parodia Muricata");
+        translationBuilder.add(ModBlocks.PARROT_FLOWER,"Parrot Flower");
+        translationBuilder.add(ModBlocks.PEACH_GLADIOLA,"Peach Gladiola");
 
 
         translationBuilder.add(ModBlocks.JOY_LARGE_LILY,"Joy Large Lily");
