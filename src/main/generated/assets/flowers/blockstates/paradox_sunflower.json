@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/paradox_sunflower_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/paradox_sunflower_top"
+    }
+  }
+}

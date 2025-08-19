@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/cape_aloe_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/cape_aloe_top"
+    }
+  }
+}

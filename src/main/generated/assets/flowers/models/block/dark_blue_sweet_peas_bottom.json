@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flowers:block/dark_blue_sweet_peas_bottom"
+  }
+}

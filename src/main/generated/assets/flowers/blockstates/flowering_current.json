@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/flowering_current_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/flowering_current_top"
+    }
+  }
+}

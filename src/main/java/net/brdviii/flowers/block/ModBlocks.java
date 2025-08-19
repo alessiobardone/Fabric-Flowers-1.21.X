@@ -429,6 +429,38 @@ public class ModBlocks {
     public static final Block PEACH_GLADIOLA = registerBlock("peach_gladiola",
             new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
 
+    public static final Block PEPPERMINT = registerBlock("peppermint",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PEPPERMINT = registerBlock("potted_peppermint", createFlowerPotBlock(ModBlocks.PEPPERMINT));
+
+    public static final Block PERIWINKLE = registerBlock("periwinkle",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PERIWINKLE = registerBlock("potted_periwinkle", createFlowerPotBlock(ModBlocks.PERIWINKLE));
+
+    public static final Block PINK_CLOVER = registerBlock("pink_clover",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PINK_CLOVER = registerBlock("potted_pink_clover", createFlowerPotBlock(ModBlocks.PINK_CLOVER));
+
+    public static final Block PINK_DESERT_SAND_VERBENA = registerBlock("pink_desert_sand_verbena",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PINK_DESERT_SAND_VERBENA = registerBlock("potted_pink_desert_sand_verbena", createFlowerPotBlock(ModBlocks.PINK_DESERT_SAND_VERBENA));
+
+    public static final Block PINK_GERANIUM = registerBlock("pink_geranium",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PINK_GERANIUM = registerBlock("potted_pink_geranium", createFlowerPotBlock(ModBlocks.PINK_GERANIUM));
+
+    public static final Block PINK_LARKSPUR = registerBlock("pink_larkspur",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block PINK_PETTICOAT = registerBlock("pink_petticoat",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PINK_PETTICOAT = registerBlock("potted_pink_petticoat", createFlowerPotBlock(ModBlocks.PINK_PETTICOAT));
+
+    public static final Block PITCHER_PLANT = registerBlock("pitcher_plant",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_PITCHER_PLANT = registerBlock("potted_pitcher_plant", createFlowerPotBlock(ModBlocks.PITCHER_PLANT));
+
+
 
     public static final Block JOY_LARGE_LILY = registerBlockWithoutItem("joy_large_lily",
             new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
@@ -581,6 +613,14 @@ public class ModBlocks {
             entries.add(ModBlocks.PARODIA_MURICATA);
             entries.add(ModBlocks.PARROT_FLOWER);
             entries.add(ModBlocks.PEACH_GLADIOLA);
+            entries.add(ModBlocks.PEPPERMINT);
+            entries.add(ModBlocks.PERIWINKLE);
+            entries.add(ModBlocks.PINK_CLOVER);
+            entries.add(ModBlocks.PINK_DESERT_SAND_VERBENA);
+            entries.add(ModBlocks.PINK_GERANIUM);
+            entries.add(ModBlocks.PINK_LARKSPUR);
+            entries.add(ModBlocks.PINK_PETTICOAT);
+            entries.add(ModBlocks.PITCHER_PLANT);
         });
     }
 }

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/dried_sunflower_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/dried_sunflower_top"
+    }
+  }
+}

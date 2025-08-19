@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/datura_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/datura_top"
+    }
+  }
+}

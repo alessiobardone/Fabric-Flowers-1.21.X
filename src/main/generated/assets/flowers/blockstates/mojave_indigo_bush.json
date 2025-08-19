@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/mojave_indigo_bush_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/mojave_indigo_bush_top"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/mendocino_poppy_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/mendocino_poppy_top"
+    }
+  }
+}

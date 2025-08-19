@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/bright_magenta_sweet_peas_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/bright_magenta_sweet_peas_top"
+    }
+  }
+}

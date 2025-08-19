@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "flowers:block/gloriosa_lily_bottom"
+    },
+    "half=upper": {
+      "model": "flowers:block/gloriosa_lily_top"
+    }
+  }
+}

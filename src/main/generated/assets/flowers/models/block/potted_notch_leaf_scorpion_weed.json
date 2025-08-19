@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "textures": {
+    "plant": "flowers:block/notch_leaf_scorpion_weed"
+  }
+}
