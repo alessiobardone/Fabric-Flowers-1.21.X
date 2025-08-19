@@ -60,7 +60,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TALL_COSMOS)
                 .add(ModBlocks.TALL_LUPIN)
                 .add(ModBlocks.TALL_ORANGE_COSMOS)
-                .add(ModBlocks.TEDDY_BEAR_SUNFLOWER);
+                .add(ModBlocks.TEDDY_BEAR_SUNFLOWER)
+                .add(ModBlocks.WHITE_LARKSPUR)
+                .add(ModBlocks.YUCCA_FLOWER);
 
 
 
@@ -165,7 +167,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SPROUT)
                 .add(ModBlocks.STICKY_MONKEY)
                 .add(ModBlocks.STRIPED_ZINNIA)
-                .add(ModBlocks.SUNNY_ZINNIA);
+                .add(ModBlocks.SUNNY_ZINNIA)
+                .add(ModBlocks.VENUS_FLY_TRAP)
+                .add(ModBlocks.VIOLET)
+                .add(ModBlocks.VIOLET_WEBCAP)
+                .add(ModBlocks.VIRGINIA_COWSLIP)
+                .add(ModBlocks.WHITE_DAFFODIL)
+                .add(ModBlocks.WHITE_TINSEL)
+                .add(ModBlocks.WOLFS_BANE)
+                .add(ModBlocks.WOOLY_THYME)
+                .add(ModBlocks.YELLOW_COSMOS)
+                .add(ModBlocks.YELLOW_CROCUS)
+                .add(ModBlocks.YELLOW_DAFFODIL)
+                .add(ModBlocks.YELLOW_FREESIA)
+                .add(ModBlocks.YELLOW_LUPIN)
+                .add(ModBlocks.YELLOW_PATCHES)
+                .add(ModBlocks.YELLOW_STARTHISTLE);
+
 
 
 
@@ -191,7 +209,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_LARGE_LILY)
                 .add(ModBlocks.PURPLE_LIGHT_LILY)
                 .add(ModBlocks.SUNFIRE_LARGE_LILY)
-                .add(ModBlocks.SUNFIRE_LIGHT_LILY);
+                .add(ModBlocks.SUNFIRE_LIGHT_LILY)
+                .add(ModBlocks.WATER_LILY_SMALL);
+
 
 
 

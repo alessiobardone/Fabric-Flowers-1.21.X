@@ -23,6 +23,7 @@ public class ModItems {
     public static final Item PURPLE_LIGHT_LILY = registerItem("purple_light_lily",new PlaceableOnWaterItem(ModBlocks.PURPLE_LIGHT_LILY, new Item.Settings()));
     public static final Item SUNFIRE_LARGE_LILY = registerItem("sunfire_large_lily",new PlaceableOnWaterItem(ModBlocks.SUNFIRE_LARGE_LILY, new Item.Settings()));
     public static final Item SUNFIRE_LIGHT_LILY = registerItem("sunfire_light_lily",new PlaceableOnWaterItem(ModBlocks.SUNFIRE_LIGHT_LILY, new Item.Settings()));
+    public static final Item WATER_LILY_SMALL = registerItem("water_lily_small",new PlaceableOnWaterItem(ModBlocks.WATER_LILY_SMALL, new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -43,6 +44,7 @@ public class ModItems {
             entries.add(ModItems.PURPLE_LIGHT_LILY);
             entries.add(ModItems.SUNFIRE_LARGE_LILY);
             entries.add(ModItems.SUNFIRE_LIGHT_LILY);
+            entries.add(ModItems.WATER_LILY_SMALL);
         });
 
     }

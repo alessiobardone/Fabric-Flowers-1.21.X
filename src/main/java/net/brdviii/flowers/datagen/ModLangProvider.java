@@ -169,6 +169,24 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.TALL_ORANGE_COSMOS,"Tall Orange Cosmos");
         translationBuilder.add(ModBlocks.TEDDY_BEAR_SUNFLOWER,"Teddy Bear Sunflower");
         translationBuilder.add(ModBlocks.TUMBLE_WEED,"Tumble Weed");
+        translationBuilder.add(ModBlocks.VENUS_FLY_TRAP,"Venus Fly Trap");
+        translationBuilder.add(ModBlocks.VIOLET,"Violet");
+        translationBuilder.add(ModBlocks.VIOLET_WEBCAP,"Violet Webcap");
+        translationBuilder.add(ModBlocks.VIRGINIA_COWSLIP,"Virginia Cowslip");
+        translationBuilder.add(ModBlocks.WATER_LILY_SMALL,"Small Lily");
+        translationBuilder.add(ModBlocks.WHITE_DAFFODIL,"White Daffodil");
+        translationBuilder.add(ModBlocks.WHITE_LARKSPUR,"White Larkspur");
+        translationBuilder.add(ModBlocks.WHITE_TINSEL,"White Tinsel");
+        translationBuilder.add(ModBlocks.WOLFS_BANE,"Wolfs Bane");
+        translationBuilder.add(ModBlocks.WOOLY_THYME,"Wooly Thyme");
+        translationBuilder.add(ModBlocks.YELLOW_COSMOS,"Yellow Cosmos");
+        translationBuilder.add(ModBlocks.YELLOW_CROCUS,"Yellow Crocus");
+        translationBuilder.add(ModBlocks.YELLOW_DAFFODIL,"Yellow Daffodil");
+        translationBuilder.add(ModBlocks.YELLOW_FREESIA,"Yellow Freesia");
+        translationBuilder.add(ModBlocks.YELLOW_LUPIN,"Yellow Lupin");
+        translationBuilder.add(ModBlocks.YELLOW_PATCHES,"Yellow Patches");
+        translationBuilder.add(ModBlocks.YELLOW_STARTHISTLE,"Yellow Starthistle");
+        translationBuilder.add(ModBlocks.YUCCA_FLOWER,"Yucca Flower");
 
 
         translationBuilder.add(ModBlocks.JOY_LARGE_LILY,"Joy Large Lily");

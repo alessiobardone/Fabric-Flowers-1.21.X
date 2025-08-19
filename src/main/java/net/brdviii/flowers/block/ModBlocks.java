@@ -588,6 +588,73 @@ public class ModBlocks {
     public static final Block TUMBLE_WEED = registerBlock("tumble_weed",
             new ShortPlantBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
 
+    public static final Block VENUS_FLY_TRAP = registerBlock("venus_fly_trap",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_VENUS_FLY_TRAP = registerBlock("potted_venus_fly_trap", createFlowerPotBlock(ModBlocks.VENUS_FLY_TRAP));
+
+    public static final Block VIOLET = registerBlock("violet",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_VIOLET = registerBlock("potted_violet", createFlowerPotBlock(ModBlocks.VIOLET));
+
+    public static final Block VIOLET_WEBCAP = registerBlock("violet_webcap",
+            new ShortPlantBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
+
+    public static final Block VIRGINIA_COWSLIP = registerBlock("virginia_cowslip",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_VIRGINIA_COWSLIP = registerBlock("potted_virginia_cowslip", createFlowerPotBlock(ModBlocks.VIRGINIA_COWSLIP));
+
+    public static final Block WATER_LILY_SMALL = registerBlockWithoutItem("water_lily_small",
+            new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
+
+    public static final Block WHITE_DAFFODIL = registerBlock("white_daffodil",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_WHITE_DAFFODIL = registerBlock("potted_white_daffodil", createFlowerPotBlock(ModBlocks.WHITE_DAFFODIL));
+
+    public static final Block WHITE_LARKSPUR = registerBlock("white_larkspur",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
+    public static final Block WHITE_TINSEL = registerBlock("white_tinsel_flower",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_WHITE_TINSEL = registerBlock("potted_white_tinsel", createFlowerPotBlock(ModBlocks.WHITE_TINSEL));
+
+    public static final Block WOLFS_BANE = registerBlock("wolfs_bane",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_WOLFS_BANE = registerBlock("potted_wolfs_bane", createFlowerPotBlock(ModBlocks.WOLFS_BANE));
+
+    public static final Block WOOLY_THYME = registerBlock("wooly_thyme",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_WOOLY_THYME = registerBlock("potted_wooly_thyme", createFlowerPotBlock(ModBlocks.WOOLY_THYME));
+
+    public static final Block YELLOW_COSMOS = registerBlock("yellow_cosmos",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_YELLOW_COSMOS = registerBlock("potted_yellow_cosmos", createFlowerPotBlock(ModBlocks.YELLOW_COSMOS));
+
+    public static final Block YELLOW_CROCUS = registerBlock("yellow_crocus",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_YELLOW_CROCUS = registerBlock("potted_yellow_crocus", createFlowerPotBlock(ModBlocks.YELLOW_CROCUS));
+
+    public static final Block YELLOW_DAFFODIL = registerBlock("yellow_daffodil",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_YELLOW_DAFFODIL = registerBlock("potted_yellow_daffodil", createFlowerPotBlock(ModBlocks.YELLOW_DAFFODIL));
+
+    public static final Block YELLOW_FREESIA = registerBlock("yellow_freesia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_YELLOW_FREESIA = registerBlock("potted_yellow_freesia", createFlowerPotBlock(ModBlocks.YELLOW_FREESIA));
+
+    public static final Block YELLOW_LUPIN = registerBlock("yellow_lupin",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_YELLOW_LUPIN = registerBlock("potted_yellow_lupin", createFlowerPotBlock(ModBlocks.YELLOW_LUPIN));
+
+    public static final Block YELLOW_PATCHES = registerBlock("yellow_patches",
+            new ShortPlantBlock(AbstractBlock.Settings.copy(Blocks.SHORT_GRASS)));
+
+    public static final Block YELLOW_STARTHISTLE = registerBlock("yellow_starthistle",
+            new FlowerBlock(StatusEffects.NIGHT_VISION,5.0F, AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+    public static final Block POTTED_YELLOW_STARTHISTLE = registerBlock("potted_yellow_starthistle", createFlowerPotBlock(ModBlocks.YELLOW_STARTHISTLE));
+
+    public static final Block YUCCA_FLOWER = registerBlock("yucca_flower",
+            new TallFlowerBlock(AbstractBlock.Settings.copy(Blocks.BLUE_ORCHID)));
+
 
 
 
@@ -786,6 +853,23 @@ public class ModBlocks {
             entries.add(ModBlocks.TALL_ORANGE_COSMOS);
             entries.add(ModBlocks.TEDDY_BEAR_SUNFLOWER);
             entries.add(ModBlocks.TUMBLE_WEED);
+            entries.add(ModBlocks.VENUS_FLY_TRAP);
+            entries.add(ModBlocks.VIOLET);
+            entries.add(ModBlocks.VIOLET_WEBCAP);
+            entries.add(ModBlocks.VIRGINIA_COWSLIP);
+            entries.add(ModBlocks.WHITE_DAFFODIL);
+            entries.add(ModBlocks.WHITE_LARKSPUR);
+            entries.add(ModBlocks.WHITE_TINSEL);
+            entries.add(ModBlocks.WOLFS_BANE);
+            entries.add(ModBlocks.WOOLY_THYME);
+            entries.add(ModBlocks.YELLOW_COSMOS);
+            entries.add(ModBlocks.YELLOW_CROCUS);
+            entries.add(ModBlocks.YELLOW_DAFFODIL);
+            entries.add(ModBlocks.YELLOW_FREESIA);
+            entries.add(ModBlocks.YELLOW_LUPIN);
+            entries.add(ModBlocks.YELLOW_PATCHES);
+            entries.add(ModBlocks.YELLOW_STARTHISTLE);
+            entries.add(ModBlocks.YUCCA_FLOWER);
         });
     }
 }

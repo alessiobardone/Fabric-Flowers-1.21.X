@@ -63,6 +63,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoubleBlock(ModBlocks.TALL_LUPIN, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerDoubleBlock(ModBlocks.TALL_ORANGE_COSMOS, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerDoubleBlock(ModBlocks.TEDDY_BEAR_SUNFLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(ModBlocks.WHITE_LARKSPUR, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(ModBlocks.YUCCA_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.AFRICAN_DAISY,ModBlocks.POTTED_AFRICAN_DAISY,BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.ALBUCA_NAMAQUENSIS,ModBlocks.POTTED_ALBUCA_NAMAQUENSIS,BlockStateModelGenerator.TintType.NOT_TINTED);
@@ -165,12 +167,28 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.STICKY_MONKEY,ModBlocks.POTTED_STICKY_MONKEY,BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.STRIPED_ZINNIA,ModBlocks.POTTED_STRIPED_ZINNIA,BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.SUNNY_ZINNIA,ModBlocks.POTTED_SUNNY_ZINNIA,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.VENUS_FLY_TRAP,ModBlocks.POTTED_VENUS_FLY_TRAP,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.VIOLET,ModBlocks.POTTED_VIOLET,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.VIRGINIA_COWSLIP,ModBlocks.POTTED_VIRGINIA_COWSLIP,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.WHITE_DAFFODIL,ModBlocks.POTTED_WHITE_DAFFODIL,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.WHITE_TINSEL,ModBlocks.POTTED_WHITE_TINSEL,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.WOLFS_BANE,ModBlocks.POTTED_WOLFS_BANE,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.WOOLY_THYME,ModBlocks.POTTED_WOOLY_THYME,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.YELLOW_COSMOS,ModBlocks.POTTED_YELLOW_COSMOS,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.YELLOW_CROCUS,ModBlocks.POTTED_YELLOW_CROCUS,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.YELLOW_DAFFODIL,ModBlocks.POTTED_YELLOW_DAFFODIL,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.YELLOW_FREESIA,ModBlocks.POTTED_YELLOW_FREESIA,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.YELLOW_LUPIN,ModBlocks.POTTED_YELLOW_LUPIN,BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.YELLOW_STARTHISTLE,ModBlocks.POTTED_YELLOW_STARTHISTLE,BlockStateModelGenerator.TintType.NOT_TINTED);
+
 
         blockStateModelGenerator.registerTintableCross(ModBlocks.BEACH_GRASS, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(ModBlocks.BLUE_EYED_GRASS, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(ModBlocks.CACTUS, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(ModBlocks.PARODIA_MURICATA, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(ModBlocks.TUMBLE_WEED, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.VIOLET_WEBCAP, BlockStateModelGenerator.TintType.TINTED);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.YELLOW_PATCHES, BlockStateModelGenerator.TintType.TINTED);
     }
 
     @Override

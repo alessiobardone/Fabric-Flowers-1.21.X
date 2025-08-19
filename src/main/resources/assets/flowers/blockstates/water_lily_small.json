@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": [
+      { "model": "flowers:block/water_lily_small" },
+      { "model": "flowers:block/water_lily_small", "y": 90 },
+      { "model": "flowers:block/water_lily_small", "y": 180 },
+      { "model": "flowers:block/water_lily_small", "y": 270 }
+    ]
+  }
+}
+
