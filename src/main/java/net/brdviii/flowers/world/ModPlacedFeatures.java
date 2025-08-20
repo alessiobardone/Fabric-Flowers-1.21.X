@@ -19,9 +19,6 @@ import java.util.List;
 import java.util.Map;
 
 public class ModPlacedFeatures {
-    //public static final RegistryKey<PlacedFeature> AFRICAN_DAISY_PLACED_KEY =
-            //registerKey("african_daisy_placed");
-
     private static final Map<String, Block> FLOWERS = Map.of(
             "african_daisy", ModBlocks.AFRICAN_DAISY,
             "albuca_namaquensis", ModBlocks.ALBUCA_NAMAQUENSIS,
@@ -35,6 +32,7 @@ public class ModPlacedFeatures {
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
+        Flowers.LOGGER.info("[WorldGen] PlacedBootsTrap");
 
         ModConfiguredFeatures.CONFIGURED_FEATURES.forEach((name, configuredKey) -> {
             RegistryKey<PlacedFeature> placedKey = RegistryKey.of(
@@ -46,32 +44,17 @@ public class ModPlacedFeatures {
             context.register(placedKey, new PlacedFeature(
                     context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE).getOrThrow(configuredKey),
                     List.of(
-                            RarityFilterPlacementModifier.of(1),
+                            RarityFilterPlacementModifier.of(5),
                             SquarePlacementModifier.of(),
-                            //PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
+                            PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
                             BiomePlacementModifier.of()
                     )
             ));
 
             Flowers.LOGGER.info("[WorldGen] PlacedFeature: {}", name);
         });
-
-
-
-
-        /*context.register(AFRICAN_DAISY_PLACED_KEY,
-                new PlacedFeature(
-                        context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE)
-                                .getOrThrow(ModConfiguredFeatures.AFRICAN_DAISY_KEY),
-                        List.of(
-                                RarityFilterPlacementModifier.of(5), // 1 ogni ~5 chunk
-                                SquarePlacementModifier.of(),
-                                PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
-                                BiomePlacementModifier.of()
-                        )
-                )
-        );*/
     }
+
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifier.of(Flowers.MOD_ID, name));

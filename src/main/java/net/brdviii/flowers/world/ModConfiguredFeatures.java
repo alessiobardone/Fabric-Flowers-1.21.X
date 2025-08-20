@@ -14,8 +14,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ModConfiguredFeatures {
-    //public static final RegistryKey<ConfiguredFeature<?, ?>> AFRICAN_DAISY_KEY = registerKey("african_daisy");
-
     private static final Map<String, Block> FLOWERS = Map.of(
             "african_daisy", ModBlocks.AFRICAN_DAISY,
             "albuca_namaquensis", ModBlocks.ALBUCA_NAMAQUENSIS,
@@ -24,11 +22,11 @@ public class ModConfiguredFeatures {
             "baby_blue_eyes", ModBlocks.BABY_BLUE_EYES
     );
 
-
     public static final Map<String, RegistryKey<ConfiguredFeature<?, ?>>> CONFIGURED_FEATURES = new HashMap<>();
 
-
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
+        Flowers.LOGGER.info("[WorldGen] ConfigureBootsTrap");
+
         FLOWERS.forEach((name, block) -> {
             RegistryKey<ConfiguredFeature<?, ?>> key = RegistryKey.of(
                     RegistryKeys.CONFIGURED_FEATURE,
@@ -49,20 +47,6 @@ public class ModConfiguredFeatures {
 
             Flowers.LOGGER.info("[WorldGen] ConfigureFeatures: {}", name);
         });
-
-        /*register(context, AFRICAN_DAISY_KEY, Feature.FLOWER,
-                ConfiguredFeatures.createRandomPatchFeatureConfig(
-                        64,
-                        PlacedFeatures.createEntry(
-                                Feature.SIMPLE_BLOCK,
-                                new SimpleBlockFeatureConfig(
-                                        BlockStateProvider.of(ModBlocks.AFRICAN_DAISY.getDefaultState())
-                                )
-                        )
-                )
-        );*/
-
-
     }
 
 
