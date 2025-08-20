@@ -1,9 +1,9 @@
 {
-  "feature": "flowers:african_daisy",
+  "feature": "flowers:australian_cornflower_key",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 5
+      "chance": 1
     },
     {
       "type": "minecraft:in_square"

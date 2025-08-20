@@ -2,7 +2,7 @@ package net.brdviii.flowers.world;
 
 import net.brdviii.flowers.Flowers;
 import net.brdviii.flowers.block.ModBlocks;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.Block;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -10,11 +10,45 @@ import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?, ?>> AFRICAN_DAISY_KEY = registerKey("african_daisy");
+    //public static final RegistryKey<ConfiguredFeature<?, ?>> AFRICAN_DAISY_KEY = registerKey("african_daisy");
+
+    private static final Map<String, Block> FLOWERS = Map.of(
+            "african_daisy", ModBlocks.AFRICAN_DAISY,
+            "albuca_namaquensis", ModBlocks.ALBUCA_NAMAQUENSIS,
+            "australian_cornflower", ModBlocks.AUSTRALIAN_CORNFLOWER,
+            "australian_flame_pea", ModBlocks.AUSTRALIAN_FLAME_PEA,
+            "baby_blue_eyes", ModBlocks.BABY_BLUE_EYES
+    );
+
+
+    public static final Map<String, RegistryKey<ConfiguredFeature<?, ?>>> CONFIGURED_FEATURES = new HashMap<>();
+
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
-        register(context, AFRICAN_DAISY_KEY, Feature.FLOWER,
+        FLOWERS.forEach((name, block) -> {
+            RegistryKey<ConfiguredFeature<?, ?>> key = RegistryKey.of(
+                    RegistryKeys.CONFIGURED_FEATURE,
+                    Identifier.of(Flowers.MOD_ID, name + "_key")
+            );
+            CONFIGURED_FEATURES.put(name, key);
+
+            context.register(key, new ConfiguredFeature<>(
+                    Feature.FLOWER,
+                    ConfiguredFeatures.createRandomPatchFeatureConfig(
+                            64,
+                            PlacedFeatures.createEntry(
+                                    Feature.SIMPLE_BLOCK,
+                                    new SimpleBlockFeatureConfig(BlockStateProvider.of(block.getDefaultState()))
+                            )
+                    )
+            ));
+        });
+
+        /*register(context, AFRICAN_DAISY_KEY, Feature.FLOWER,
                 ConfiguredFeatures.createRandomPatchFeatureConfig(
                         64,
                         PlacedFeatures.createEntry(
@@ -24,7 +58,7 @@ public class ModConfiguredFeatures {
                                 )
                         )
                 )
-        );
+        );*/
 
 
     }

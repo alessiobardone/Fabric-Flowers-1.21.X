@@ -7,10 +7,19 @@ import net.minecraft.world.gen.GenerationStep;
 
 public class ModWorldGeneration {
     public static void generateModWorldGen() {
-        BiomeModifications.addFeature(
+
+        ModPlacedFeatures.PLACED_FEATURES.values().forEach(key ->
+                BiomeModifications.addFeature(
+                        BiomeSelectors.foundInOverworld(),
+                        GenerationStep.Feature.VEGETAL_DECORATION,
+                        key
+                )
+        );
+
+        /*BiomeModifications.addFeature(
                 BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.VEGETAL_DECORATION,
                 ModPlacedFeatures.AFRICAN_DAISY_PLACED_KEY
-        );
+        );*/
     }
 }

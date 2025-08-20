@@ -1,6 +1,8 @@
 package net.brdviii.flowers.world;
 
 import net.brdviii.flowers.Flowers;
+import net.brdviii.flowers.block.ModBlocks;
+import net.minecraft.block.Block;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -12,16 +14,48 @@ import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 import net.minecraft.world.gen.placementmodifier.RarityFilterPlacementModifier;
 import net.minecraft.world.gen.placementmodifier.SquarePlacementModifier;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ModPlacedFeatures {
-    public static final RegistryKey<PlacedFeature> AFRICAN_DAISY_PLACED_KEY =
-            registerKey("african_daisy_placed");
+    //public static final RegistryKey<PlacedFeature> AFRICAN_DAISY_PLACED_KEY =
+            //registerKey("african_daisy_placed");
+
+    private static final Map<String, Block> FLOWERS = Map.of(
+            "african_daisy", ModBlocks.AFRICAN_DAISY,
+            "albuca_namaquensis", ModBlocks.ALBUCA_NAMAQUENSIS,
+            "australian_cornflower", ModBlocks.AUSTRALIAN_CORNFLOWER,
+            "australian_flame_pea", ModBlocks.AUSTRALIAN_FLAME_PEA,
+            "baby_blue_eyes", ModBlocks.BABY_BLUE_EYES
+            // aggiungi tutti gli altri fiori qui
+    );
+
+    public static final Map<String, RegistryKey<PlacedFeature>> PLACED_FEATURES = new HashMap<>();
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
-        context.register(AFRICAN_DAISY_PLACED_KEY,
+        ModConfiguredFeatures.CONFIGURED_FEATURES.forEach((name, configuredKey) -> {
+            RegistryKey<PlacedFeature> placedKey = RegistryKey.of(
+                    RegistryKeys.PLACED_FEATURE,
+                    Identifier.of(Flowers.MOD_ID, name + "_placed_key")
+            );
+            PLACED_FEATURES.put(name, placedKey);
+
+            context.register(placedKey, new PlacedFeature(
+                    context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE).getOrThrow(configuredKey),
+                    List.of(
+                            RarityFilterPlacementModifier.of(1),
+                            SquarePlacementModifier.of(),
+                            PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
+                            BiomePlacementModifier.of()
+                    )
+            ));
+        });
+
+
+        /*context.register(AFRICAN_DAISY_PLACED_KEY,
                 new PlacedFeature(
                         context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE)
                                 .getOrThrow(ModConfiguredFeatures.AFRICAN_DAISY_KEY),
@@ -32,7 +66,7 @@ public class ModPlacedFeatures {
                                 BiomePlacementModifier.of()
                         )
                 )
-        );
+        );*/
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
