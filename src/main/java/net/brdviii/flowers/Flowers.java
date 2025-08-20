@@ -2,6 +2,9 @@ package net.brdviii.flowers;
 
 import net.brdviii.flowers.block.ModBlocks;
 import net.brdviii.flowers.item.ModItems;
+import net.brdviii.flowers.world.ModConfiguredFeatures;
+import net.brdviii.flowers.world.ModPlacedFeatures;
+import net.brdviii.flowers.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,5 +18,6 @@ public class Flowers implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+		ModWorldGeneration.generateModWorldGen();
 	}
 }
