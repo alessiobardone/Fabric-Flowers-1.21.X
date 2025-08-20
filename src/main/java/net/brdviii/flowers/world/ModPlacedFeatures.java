@@ -48,11 +48,15 @@ public class ModPlacedFeatures {
                     List.of(
                             RarityFilterPlacementModifier.of(1),
                             SquarePlacementModifier.of(),
-                            PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
+                            //PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
                             BiomePlacementModifier.of()
                     )
             ));
+
+            Flowers.LOGGER.info("[WorldGen] PlacedFeature: {}", name);
         });
+
+
 
 
         /*context.register(AFRICAN_DAISY_PLACED_KEY,

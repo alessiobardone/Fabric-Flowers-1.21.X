@@ -46,6 +46,8 @@ public class ModConfiguredFeatures {
                             )
                     )
             ));
+
+            Flowers.LOGGER.info("[WorldGen] ConfigureFeatures: {}", name);
         });
 
         /*register(context, AFRICAN_DAISY_KEY, Feature.FLOWER,
