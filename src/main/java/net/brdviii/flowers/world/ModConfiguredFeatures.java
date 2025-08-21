@@ -2,7 +2,10 @@ package net.brdviii.flowers.world;
 
 import net.brdviii.flowers.Flowers;
 import net.brdviii.flowers.block.ModBlocks;
+import net.brdviii.flowers.block.custom.RacoonGrapeBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -11,9 +14,13 @@ import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class ModConfiguredFeatures {
+    public static final RegistryKey<ConfiguredFeature<?, ?>> RACCOON_GRAPE_KEY = registerKey("raccoon_grape_key");
+
+
     private static final Map<String, Block> FLOWERS = Map.of(
             "african_daisy", ModBlocks.AFRICAN_DAISY,
             "albuca_namaquensis", ModBlocks.ALBUCA_NAMAQUENSIS,
@@ -45,8 +52,17 @@ public class ModConfiguredFeatures {
                     )
             ));
 
-            Flowers.LOGGER.info("[WorldGen] ConfigureFeatures: {}", name);
+            Flowers.LOGGER.info("[WorldGen] ConfigureFeature: {}", name);
         });
+
+        register(context, RACCOON_GRAPE_KEY, Feature.RANDOM_PATCH,
+                ConfiguredFeatures.createRandomPatchFeatureConfig(
+                        Feature.SIMPLE_BLOCK,
+                        new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.RACCOON_GRAPES_BUSH.getDefaultState().with(RacoonGrapeBlock.AGE, 3))),
+                        List.of(Blocks.GRASS_BLOCK)
+                ));
+
+        Flowers.LOGGER.info("[WorldGen] ConfigureFeature: Raccoon Grape Bush");
     }
 
 

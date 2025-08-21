@@ -19,6 +19,8 @@ import java.util.List;
 import java.util.Map;
 
 public class ModPlacedFeatures {
+    public static final RegistryKey<PlacedFeature> RACCOON_GRAPE_PLACED_KEY = registerKey("raccoon_grape_placed_key");
+
     private static final Map<String, Block> FLOWERS = Map.of(
             "african_daisy", ModBlocks.AFRICAN_DAISY,
             "albuca_namaquensis", ModBlocks.ALBUCA_NAMAQUENSIS,
@@ -53,6 +55,14 @@ public class ModPlacedFeatures {
 
             Flowers.LOGGER.info("[WorldGen] PlacedFeature: {}", name);
         });
+
+        register(context, RACCOON_GRAPE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RACCOON_GRAPE_KEY),
+                RarityFilterPlacementModifier.of(5),
+                SquarePlacementModifier.of(),
+                PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
+                BiomePlacementModifier.of());
+
+        Flowers.LOGGER.info("[WorldGen] PlacedFeature: Raccoon Grape Bush");
     }
 
 

@@ -18,7 +18,10 @@ public class FlowersDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModLangProvider::new);
-		pack.addProvider(ModRegistryDataGenerator::new);
+
+		pack.addProvider(ConfiguredFeatureProvider::new);
+
+		pack.addProvider(PlacedFeatureProvider::new);
 	}
 
 	@Override
