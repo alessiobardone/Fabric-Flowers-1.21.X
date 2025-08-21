@@ -716,6 +716,10 @@ public class ModBlocks {
             new LilyPadBlock(AbstractBlock.Settings.copy(Blocks.LILY_PAD)));
 
 
+    public static final Block RACCOON_GRAPES_BUSH = registerBlockWithoutItem("raccoon_grape",
+            new RacoonGrapeBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
+
+
     private static Block registerBlockWithoutItem(String name, Block block){
         return Registry.register(Registries.BLOCK, Identifier.of(Flowers.MOD_ID, name), block);
     }

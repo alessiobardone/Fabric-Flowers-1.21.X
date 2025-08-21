@@ -1,4 +1,4 @@
-// 1.21	2025-08-20T19:51:49.2033599	Flowers/Block Loot Tables
+// 1.21	2025-08-21T12:11:43.1292431	Flowers/Block Loot Tables
 07a2197130cf65396ffabde3822a87bd7778662d data\flowers\loot_table\blocks\staked_nasturtium.json
 4bf4fbae575f15a0941ee44d659978206a51bfe0 data\flowers\loot_table\blocks\snapdragon_white.json
 034e5dee159b85033508d9bda5710f67e5ef0bd7 data\flowers\loot_table\blocks\orange_freesia.json
@@ -25,6 +25,7 @@ bbb64e9ebed7e46fe051f3d2a0058c9fab6f9a3c data\flowers\loot_table\blocks\beach_st
 191218154dc6f61b362d3c514a479429fa05a6e5 data\flowers\loot_table\blocks\creeping_thyme.json
 54125902f492e2c1480b993b1266d8a692501470 data\flowers\loot_table\blocks\mexican_sage.json
 97c8f55dcb210f6e8aa674c80147a589a8d8ebd1 data\flowers\loot_table\blocks\silver_carpet.json
+7a7b69e453469c546fa83bcafcc0b3eaa030bd59 data\flowers\loot_table\blocks\raccoon_grape.json
 8f5ced964804ab0238abdd6df323577843d0292a data\flowers\loot_table\blocks\orange_cosmos.json
 d0d43625680999546d6c2d922488302113fc5a51 data\flowers\loot_table\blocks\lavender_larkspur.json
 52f976a65ae90c2b5ef5f4b15f7454a90067be21 data\flowers\loot_table\blocks\orange_day_lily.json

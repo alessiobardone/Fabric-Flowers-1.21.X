@@ -4,6 +4,7 @@ import net.brdviii.flowers.Flowers;
 import net.brdviii.flowers.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.PlaceableOnWaterItem;
@@ -25,6 +26,8 @@ public class ModItems {
     public static final Item SUNFIRE_LIGHT_LILY = registerItem("sunfire_light_lily",new PlaceableOnWaterItem(ModBlocks.SUNFIRE_LIGHT_LILY, new Item.Settings()));
     public static final Item WATER_LILY_SMALL = registerItem("water_lily_small",new PlaceableOnWaterItem(ModBlocks.WATER_LILY_SMALL, new Item.Settings()));
 
+    public static final Item RACCOON_GRAPE = registerItem("raccoon_grape",
+            new AliasedBlockItem(ModBlocks.RACCOON_GRAPES_BUSH, new Item.Settings().food(ModFoodComponents.RACCOON_GRAPE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Flowers.MOD_ID, name), item);
@@ -45,6 +48,10 @@ public class ModItems {
             entries.add(ModItems.SUNFIRE_LARGE_LILY);
             entries.add(ModItems.SUNFIRE_LIGHT_LILY);
             entries.add(ModItems.WATER_LILY_SMALL);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries ->{
+            entries.add(ModItems.RACCOON_GRAPE);
         });
 
     }

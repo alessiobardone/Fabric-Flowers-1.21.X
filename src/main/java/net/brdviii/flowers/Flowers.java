@@ -24,6 +24,6 @@ public class Flowers implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
-		ModWorldGeneration.generateModWorldGen();
+		//ModWorldGeneration.generateModWorldGen();
 	}
 }

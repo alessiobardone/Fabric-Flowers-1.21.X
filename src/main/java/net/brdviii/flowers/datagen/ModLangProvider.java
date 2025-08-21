@@ -1,6 +1,7 @@
 package net.brdviii.flowers.datagen;
 
 import net.brdviii.flowers.block.ModBlocks;
+import net.brdviii.flowers.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -201,5 +202,7 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.WISTERIA_LAVANDER,"Wisteria Lavender");
         translationBuilder.add(ModBlocks.WISTERIA_PURPLE,"Wisteria Purple");
         translationBuilder.add(ModBlocks.WISTERIA_WHITE,"Wisteria White");
+
+        translationBuilder.add(ModItems.RACCOON_GRAPE,"Raccoon Grape");
     }
 }
