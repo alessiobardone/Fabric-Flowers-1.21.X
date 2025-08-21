@@ -20,49 +20,24 @@ import java.util.Map;
 
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> RACCOON_GRAPE_PLACED_KEY = registerKey("raccoon_grape_placed_key");
+    public static final RegistryKey<PlacedFeature> AFRICAN_DAISY_PLACED_KEY = registerKey("african_daisy_placed_key");
 
-    private static final Map<String, Block> FLOWERS = Map.of(
-            "african_daisy", ModBlocks.AFRICAN_DAISY,
-            "albuca_namaquensis", ModBlocks.ALBUCA_NAMAQUENSIS,
-            "australian_cornflower", ModBlocks.AUSTRALIAN_CORNFLOWER,
-            "australian_flame_pea", ModBlocks.AUSTRALIAN_FLAME_PEA,
-            "baby_blue_eyes", ModBlocks.BABY_BLUE_EYES
-            // aggiungi tutti gli altri fiori qui
-    );
+
 
     public static final Map<String, RegistryKey<PlacedFeature>> PLACED_FEATURES = new HashMap<>();
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
-        Flowers.LOGGER.info("[WorldGen] PlacedBootsTrap");
+        Flowers.LOGGER.info("[Placed] BootsTrap");
 
-        ModConfiguredFeatures.CONFIGURED_FEATURES.forEach((name, configuredKey) -> {
-            RegistryKey<PlacedFeature> placedKey = RegistryKey.of(
-                    RegistryKeys.PLACED_FEATURE,
-                    Identifier.of(Flowers.MOD_ID, name + "_placed_key")
-            );
-            PLACED_FEATURES.put(name, placedKey);
 
-            context.register(placedKey, new PlacedFeature(
-                    context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE).getOrThrow(configuredKey),
-                    List.of(
-                            RarityFilterPlacementModifier.of(5),
-                            SquarePlacementModifier.of(),
-                            PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
-                            BiomePlacementModifier.of()
-                    )
-            ));
-
-            Flowers.LOGGER.info("[WorldGen] PlacedFeature: {}", name);
-        });
 
         register(context, RACCOON_GRAPE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RACCOON_GRAPE_KEY),
-                RarityFilterPlacementModifier.of(5),
-                SquarePlacementModifier.of(),
-                PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
-                BiomePlacementModifier.of());
+                createFlowerPatchPlacement(1));
 
-        Flowers.LOGGER.info("[WorldGen] PlacedFeature: Raccoon Grape Bush");
+        register(context, AFRICAN_DAISY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.AFRICAN_DAISY_KEY),
+                createFlowerPatchPlacement(1));
+
     }
 
 
@@ -79,5 +54,16 @@ public class ModPlacedFeatures {
                                                                                    RegistryEntry<ConfiguredFeature<?, ?>> configuration,
                                                                                    PlacementModifier... modifiers) {
         register(context, key, configuration, List.of(modifiers));
+    }
+
+    public static List<PlacementModifier> createFlowerPatchPlacement(int rarity) {
+        Flowers.LOGGER.info("[Placed] Created Random Patch of Rarity " + rarity);
+
+        return List.of(
+                RarityFilterPlacementModifier.of(rarity),
+                SquarePlacementModifier.of(),
+                PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP,
+                BiomePlacementModifier.of()
+        );
     }
 }

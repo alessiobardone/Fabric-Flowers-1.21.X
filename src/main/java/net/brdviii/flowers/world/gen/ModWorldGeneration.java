@@ -29,34 +29,11 @@ public class ModWorldGeneration {
     public static void generateModWorldGen() {
         Flowers.LOGGER.info("Adding Custom Worldgen for " + Flowers.MOD_ID);
 
-        String[] flowerKeys = {
-                "african_daisy",
-                "albuca_namaquensis",
-                "australian_cornflower",
-                "australian_flame_pea",
-                "baby_blue_eyes"
-        };
-
-
-        for (String name : flowerKeys) {
-            RegistryKey<PlacedFeature> placedKey = RegistryKey.of(
-                    RegistryKeys.PLACED_FEATURE,
-                    Identifier.of(Flowers.MOD_ID, name + "_placed_key") // deve corrispondere al JSON generato
-            );
-
-            BiomeModifications.addFeature(
-                    BiomeSelectors.foundInOverworld(),
-                    GenerationStep.Feature.VEGETAL_DECORATION,
-                    placedKey
-            );
-
-            Flowers.LOGGER.info("[WorldGen] Feature Added to Biome: {}", name);
-        }
-
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.PLAINS,BiomeKeys.FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.RACCOON_GRAPE_PLACED_KEY);
 
-        Flowers.LOGGER.info("[WorldGen] Feature Added to Biome: Raccoon Grape Bush");
+        BiomeModifications.addFeature(BiomeSelectors.all(),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.AFRICAN_DAISY_PLACED_KEY);
     }
 }
 
