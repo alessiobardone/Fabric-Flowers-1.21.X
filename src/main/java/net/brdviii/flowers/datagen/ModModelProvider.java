@@ -1,5 +1,6 @@
 package net.brdviii.flowers.datagen;
 
+import net.brdviii.flowers.block.custom.RacoonGrapeBlock;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Block;
@@ -189,11 +190,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTintableCross(ModBlocks.TUMBLE_WEED, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(ModBlocks.VIOLET_WEBCAP, BlockStateModelGenerator.TintType.TINTED);
         blockStateModelGenerator.registerTintableCross(ModBlocks.YELLOW_PATCHES, BlockStateModelGenerator.TintType.TINTED);
+
+        blockStateModelGenerator.registerTintableCrossBlockStateWithStages(ModBlocks.RACCOON_GRAPES_BUSH,BlockStateModelGenerator.TintType.NOT_TINTED,
+                RacoonGrapeBlock.AGE,0,1,2,3);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-
     }
 }
 

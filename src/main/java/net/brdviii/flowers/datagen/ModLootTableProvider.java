@@ -2,9 +2,22 @@ package net.brdviii.flowers.datagen;
 
 
 import net.brdviii.flowers.block.ModBlocks;
+import net.brdviii.flowers.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.item.Items;
+import net.minecraft.loot.LootPool;
+import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
+import net.minecraft.loot.entry.ItemEntry;
+import net.minecraft.loot.function.ApplyBonusLootFunction;
+import net.minecraft.loot.function.SetCountLootFunction;
+import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -18,7 +31,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
-
 
         addDrop(ModBlocks.AFRICAN_DAISY);
         addDrop(ModBlocks.ALBUCA_NAMAQUENSIS);
@@ -211,5 +223,31 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WISTERIA_LAVANDER_PLANT,ModBlocks.WISTERIA_LAVANDER);
         addDrop(ModBlocks.WISTERIA_PURPLE_PLANT,ModBlocks.WISTERIA_PURPLE);
         addDrop(ModBlocks.WISTERIA_WHITE_PLANT,ModBlocks.WISTERIA_WHITE);
+
+        this.addDrop(
+                ModBlocks.RACCOON_GRAPES_BUSH,
+                block -> this.applyExplosionDecay(
+                        block,
+                        LootTable.builder()
+                                .pool(
+                                        LootPool.builder()
+                                                .conditionally(
+                                                        BlockStatePropertyLootCondition.builder(ModBlocks.RACCOON_GRAPES_BUSH).properties(StatePredicate.Builder.create().exactMatch(SweetBerryBushBlock.AGE, 3))
+                                                )
+                                                .with(ItemEntry.builder(ModItems.RACCOON_GRAPE))
+                                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0F, 3.0F)))
+                                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE)))
+                                )
+                                .pool(
+                                        LootPool.builder()
+                                                .conditionally(
+                                                        BlockStatePropertyLootCondition.builder(ModBlocks.RACCOON_GRAPES_BUSH).properties(StatePredicate.Builder.create().exactMatch(SweetBerryBushBlock.AGE, 2))
+                                                )
+                                                .with(ItemEntry.builder(ModItems.RACCOON_GRAPE))
+                                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 2.0F)))
+                                                .apply(ApplyBonusLootFunction.uniformBonusCount(impl.getOrThrow(Enchantments.FORTUNE)))
+                                )
+                )
+        );
     }
 }
