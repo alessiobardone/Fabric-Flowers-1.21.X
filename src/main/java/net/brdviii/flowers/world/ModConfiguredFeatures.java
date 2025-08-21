@@ -6,30 +6,44 @@ import net.brdviii.flowers.block.custom.RacoonGrapeBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.SweetBerryBushBlock;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.collection.DataPool;
-import net.minecraft.util.collection.Pool;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.stateprovider.WeightedBlockStateProvider;
+import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+
 import java.util.List;
 import java.util.Map;
 
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> RACCOON_GRAPE_KEY = registerKey("raccoon_grape_key");
     public static final RegistryKey<ConfiguredFeature<?, ?>> AFRICAN_DAISY_KEY = registerKey("african_daisy_key");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> CALLA_LILY_KEY = registerKey("calla_lily_key");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> DAY_LILY_KEY = registerKey("day_lily_key");
 
     static Map<Block, Integer> african_daisy = Map.of(
             ModBlocks.AFRICAN_DAISY, 1,
             ModBlocks.PURPLE_AFRICAN_DAISY, 1
     );
+
+    static Map<Block, Integer> calla_lily = Map.of(
+            ModBlocks.CALLA_LILY, 1,
+            ModBlocks.PURPLE_CALLA_LILY, 1,
+            ModBlocks.TALL_CALLA_LILY, 1
+    );
+
+    static Map<Block, Integer> day_liy = Map.of(
+            ModBlocks.BLUE_TINSEL_LILY, 1,
+            ModBlocks.DAY_LILY, 1,
+            ModBlocks.GLORIOSA_LILY, 1,
+            ModBlocks.ORANGE_DAY_LILY, 1
+    );
+
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         Flowers.LOGGER.info("[Configured] BootsTrap");
@@ -40,7 +54,13 @@ public class ModConfiguredFeatures {
 
 
         register(context, AFRICAN_DAISY_KEY, Feature.RANDOM_PATCH,
-                createMixedPatch(african_daisy,64));
+                createMixedPatch(african_daisy,32));
+
+        register(context, DAY_LILY_KEY, Feature.RANDOM_PATCH,
+                createMixedPatch(day_liy,32));
+
+        register(context, CALLA_LILY_KEY, Feature.RANDOM_PATCH,
+                createMixedPatch(calla_lily,32));
     }
 
     public static RandomPatchFeatureConfig createSimplePatch(Block block, int tries) {
@@ -75,7 +95,7 @@ public class ModConfiguredFeatures {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, Identifier.of(Flowers.MOD_ID, name));
     }
 
-    private static <FC extends FeatureConfig, F extends Feature<FC>> void register(Registerable<ConfiguredFeature<?, ?>> context,
+    private static <FC extends FeatureConfig, F extends Feature<FC>> void register(@NotNull Registerable<ConfiguredFeature<?, ?>> context,
                                                                                    RegistryKey<ConfiguredFeature<?, ?>> key, F feature, FC configuration) {
         context.register(key, new ConfiguredFeature<>(feature, configuration));
     }

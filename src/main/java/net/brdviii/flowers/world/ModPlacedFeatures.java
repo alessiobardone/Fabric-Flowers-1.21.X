@@ -1,8 +1,6 @@
 package net.brdviii.flowers.world;
 
 import net.brdviii.flowers.Flowers;
-import net.brdviii.flowers.block.ModBlocks;
-import net.minecraft.block.Block;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -14,17 +12,16 @@ import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 import net.minecraft.world.gen.placementmodifier.RarityFilterPlacementModifier;
 import net.minecraft.world.gen.placementmodifier.SquarePlacementModifier;
 
-import java.util.HashMap;
+
 import java.util.List;
-import java.util.Map;
+
 
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> RACCOON_GRAPE_PLACED_KEY = registerKey("raccoon_grape_placed_key");
     public static final RegistryKey<PlacedFeature> AFRICAN_DAISY_PLACED_KEY = registerKey("african_daisy_placed_key");
+    public static final RegistryKey<PlacedFeature> DAY_LILY_PLACED_KEY = registerKey("day_lily_placed_key");
+    public static final RegistryKey<PlacedFeature> CALLA_LILY_PLACED_KEY = registerKey("calla_lily_placed_key");
 
-
-
-    public static final Map<String, RegistryKey<PlacedFeature>> PLACED_FEATURES = new HashMap<>();
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -33,10 +30,16 @@ public class ModPlacedFeatures {
 
 
         register(context, RACCOON_GRAPE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RACCOON_GRAPE_KEY),
-                createFlowerPatchPlacement(1));
+                createFlowerPatchPlacement(5));
 
         register(context, AFRICAN_DAISY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.AFRICAN_DAISY_KEY),
-                createFlowerPatchPlacement(1));
+                createFlowerPatchPlacement(5));
+
+        register(context, DAY_LILY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.DAY_LILY_KEY),
+                createFlowerPatchPlacement(5));
+
+        register(context, CALLA_LILY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CALLA_LILY_KEY),
+                createFlowerPatchPlacement(5));
 
     }
 

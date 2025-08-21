@@ -10,13 +10,13 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:purple_african_daisy"
+                  "Name": "flowers:african_daisy"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:african_daisy"
+                  "Name": "flowers:purple_african_daisy"
                 },
                 "weight": 1
               }
@@ -34,7 +34,7 @@
         }
       ]
     },
-    "tries": 64,
+    "tries": 32,
     "xz_spread": 7,
     "y_spread": 3
   }
