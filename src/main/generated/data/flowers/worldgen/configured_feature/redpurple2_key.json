@@ -10,22 +10,25 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:tall_calla_lily",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:blue_eyed_grass"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:purple_calla_lily"
+                  "Name": "flowers:dahlia"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:calla_lily"
+                  "Name": "flowers:desert_paintbrush"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:common_periwinkle"
                 },
                 "weight": 1
               }

@@ -19,12 +19,6 @@
               },
               {
                 "data": {
-                  "Name": "flowers:day_lily"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:blue_tinsel_lily"
                 },
                 "weight": 1
@@ -32,6 +26,12 @@
               {
                 "data": {
                   "Name": "flowers:orange_day_lily"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:day_lily"
                 },
                 "weight": 1
               }

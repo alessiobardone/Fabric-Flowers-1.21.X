@@ -21,6 +21,9 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> AFRICAN_DAISY_PLACED_KEY = registerKey("african_daisy_placed_key");
     public static final RegistryKey<PlacedFeature> DAY_LILY_PLACED_KEY = registerKey("day_lily_placed_key");
     public static final RegistryKey<PlacedFeature> CALLA_LILY_PLACED_KEY = registerKey("calla_lily_placed_key");
+    public static final RegistryKey<PlacedFeature> REDPURPLE1_PLACED_KEY = registerKey("redpurple1_placed_key");
+    public static final RegistryKey<PlacedFeature> REDPURPLE2_PLACED_KEY = registerKey("redpurple2_placed_key");
+    public static final RegistryKey<PlacedFeature> REDPURPLE3_PLACED_KEY = registerKey("redpurple3_placed_key");
 
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
@@ -39,6 +42,15 @@ public class ModPlacedFeatures {
                 createFlowerPatchPlacement(5));
 
         register(context, CALLA_LILY_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CALLA_LILY_KEY),
+                createFlowerPatchPlacement(5));
+
+        register(context, REDPURPLE1_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.REDPURPLE1_KEY),
+                createFlowerPatchPlacement(5));
+
+        register(context, REDPURPLE2_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.REDPURPLE2_KEY),
+                createFlowerPatchPlacement(5));
+
+        register(context, REDPURPLE3_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.REDPURPLE3_KEY),
                 createFlowerPatchPlacement(5));
 
     }

@@ -10,7 +10,19 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:tall_calla_lily",
+                  "Name": "flowers:creeping_thyme"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:mexican_sage"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:cape_aloe",
                   "Properties": {
                     "half": "lower"
                   }
@@ -19,13 +31,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:purple_calla_lily"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:calla_lily"
+                  "Name": "flowers:desert_sturt_pea"
                 },
                 "weight": 1
               }

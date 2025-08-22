@@ -25,6 +25,9 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> AFRICAN_DAISY_KEY = registerKey("african_daisy_key");
     public static final RegistryKey<ConfiguredFeature<?, ?>> CALLA_LILY_KEY = registerKey("calla_lily_key");
     public static final RegistryKey<ConfiguredFeature<?, ?>> DAY_LILY_KEY = registerKey("day_lily_key");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> REDPURPLE1_KEY = registerKey("redpurple1_key");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> REDPURPLE2_KEY = registerKey("redpurple2_key");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> REDPURPLE3_KEY = registerKey("redpurple3_key");
 
     static Map<Block, Integer> african_daisy = Map.of(
             ModBlocks.AFRICAN_DAISY, 1,
@@ -44,6 +47,27 @@ public class ModConfiguredFeatures {
             ModBlocks.ORANGE_DAY_LILY, 1
     );
 
+    static Map<Block, Integer> redPurple1 = Map.of(
+            ModBlocks.BANEBERRY,1,
+            ModBlocks.BUCKWHEAT_RED,1,
+            ModBlocks.AFRICAN_DAISY,1,
+            ModBlocks.BACHELOR_BUTTON,1
+    );
+
+    static Map<Block, Integer> redPurple2 = Map.of(
+            ModBlocks.DAHLIA,1,
+            ModBlocks.DESERT_PAINTBRUSH,1,
+            ModBlocks.BLUE_EYED_GRASS,1,
+            ModBlocks.COMMON_PERIWINKLE,1
+    );
+
+    static Map<Block, Integer> redPurple3 = Map.of(
+            ModBlocks.CAPE_ALOE,1,
+            ModBlocks.DESERT_STURT_PEA,1,
+            ModBlocks.CREEPING_THYME,1,
+            ModBlocks.MEXICAN_SAGE,1
+    );
+
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         Flowers.LOGGER.info("[Configured] BootsTrap");
@@ -61,6 +85,15 @@ public class ModConfiguredFeatures {
 
         register(context, CALLA_LILY_KEY, Feature.RANDOM_PATCH,
                 createMixedPatch(calla_lily,32));
+
+        register(context, REDPURPLE1_KEY, Feature.RANDOM_PATCH,
+                createMixedPatch(redPurple1,32));
+
+        register(context, REDPURPLE2_KEY, Feature.RANDOM_PATCH,
+                createMixedPatch(redPurple2,32));
+
+        register(context, REDPURPLE3_KEY, Feature.RANDOM_PATCH,
+                createMixedPatch(redPurple3,32));
     }
 
     public static RandomPatchFeatureConfig createSimplePatch(Block block, int tries) {

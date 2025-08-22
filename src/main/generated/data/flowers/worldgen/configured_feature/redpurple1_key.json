@@ -10,22 +10,25 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:tall_calla_lily",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:buckwheat_red"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:purple_calla_lily"
+                  "Name": "flowers:bachelor_button"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:calla_lily"
+                  "Name": "flowers:baneberry"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:african_daisy"
                 },
                 "weight": 1
               }

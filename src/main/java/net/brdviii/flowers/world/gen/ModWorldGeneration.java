@@ -23,6 +23,15 @@ public class ModWorldGeneration {
 
         BiomeModifications.addFeature(BiomeSelectors.all(),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CALLA_LILY_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.all(),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.REDPURPLE1_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.all(),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.REDPURPLE2_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.all(),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.REDPURPLE3_PLACED_KEY);
     }
 }
 

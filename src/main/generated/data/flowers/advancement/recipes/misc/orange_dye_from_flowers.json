@@ -91,6 +91,16 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "has_orange_freesia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:orange_freesia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_orange_lupin": {
       "conditions": {
         "items": [
@@ -140,6 +150,7 @@
       "has_orange_australian_flame_pea",
       "has_orange_cosmos",
       "has_orange_day_lily",
+      "has_orange_freesia",
       "has_orange_lupin",
       "has_sticky_monkey",
       "has_striped_zinnia"
