@@ -1,0 +1,153 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_baneberry": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:baneberry"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_buckwheat_red": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:buckwheat_red"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dahlia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:dahlia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_desert_paintbrush": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:desert_paintbrush"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_desert_sturt_pea": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:desert_sturt_pea"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_devils_fingers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:devils_fingers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jewel_of_the_desert": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:jewel_of_the_desert"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pink_clover": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:pink_clover"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_red_clover": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:red_clover"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_red_freesia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:red_freesia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_red_geranium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:red_geranium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_red_poppy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:red_poppy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:red_dye_from_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_baneberry",
+      "has_buckwheat_red",
+      "has_dahlia",
+      "has_desert_paintbrush",
+      "has_desert_sturt_pea",
+      "has_devils_fingers",
+      "has_jewel_of_the_desert",
+      "has_pink_clover",
+      "has_red_clover",
+      "has_red_freesia",
+      "has_red_geranium",
+      "has_red_poppy"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:red_dye_from_flowers"
+    ]
+  }
+}

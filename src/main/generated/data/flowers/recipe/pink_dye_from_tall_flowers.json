@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:flowering_current"
+      },
+      {
+        "item": "flowers:hawthorne"
+      },
+      {
+        "item": "flowers:iris_fancy_dress"
+      },
+      {
+        "item": "flowers:lavender_larkspur"
+      },
+      {
+        "item": "flowers:light_pink_larkspur"
+      },
+      {
+        "item": "flowers:ornamental_cherry"
+      },
+      {
+        "item": "flowers:pink_larkspur"
+      },
+      {
+        "item": "flowers:staked_nasturtium_pink"
+      },
+      {
+        "item": "flowers:tall_cosmos"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:pink_dye"
+  }
+}

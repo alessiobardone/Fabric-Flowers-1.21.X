@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:california_poppy"
+      },
+      {
+        "item": "flowers:corydalis"
+      },
+      {
+        "item": "flowers:day_lily"
+      },
+      {
+        "item": "flowers:lady_slipper_orchid"
+      },
+      {
+        "item": "flowers:lantana"
+      },
+      {
+        "item": "flowers:mixed_zinnia"
+      },
+      {
+        "item": "flowers:orange_australian_flame_pea"
+      },
+      {
+        "item": "flowers:orange_cosmos"
+      },
+      {
+        "item": "flowers:orange_day_lily"
+      },
+      {
+        "item": "flowers:orange_lupin"
+      },
+      {
+        "item": "flowers:sticky_monkey"
+      },
+      {
+        "item": "flowers:striped_zinnia"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:orange_dye"
+  }
+}

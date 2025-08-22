@@ -1,0 +1,142 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cosmos": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:cosmos"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_echinacea": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:echinacea"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_engelmanns_hedgehog_cactus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:engelmanns_hedgehog_cactus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_fuchsia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:fuchsia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magenta_clover": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:magenta_clover"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magenta_orchid": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:magenta_orchid"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magenta_zinnia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:magenta_zinnia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_maroon_mallow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:maroon_mallow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_parrot_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:parrot_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pink_geranium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:pink_geranium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pink_petticoat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:pink_petticoat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:magenta_dye_from_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cosmos",
+      "has_echinacea",
+      "has_engelmanns_hedgehog_cactus",
+      "has_fuchsia",
+      "has_magenta_clover",
+      "has_magenta_orchid",
+      "has_magenta_zinnia",
+      "has_maroon_mallow",
+      "has_parrot_flower",
+      "has_pink_geranium",
+      "has_pink_petticoat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:magenta_dye_from_flowers"
+    ]
+  }
+}

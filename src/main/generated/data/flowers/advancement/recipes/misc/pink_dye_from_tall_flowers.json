@@ -1,0 +1,120 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flowering_current": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:flowering_current"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_hawthorne": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:hawthorne"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iris_fancy_dress": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:iris_fancy_dress"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lavender_larkspur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:lavender_larkspur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_light_pink_larkspur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:light_pink_larkspur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ornamental_cherry": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:ornamental_cherry"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pink_larkspur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:pink_larkspur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_staked_nasturtium_pink": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:staked_nasturtium_pink"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tall_cosmos": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:tall_cosmos"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pink_dye_from_tall_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flowering_current",
+      "has_hawthorne",
+      "has_iris_fancy_dress",
+      "has_lavender_larkspur",
+      "has_light_pink_larkspur",
+      "has_ornamental_cherry",
+      "has_pink_larkspur",
+      "has_staked_nasturtium_pink",
+      "has_tall_cosmos"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pink_dye_from_tall_flowers"
+    ]
+  }
+}

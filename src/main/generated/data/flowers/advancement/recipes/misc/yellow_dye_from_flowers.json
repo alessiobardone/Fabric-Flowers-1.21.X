@@ -1,0 +1,197 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_australian_flame_pea": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:australian_flame_pea"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_beach_strawberry": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:beach_strawberry"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cinquefoil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:cinquefoil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_coastal_lotus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:coastal_lotus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_crinoline_stinkhorn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:crinoline_stinkhorn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_crocus_mix": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:crocus_mix"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_golden_bean": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:golden_bean"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_nasturtium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:nasturtium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sunny_zinnia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:sunny_zinnia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:yellow_dye_from_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellow_cosmos": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:yellow_cosmos"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_yellow_crocus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:yellow_crocus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_yellow_daffodil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:yellow_daffodil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_yellow_freesia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:yellow_freesia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_yellow_lupin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:yellow_lupin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_yellow_patches": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:yellow_patches"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_yellow_starthistle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:yellow_starthistle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_australian_flame_pea",
+      "has_beach_strawberry",
+      "has_cinquefoil",
+      "has_coastal_lotus",
+      "has_crinoline_stinkhorn",
+      "has_crocus_mix",
+      "has_golden_bean",
+      "has_nasturtium",
+      "has_sunny_zinnia",
+      "has_yellow_cosmos",
+      "has_yellow_crocus",
+      "has_yellow_daffodil",
+      "has_yellow_freesia",
+      "has_yellow_lupin",
+      "has_yellow_patches",
+      "has_yellow_starthistle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:yellow_dye_from_flowers"
+    ]
+  }
+}

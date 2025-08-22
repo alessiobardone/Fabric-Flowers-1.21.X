@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:blue_bell_sweet_peas"
+      },
+      {
+        "item": "flowers:iris"
+      },
+      {
+        "item": "flowers:larkspur"
+      },
+      {
+        "item": "flowers:mojave_indigo_bush"
+      },
+      {
+        "item": "flowers:purple_larkspur"
+      },
+      {
+        "item": "flowers:purple_sweet_peas"
+      },
+      {
+        "item": "flowers:tall_lupin"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:purple_dye"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:baby_blue_eyes"
+      },
+      {
+        "item": "flowers:baby_blue_eyes_small"
+      },
+      {
+        "item": "flowers:blue_bachelor_button"
+      },
+      {
+        "item": "flowers:blue_bell_bachelor_button"
+      },
+      {
+        "item": "flowers:dark_blue_borage"
+      },
+      {
+        "item": "flowers:grape_hyacinth"
+      },
+      {
+        "item": "flowers:medium_blue_lobelia"
+      },
+      {
+        "item": "flowers:morning_glory"
+      },
+      {
+        "item": "flowers:royal_blue_lobelia"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:blue_dye"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_datura": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:datura"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dried_sunflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:dried_sunflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_orange_gladiola": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:orange_gladiola"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_peach_gladiola": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:peach_gladiola"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_staked_nasturtium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:staked_nasturtium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tall_orange_cosmos": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:tall_orange_cosmos"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:orange_dye_from_tall_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_datura",
+      "has_dried_sunflower",
+      "has_orange_gladiola",
+      "has_peach_gladiola",
+      "has_staked_nasturtium",
+      "has_tall_orange_cosmos"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:orange_dye_from_tall_flowers"
+    ]
+  }
+}

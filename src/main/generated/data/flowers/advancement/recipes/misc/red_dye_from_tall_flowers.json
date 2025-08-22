@@ -1,0 +1,87 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cape_aloe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:cape_aloe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_crimson_gladiola": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:crimson_gladiola"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gloriosa_lily": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:gloriosa_lily"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ocotillo": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:ocotillo"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_quince": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:quince"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_red_sunflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:red_sunflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:red_dye_from_tall_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cape_aloe",
+      "has_crimson_gladiola",
+      "has_gloriosa_lily",
+      "has_ocotillo",
+      "has_quince",
+      "has_red_sunflower"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:red_dye_from_tall_flowers"
+    ]
+  }
+}

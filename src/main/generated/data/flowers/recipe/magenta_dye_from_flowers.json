@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:cosmos"
+      },
+      {
+        "item": "flowers:echinacea"
+      },
+      {
+        "item": "flowers:engelmanns_hedgehog_cactus"
+      },
+      {
+        "item": "flowers:fuchsia"
+      },
+      {
+        "item": "flowers:magenta_clover"
+      },
+      {
+        "item": "flowers:magenta_orchid"
+      },
+      {
+        "item": "flowers:magenta_zinnia"
+      },
+      {
+        "item": "flowers:maroon_mallow"
+      },
+      {
+        "item": "flowers:parrot_flower"
+      },
+      {
+        "item": "flowers:pink_geranium"
+      },
+      {
+        "item": "flowers:pink_petticoat"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:magenta_dye"
+  }
+}

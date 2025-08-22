@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:borage"
+      },
+      {
+        "item": "flowers:cloud_blue_corydalis"
+      },
+      {
+        "item": "flowers:forget_me_not"
+      },
+      {
+        "item": "flowers:light_blue_forget_me_not"
+      },
+      {
+        "item": "flowers:light_blue_lobelia"
+      },
+      {
+        "item": "flowers:virginia_cowslip"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:light_blue_dye"
+  }
+}

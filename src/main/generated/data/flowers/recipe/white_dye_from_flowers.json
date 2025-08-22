@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:calla_lily"
+      },
+      {
+        "item": "flowers:chrysanthenum"
+      },
+      {
+        "item": "flowers:narcissus"
+      },
+      {
+        "item": "flowers:snapdragon_white"
+      },
+      {
+        "item": "flowers:white_daffodil"
+      },
+      {
+        "item": "flowers:white_tinsel_flower"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:white_dye"
+  }
+}

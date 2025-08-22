@@ -1,0 +1,219 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_african_daisy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:african_daisy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bachelor_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:bachelor_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_blue_eyed_grass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:blue_eyed_grass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_common_periwinkle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:common_periwinkle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_creeping_thyme": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:creeping_thyme"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_darkosto_traposto": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:darkosto_traposto"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mexican_sage": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:mexican_sage"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_notch_leaf_scorpion_weed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:notch_leaf_scorpion_weed"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pansy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:pansy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pansy_purple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:pansy_purple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_purple_african_daisy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:purple_african_daisy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_purple_calla_lily": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:purple_calla_lily"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_purple_lupin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:purple_lupin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_purple_magenta_salvia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:purple_magenta_salvia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_salvia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:salvia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:purple_dye_from_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_violet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:violet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_violet_webcap": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:violet_webcap"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_wolfs_bane": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:wolfs_bane"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_african_daisy",
+      "has_bachelor_button",
+      "has_blue_eyed_grass",
+      "has_common_periwinkle",
+      "has_creeping_thyme",
+      "has_darkosto_traposto",
+      "has_mexican_sage",
+      "has_notch_leaf_scorpion_weed",
+      "has_pansy",
+      "has_pansy_purple",
+      "has_purple_african_daisy",
+      "has_purple_calla_lily",
+      "has_purple_lupin",
+      "has_purple_magenta_salvia",
+      "has_salvia",
+      "has_violet",
+      "has_violet_webcap",
+      "has_wolfs_bane"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:purple_dye_from_flowers"
+    ]
+  }
+}

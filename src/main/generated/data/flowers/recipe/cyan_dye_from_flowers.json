@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:australian_cornflower"
+      },
+      {
+        "item": "flowers:blue_tinsel_lily"
+      },
+      {
+        "item": "flowers:commelina"
+      },
+      {
+        "item": "flowers:cyan_hyacinth"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cyan_dye"
+  }
+}

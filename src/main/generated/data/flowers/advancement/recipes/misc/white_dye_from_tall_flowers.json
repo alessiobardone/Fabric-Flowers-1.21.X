@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mendocino_poppy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:mendocino_poppy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tall_calla_lily": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:tall_calla_lily"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:white_dye_from_tall_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_larkspur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:white_larkspur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_yucca_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:yucca_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mendocino_poppy",
+      "has_tall_calla_lily",
+      "has_white_larkspur",
+      "has_yucca_flower"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:white_dye_from_tall_flowers"
+    ]
+  }
+}

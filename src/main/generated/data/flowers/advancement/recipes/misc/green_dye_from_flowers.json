@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_albuca_namaquensis": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:albuca_namaquensis"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sprout": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:sprout"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:green_dye_from_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_venus_fly_trap": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:venus_fly_trap"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_albuca_namaquensis",
+      "has_sprout",
+      "has_venus_fly_trap"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:green_dye_from_flowers"
+    ]
+  }
+}

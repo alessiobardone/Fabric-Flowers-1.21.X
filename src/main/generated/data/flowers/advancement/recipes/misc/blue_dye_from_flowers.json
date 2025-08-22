@@ -1,0 +1,120 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_baby_blue_eyes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:baby_blue_eyes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_baby_blue_eyes_small": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:baby_blue_eyes_small"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_blue_bachelor_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:blue_bachelor_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_blue_bell_bachelor_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:blue_bell_bachelor_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dark_blue_borage": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:dark_blue_borage"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_grape_hyacinth": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:grape_hyacinth"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_medium_blue_lobelia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:medium_blue_lobelia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_morning_glory": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:morning_glory"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_royal_blue_lobelia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:royal_blue_lobelia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:blue_dye_from_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_baby_blue_eyes",
+      "has_baby_blue_eyes_small",
+      "has_blue_bachelor_button",
+      "has_blue_bell_bachelor_button",
+      "has_dark_blue_borage",
+      "has_grape_hyacinth",
+      "has_medium_blue_lobelia",
+      "has_morning_glory",
+      "has_royal_blue_lobelia"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blue_dye_from_flowers"
+    ]
+  }
+}

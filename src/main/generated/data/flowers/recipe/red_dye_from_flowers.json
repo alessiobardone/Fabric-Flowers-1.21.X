@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:baneberry"
+      },
+      {
+        "item": "flowers:buckwheat_red"
+      },
+      {
+        "item": "flowers:dahlia"
+      },
+      {
+        "item": "flowers:desert_paintbrush"
+      },
+      {
+        "item": "flowers:desert_sturt_pea"
+      },
+      {
+        "item": "flowers:devils_fingers"
+      },
+      {
+        "item": "flowers:jewel_of_the_desert"
+      },
+      {
+        "item": "flowers:pink_clover"
+      },
+      {
+        "item": "flowers:red_clover"
+      },
+      {
+        "item": "flowers:red_freesia"
+      },
+      {
+        "item": "flowers:red_geranium"
+      },
+      {
+        "item": "flowers:red_poppy"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:red_dye"
+  }
+}

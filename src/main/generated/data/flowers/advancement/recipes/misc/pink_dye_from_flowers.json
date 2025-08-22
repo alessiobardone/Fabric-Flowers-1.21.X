@@ -1,0 +1,230 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_birds_eye_gilia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:birds_eye_gilia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bleeding_heart": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:bleeding_heart"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_buckwheat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:buckwheat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_california_sea_thrift": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:california_sea_thrift"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cosmos_mix": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:cosmos_mix"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_desert_sand_verbena": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:desert_sand_verbena"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_devils_claw": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:devils_claw"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lewisia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:lewisia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_light_pink_geranium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:light_pink_geranium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_nasturtium_pink": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:nasturtium_pink"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_owls_clover": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:owls_clover"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_peppermint": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:peppermint"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_periwinkle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:periwinkle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pink_desert_sand_verbena": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:pink_desert_sand_verbena"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_purple_crocus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:purple_crocus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_purple_flag": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:purple_flag"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rock_rose": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:rock_rose"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_snapdragon_pink": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:snapdragon_pink"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pink_dye_from_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wooly_thyme": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:wooly_thyme"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_birds_eye_gilia",
+      "has_bleeding_heart",
+      "has_buckwheat",
+      "has_california_sea_thrift",
+      "has_cosmos_mix",
+      "has_desert_sand_verbena",
+      "has_devils_claw",
+      "has_lewisia",
+      "has_light_pink_geranium",
+      "has_nasturtium_pink",
+      "has_owls_clover",
+      "has_peppermint",
+      "has_periwinkle",
+      "has_pink_desert_sand_verbena",
+      "has_purple_crocus",
+      "has_purple_flag",
+      "has_rock_rose",
+      "has_snapdragon_pink",
+      "has_wooly_thyme"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pink_dye_from_flowers"
+    ]
+  }
+}

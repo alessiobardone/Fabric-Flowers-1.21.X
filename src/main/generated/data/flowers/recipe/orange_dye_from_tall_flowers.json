@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:datura"
+      },
+      {
+        "item": "flowers:dried_sunflower"
+      },
+      {
+        "item": "flowers:orange_gladiola"
+      },
+      {
+        "item": "flowers:peach_gladiola"
+      },
+      {
+        "item": "flowers:staked_nasturtium"
+      },
+      {
+        "item": "flowers:tall_orange_cosmos"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:orange_dye"
+  }
+}

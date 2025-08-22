@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bright_magenta_sweet_peas": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:bright_magenta_sweet_peas"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gladiola": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:gladiola"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magenta_larkspur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:magenta_larkspur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_magenta_sweet_peas": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:magenta_sweet_peas"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mixed_pink_sweet_peas": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:mixed_pink_sweet_peas"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:magenta_dye_from_tall_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bright_magenta_sweet_peas",
+      "has_gladiola",
+      "has_magenta_larkspur",
+      "has_magenta_sweet_peas",
+      "has_mixed_pink_sweet_peas"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:magenta_dye_from_tall_flowers"
+    ]
+  }
+}

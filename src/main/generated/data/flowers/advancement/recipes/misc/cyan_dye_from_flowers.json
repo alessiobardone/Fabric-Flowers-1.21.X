@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_australian_cornflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:australian_cornflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_blue_tinsel_lily": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:blue_tinsel_lily"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_commelina": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:commelina"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cyan_hyacinth": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:cyan_hyacinth"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cyan_dye_from_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_australian_cornflower",
+      "has_blue_tinsel_lily",
+      "has_commelina",
+      "has_cyan_hyacinth"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cyan_dye_from_flowers"
+    ]
+  }
+}

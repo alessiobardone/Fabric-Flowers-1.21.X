@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:bright_magenta_sweet_peas"
+      },
+      {
+        "item": "flowers:gladiola"
+      },
+      {
+        "item": "flowers:magenta_larkspur"
+      },
+      {
+        "item": "flowers:magenta_sweet_peas"
+      },
+      {
+        "item": "flowers:mixed_pink_sweet_peas"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:magenta_dye"
+  }
+}

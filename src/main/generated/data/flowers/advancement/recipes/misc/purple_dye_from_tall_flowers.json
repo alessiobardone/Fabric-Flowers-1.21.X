@@ -1,0 +1,98 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_bell_sweet_peas": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:blue_bell_sweet_peas"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iris": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:iris"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_larkspur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:larkspur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mojave_indigo_bush": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:mojave_indigo_bush"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_purple_larkspur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:purple_larkspur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_purple_sweet_peas": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:purple_sweet_peas"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tall_lupin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:tall_lupin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:purple_dye_from_tall_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blue_bell_sweet_peas",
+      "has_iris",
+      "has_larkspur",
+      "has_mojave_indigo_bush",
+      "has_purple_larkspur",
+      "has_purple_sweet_peas",
+      "has_tall_lupin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:purple_dye_from_tall_flowers"
+    ]
+  }
+}

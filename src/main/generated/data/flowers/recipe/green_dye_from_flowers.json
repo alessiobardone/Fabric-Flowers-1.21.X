@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:albuca_namaquensis"
+      },
+      {
+        "item": "flowers:sprout"
+      },
+      {
+        "item": "flowers:venus_fly_trap"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:green_dye"
+  }
+}

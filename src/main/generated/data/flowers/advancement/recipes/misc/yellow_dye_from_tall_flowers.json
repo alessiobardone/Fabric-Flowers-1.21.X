@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_paradox_sunflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:paradox_sunflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_skyscraper_sunflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:skyscraper_sunflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sundance_kid_sunflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:sundance_kid_sunflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_teddy_bear_sunflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "flowers:teddy_bear_sunflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:yellow_dye_from_tall_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_paradox_sunflower",
+      "has_skyscraper_sunflower",
+      "has_sundance_kid_sunflower",
+      "has_teddy_bear_sunflower"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:yellow_dye_from_tall_flowers"
+    ]
+  }
+}

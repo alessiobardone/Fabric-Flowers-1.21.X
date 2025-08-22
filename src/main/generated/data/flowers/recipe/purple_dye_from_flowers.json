@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "flowers:african_daisy"
+      },
+      {
+        "item": "flowers:bachelor_button"
+      },
+      {
+        "item": "flowers:blue_eyed_grass"
+      },
+      {
+        "item": "flowers:common_periwinkle"
+      },
+      {
+        "item": "flowers:creeping_thyme"
+      },
+      {
+        "item": "flowers:darkosto_traposto"
+      },
+      {
+        "item": "flowers:mexican_sage"
+      },
+      {
+        "item": "flowers:notch_leaf_scorpion_weed"
+      },
+      {
+        "item": "flowers:pansy"
+      },
+      {
+        "item": "flowers:pansy_purple"
+      },
+      {
+        "item": "flowers:purple_african_daisy"
+      },
+      {
+        "item": "flowers:purple_calla_lily"
+      },
+      {
+        "item": "flowers:purple_lupin"
+      },
+      {
+        "item": "flowers:purple_magenta_salvia"
+      },
+      {
+        "item": "flowers:salvia"
+      },
+      {
+        "item": "flowers:violet"
+      },
+      {
+        "item": "flowers:violet_webcap"
+      },
+      {
+        "item": "flowers:wolfs_bane"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:purple_dye"
+  }
+}
