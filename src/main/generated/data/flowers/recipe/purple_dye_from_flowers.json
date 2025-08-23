@@ -3,60 +3,24 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:african_daisy"
-      },
-      {
-        "item": "flowers:bachelor_button"
-      },
-      {
-        "item": "flowers:blue_eyed_grass"
-      },
-      {
-        "item": "flowers:common_periwinkle"
-      },
-      {
-        "item": "flowers:creeping_thyme"
-      },
-      {
-        "item": "flowers:darkosto_traposto"
-      },
-      {
-        "item": "flowers:mexican_sage"
-      },
-      {
-        "item": "flowers:notch_leaf_scorpion_weed"
-      },
-      {
-        "item": "flowers:pansy"
-      },
-      {
-        "item": "flowers:pansy_purple"
-      },
-      {
-        "item": "flowers:purple_african_daisy"
-      },
-      {
-        "item": "flowers:purple_calla_lily"
-      },
-      {
-        "item": "flowers:purple_lupin"
-      },
-      {
-        "item": "flowers:purple_magenta_salvia"
-      },
-      {
-        "item": "flowers:salvia"
-      },
-      {
-        "item": "flowers:violet"
-      },
-      {
-        "item": "flowers:violet_webcap"
-      },
-      {
-        "item": "flowers:wolfs_bane"
-      }
+      "flowers:african_daisy",
+      "flowers:bachelor_button",
+      "flowers:blue_eyed_grass",
+      "flowers:common_periwinkle",
+      "flowers:creeping_thyme",
+      "flowers:darkosto_traposto",
+      "flowers:mexican_sage",
+      "flowers:notch_leaf_scorpion_weed",
+      "flowers:pansy",
+      "flowers:pansy_purple",
+      "flowers:purple_african_daisy",
+      "flowers:purple_calla_lily",
+      "flowers:purple_lupin",
+      "flowers:purple_magenta_salvia",
+      "flowers:salvia",
+      "flowers:violet",
+      "flowers:violet_webcap",
+      "flowers:wolfs_bane"
     ]
   ],
   "result": {

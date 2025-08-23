@@ -3,12 +3,8 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:inky_cap"
-      },
-      {
-        "item": "flowers:cracking_russula"
-      }
+      "flowers:inky_cap",
+      "flowers:cracking_russula"
     ]
   ],
   "result": {

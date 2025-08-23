@@ -3,18 +3,10 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:australian_cornflower"
-      },
-      {
-        "item": "flowers:blue_tinsel_lily"
-      },
-      {
-        "item": "flowers:commelina"
-      },
-      {
-        "item": "flowers:cyan_hyacinth"
-      }
+      "flowers:australian_cornflower",
+      "flowers:blue_tinsel_lily",
+      "flowers:commelina",
+      "flowers:cyan_hyacinth"
     ]
   ],
   "result": {

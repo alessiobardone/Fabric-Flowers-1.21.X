@@ -3,63 +3,25 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:birds_eye_gilia"
-      },
-      {
-        "item": "flowers:bleeding_heart"
-      },
-      {
-        "item": "flowers:buckwheat"
-      },
-      {
-        "item": "flowers:california_sea_thrift"
-      },
-      {
-        "item": "flowers:cosmos_mix"
-      },
-      {
-        "item": "flowers:desert_sand_verbena"
-      },
-      {
-        "item": "flowers:devils_claw"
-      },
-      {
-        "item": "flowers:lewisia"
-      },
-      {
-        "item": "flowers:light_pink_geranium"
-      },
-      {
-        "item": "flowers:nasturtium_pink"
-      },
-      {
-        "item": "flowers:owls_clover"
-      },
-      {
-        "item": "flowers:peppermint"
-      },
-      {
-        "item": "flowers:periwinkle"
-      },
-      {
-        "item": "flowers:pink_desert_sand_verbena"
-      },
-      {
-        "item": "flowers:purple_crocus"
-      },
-      {
-        "item": "flowers:purple_flag"
-      },
-      {
-        "item": "flowers:rock_rose"
-      },
-      {
-        "item": "flowers:snapdragon_pink"
-      },
-      {
-        "item": "flowers:wooly_thyme"
-      }
+      "flowers:birds_eye_gilia",
+      "flowers:bleeding_heart",
+      "flowers:buckwheat",
+      "flowers:california_sea_thrift",
+      "flowers:cosmos_mix",
+      "flowers:desert_sand_verbena",
+      "flowers:devils_claw",
+      "flowers:lewisia",
+      "flowers:light_pink_geranium",
+      "flowers:nasturtium_pink",
+      "flowers:owls_clover",
+      "flowers:peppermint",
+      "flowers:periwinkle",
+      "flowers:pink_desert_sand_verbena",
+      "flowers:purple_crocus",
+      "flowers:purple_flag",
+      "flowers:rock_rose",
+      "flowers:snapdragon_pink",
+      "flowers:wooly_thyme"
     ]
   ],
   "result": {

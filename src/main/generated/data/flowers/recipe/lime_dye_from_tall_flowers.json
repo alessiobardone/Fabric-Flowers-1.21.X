@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "flowers:tall_cactus"
-    }
+    "flowers:tall_cactus"
   ],
   "result": {
     "count": 2,

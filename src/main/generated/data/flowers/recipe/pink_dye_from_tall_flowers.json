@@ -3,33 +3,15 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:flowering_current"
-      },
-      {
-        "item": "flowers:hawthorne"
-      },
-      {
-        "item": "flowers:iris_fancy_dress"
-      },
-      {
-        "item": "flowers:lavender_larkspur"
-      },
-      {
-        "item": "flowers:light_pink_larkspur"
-      },
-      {
-        "item": "flowers:ornamental_cherry"
-      },
-      {
-        "item": "flowers:pink_larkspur"
-      },
-      {
-        "item": "flowers:staked_nasturtium_pink"
-      },
-      {
-        "item": "flowers:tall_cosmos"
-      }
+      "flowers:flowering_current",
+      "flowers:hawthorne",
+      "flowers:iris_fancy_dress",
+      "flowers:lavender_larkspur",
+      "flowers:light_pink_larkspur",
+      "flowers:ornamental_cherry",
+      "flowers:pink_larkspur",
+      "flowers:staked_nasturtium_pink",
+      "flowers:tall_cosmos"
     ]
   ],
   "result": {

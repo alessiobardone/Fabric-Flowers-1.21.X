@@ -3,39 +3,17 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:cosmos"
-      },
-      {
-        "item": "flowers:echinacea"
-      },
-      {
-        "item": "flowers:engelmanns_hedgehog_cactus"
-      },
-      {
-        "item": "flowers:fuchsia"
-      },
-      {
-        "item": "flowers:magenta_clover"
-      },
-      {
-        "item": "flowers:magenta_orchid"
-      },
-      {
-        "item": "flowers:magenta_zinnia"
-      },
-      {
-        "item": "flowers:maroon_mallow"
-      },
-      {
-        "item": "flowers:parrot_flower"
-      },
-      {
-        "item": "flowers:pink_geranium"
-      },
-      {
-        "item": "flowers:pink_petticoat"
-      }
+      "flowers:cosmos",
+      "flowers:echinacea",
+      "flowers:engelmanns_hedgehog_cactus",
+      "flowers:fuchsia",
+      "flowers:magenta_clover",
+      "flowers:magenta_orchid",
+      "flowers:magenta_zinnia",
+      "flowers:maroon_mallow",
+      "flowers:parrot_flower",
+      "flowers:pink_geranium",
+      "flowers:pink_petticoat"
     ]
   ],
   "result": {

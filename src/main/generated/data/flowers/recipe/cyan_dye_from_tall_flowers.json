@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "flowers:himalayan_blue_poppy"
-    }
+    "flowers:himalayan_blue_poppy"
   ],
   "result": {
     "count": 2,

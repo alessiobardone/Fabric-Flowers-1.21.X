@@ -43,7 +43,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:white_dye_from_flowers"
+        "recipe": "flowers:white_dye_from_flowers"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -81,7 +81,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:white_dye_from_flowers"
+      "flowers:white_dye_from_flowers"
     ]
   }
 }

@@ -93,7 +93,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:yellow_dye_from_flowers"
+        "recipe": "flowers:yellow_dye_from_flowers"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -191,7 +191,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:yellow_dye_from_flowers"
+      "flowers:yellow_dye_from_flowers"
     ]
   }
 }

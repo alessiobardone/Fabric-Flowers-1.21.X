@@ -3,21 +3,11 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:bright_magenta_sweet_peas"
-      },
-      {
-        "item": "flowers:gladiola"
-      },
-      {
-        "item": "flowers:magenta_larkspur"
-      },
-      {
-        "item": "flowers:magenta_sweet_peas"
-      },
-      {
-        "item": "flowers:mixed_pink_sweet_peas"
-      }
+      "flowers:bright_magenta_sweet_peas",
+      "flowers:gladiola",
+      "flowers:magenta_larkspur",
+      "flowers:magenta_sweet_peas",
+      "flowers:mixed_pink_sweet_peas"
     ]
   ],
   "result": {

@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:green_dye_from_flowers"
+        "recipe": "flowers:green_dye_from_flowers"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -48,7 +48,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:green_dye_from_flowers"
+      "flowers:green_dye_from_flowers"
     ]
   }
 }

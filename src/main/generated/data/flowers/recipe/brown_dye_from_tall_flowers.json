@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "flowers:tumble_weed"
-    }
+    "flowers:tumble_weed"
   ],
   "result": {
     "count": 2,

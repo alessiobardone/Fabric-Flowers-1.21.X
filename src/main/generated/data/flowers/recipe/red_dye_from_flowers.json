@@ -3,42 +3,18 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:baneberry"
-      },
-      {
-        "item": "flowers:buckwheat_red"
-      },
-      {
-        "item": "flowers:dahlia"
-      },
-      {
-        "item": "flowers:desert_paintbrush"
-      },
-      {
-        "item": "flowers:desert_sturt_pea"
-      },
-      {
-        "item": "flowers:devils_fingers"
-      },
-      {
-        "item": "flowers:jewel_of_the_desert"
-      },
-      {
-        "item": "flowers:pink_clover"
-      },
-      {
-        "item": "flowers:red_clover"
-      },
-      {
-        "item": "flowers:red_freesia"
-      },
-      {
-        "item": "flowers:red_geranium"
-      },
-      {
-        "item": "flowers:red_poppy"
-      }
+      "flowers:baneberry",
+      "flowers:buckwheat_red",
+      "flowers:dahlia",
+      "flowers:desert_paintbrush",
+      "flowers:desert_sturt_pea",
+      "flowers:devils_fingers",
+      "flowers:jewel_of_the_desert",
+      "flowers:pink_clover",
+      "flowers:red_clover",
+      "flowers:red_freesia",
+      "flowers:red_geranium",
+      "flowers:red_poppy"
     ]
   ],
   "result": {

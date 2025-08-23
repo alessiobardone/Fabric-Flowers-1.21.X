@@ -3,18 +3,10 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:paradox_sunflower"
-      },
-      {
-        "item": "flowers:skyscraper_sunflower"
-      },
-      {
-        "item": "flowers:sundance_kid_sunflower"
-      },
-      {
-        "item": "flowers:teddy_bear_sunflower"
-      }
+      "flowers:paradox_sunflower",
+      "flowers:skyscraper_sunflower",
+      "flowers:sundance_kid_sunflower",
+      "flowers:teddy_bear_sunflower"
     ]
   ],
   "result": {

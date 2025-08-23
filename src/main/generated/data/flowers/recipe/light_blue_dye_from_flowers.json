@@ -3,24 +3,12 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:borage"
-      },
-      {
-        "item": "flowers:cloud_blue_corydalis"
-      },
-      {
-        "item": "flowers:forget_me_not"
-      },
-      {
-        "item": "flowers:light_blue_forget_me_not"
-      },
-      {
-        "item": "flowers:light_blue_lobelia"
-      },
-      {
-        "item": "flowers:virginia_cowslip"
-      }
+      "flowers:borage",
+      "flowers:cloud_blue_corydalis",
+      "flowers:forget_me_not",
+      "flowers:light_blue_forget_me_not",
+      "flowers:light_blue_lobelia",
+      "flowers:virginia_cowslip"
     ]
   ],
   "result": {

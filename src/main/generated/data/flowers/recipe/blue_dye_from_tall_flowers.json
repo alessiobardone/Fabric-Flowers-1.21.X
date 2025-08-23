@@ -3,12 +3,8 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:dark_blue_sweet_peas"
-      },
-      {
-        "item": "flowers:staked_morning_glory"
-      }
+      "flowers:dark_blue_sweet_peas",
+      "flowers:staked_morning_glory"
     ]
   ],
   "result": {

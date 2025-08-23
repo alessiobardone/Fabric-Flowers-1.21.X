@@ -53,7 +53,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:magenta_dye_from_tall_flowers"
+        "recipe": "flowers:magenta_dye_from_tall_flowers"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -70,7 +70,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:magenta_dye_from_tall_flowers"
+      "flowers:magenta_dye_from_tall_flowers"
     ]
   }
 }

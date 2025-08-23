@@ -3,18 +3,10 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:mendocino_poppy"
-      },
-      {
-        "item": "flowers:tall_calla_lily"
-      },
-      {
-        "item": "flowers:white_larkspur"
-      },
-      {
-        "item": "flowers:yucca_flower"
-      }
+      "flowers:mendocino_poppy",
+      "flowers:tall_calla_lily",
+      "flowers:white_larkspur",
+      "flowers:yucca_flower"
     ]
   ],
   "result": {

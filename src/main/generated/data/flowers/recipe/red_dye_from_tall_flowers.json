@@ -3,24 +3,12 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:cape_aloe"
-      },
-      {
-        "item": "flowers:crimson_gladiola"
-      },
-      {
-        "item": "flowers:gloriosa_lily"
-      },
-      {
-        "item": "flowers:ocotillo"
-      },
-      {
-        "item": "flowers:quince"
-      },
-      {
-        "item": "flowers:red_sunflower"
-      }
+      "flowers:cape_aloe",
+      "flowers:crimson_gladiola",
+      "flowers:gloriosa_lily",
+      "flowers:ocotillo",
+      "flowers:quince",
+      "flowers:red_sunflower"
     ]
   ],
   "result": {

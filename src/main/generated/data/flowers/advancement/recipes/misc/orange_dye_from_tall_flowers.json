@@ -63,7 +63,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:orange_dye_from_tall_flowers"
+        "recipe": "flowers:orange_dye_from_tall_flowers"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -81,7 +81,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:orange_dye_from_tall_flowers"
+      "flowers:orange_dye_from_tall_flowers"
     ]
   }
 }

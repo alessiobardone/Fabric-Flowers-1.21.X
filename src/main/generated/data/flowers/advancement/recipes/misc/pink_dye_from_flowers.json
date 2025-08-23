@@ -183,7 +183,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:pink_dye_from_flowers"
+        "recipe": "flowers:pink_dye_from_flowers"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -224,7 +224,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:pink_dye_from_flowers"
+      "flowers:pink_dye_from_flowers"
     ]
   }
 }

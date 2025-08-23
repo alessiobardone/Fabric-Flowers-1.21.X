@@ -3,54 +3,22 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:australian_flame_pea"
-      },
-      {
-        "item": "flowers:beach_strawberry"
-      },
-      {
-        "item": "flowers:cinquefoil"
-      },
-      {
-        "item": "flowers:coastal_lotus"
-      },
-      {
-        "item": "flowers:crinoline_stinkhorn"
-      },
-      {
-        "item": "flowers:crocus_mix"
-      },
-      {
-        "item": "flowers:golden_bean"
-      },
-      {
-        "item": "flowers:nasturtium"
-      },
-      {
-        "item": "flowers:sunny_zinnia"
-      },
-      {
-        "item": "flowers:yellow_cosmos"
-      },
-      {
-        "item": "flowers:yellow_crocus"
-      },
-      {
-        "item": "flowers:yellow_daffodil"
-      },
-      {
-        "item": "flowers:yellow_freesia"
-      },
-      {
-        "item": "flowers:yellow_lupin"
-      },
-      {
-        "item": "flowers:yellow_patches"
-      },
-      {
-        "item": "flowers:yellow_starthistle"
-      }
+      "flowers:australian_flame_pea",
+      "flowers:beach_strawberry",
+      "flowers:cinquefoil",
+      "flowers:coastal_lotus",
+      "flowers:crinoline_stinkhorn",
+      "flowers:crocus_mix",
+      "flowers:golden_bean",
+      "flowers:nasturtium",
+      "flowers:sunny_zinnia",
+      "flowers:yellow_cosmos",
+      "flowers:yellow_crocus",
+      "flowers:yellow_daffodil",
+      "flowers:yellow_freesia",
+      "flowers:yellow_lupin",
+      "flowers:yellow_patches",
+      "flowers:yellow_starthistle"
     ]
   ],
   "result": {

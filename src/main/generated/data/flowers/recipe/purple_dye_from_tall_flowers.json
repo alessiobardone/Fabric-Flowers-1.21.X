@@ -3,27 +3,13 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:blue_bell_sweet_peas"
-      },
-      {
-        "item": "flowers:iris"
-      },
-      {
-        "item": "flowers:larkspur"
-      },
-      {
-        "item": "flowers:mojave_indigo_bush"
-      },
-      {
-        "item": "flowers:purple_larkspur"
-      },
-      {
-        "item": "flowers:purple_sweet_peas"
-      },
-      {
-        "item": "flowers:tall_lupin"
-      }
+      "flowers:blue_bell_sweet_peas",
+      "flowers:iris",
+      "flowers:larkspur",
+      "flowers:mojave_indigo_bush",
+      "flowers:purple_larkspur",
+      "flowers:purple_sweet_peas",
+      "flowers:tall_lupin"
     ]
   ],
   "result": {

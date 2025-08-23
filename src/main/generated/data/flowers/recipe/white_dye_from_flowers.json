@@ -3,24 +3,12 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:calla_lily"
-      },
-      {
-        "item": "flowers:chrysanthenum"
-      },
-      {
-        "item": "flowers:narcissus"
-      },
-      {
-        "item": "flowers:snapdragon_white"
-      },
-      {
-        "item": "flowers:white_daffodil"
-      },
-      {
-        "item": "flowers:white_tinsel_flower"
-      }
+      "flowers:calla_lily",
+      "flowers:chrysanthenum",
+      "flowers:narcissus",
+      "flowers:snapdragon_white",
+      "flowers:white_daffodil",
+      "flowers:white_tinsel_flower"
     ]
   ],
   "result": {

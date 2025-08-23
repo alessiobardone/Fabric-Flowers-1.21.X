@@ -3,15 +3,9 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:albuca_namaquensis"
-      },
-      {
-        "item": "flowers:sprout"
-      },
-      {
-        "item": "flowers:venus_fly_trap"
-      }
+      "flowers:albuca_namaquensis",
+      "flowers:sprout",
+      "flowers:venus_fly_trap"
     ]
   ],
   "result": {

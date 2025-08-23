@@ -3,33 +3,15 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:baby_blue_eyes"
-      },
-      {
-        "item": "flowers:baby_blue_eyes_small"
-      },
-      {
-        "item": "flowers:blue_bachelor_button"
-      },
-      {
-        "item": "flowers:blue_bell_bachelor_button"
-      },
-      {
-        "item": "flowers:dark_blue_borage"
-      },
-      {
-        "item": "flowers:grape_hyacinth"
-      },
-      {
-        "item": "flowers:medium_blue_lobelia"
-      },
-      {
-        "item": "flowers:morning_glory"
-      },
-      {
-        "item": "flowers:royal_blue_lobelia"
-      }
+      "flowers:baby_blue_eyes",
+      "flowers:baby_blue_eyes_small",
+      "flowers:blue_bachelor_button",
+      "flowers:blue_bell_bachelor_button",
+      "flowers:dark_blue_borage",
+      "flowers:grape_hyacinth",
+      "flowers:medium_blue_lobelia",
+      "flowers:morning_glory",
+      "flowers:royal_blue_lobelia"
     ]
   ],
   "result": {

@@ -73,7 +73,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:purple_dye_from_tall_flowers"
+        "recipe": "flowers:purple_dye_from_tall_flowers"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -92,7 +92,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:purple_dye_from_tall_flowers"
+      "flowers:purple_dye_from_tall_flowers"
     ]
   }
 }

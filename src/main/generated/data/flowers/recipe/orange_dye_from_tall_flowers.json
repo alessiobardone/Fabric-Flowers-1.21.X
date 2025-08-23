@@ -3,24 +3,12 @@
   "category": "misc",
   "ingredients": [
     [
-      {
-        "item": "flowers:datura"
-      },
-      {
-        "item": "flowers:dried_sunflower"
-      },
-      {
-        "item": "flowers:orange_gladiola"
-      },
-      {
-        "item": "flowers:peach_gladiola"
-      },
-      {
-        "item": "flowers:staked_nasturtium"
-      },
-      {
-        "item": "flowers:tall_orange_cosmos"
-      }
+      "flowers:datura",
+      "flowers:dried_sunflower",
+      "flowers:orange_gladiola",
+      "flowers:peach_gladiola",
+      "flowers:staked_nasturtium",
+      "flowers:tall_orange_cosmos"
     ]
   ],
   "result": {
