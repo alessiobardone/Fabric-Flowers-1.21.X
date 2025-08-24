@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "flowers:block/staked_nasturtium_pink_top"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "flowers:block/tall_calla_lily_top"
-  }
-}

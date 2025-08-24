@@ -10,7 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:desert_sturt_pea"
+                  "Name": "flowers:mexican_sage"
                 },
                 "weight": 1
               },
@@ -22,16 +22,16 @@
               },
               {
                 "data": {
-                  "Name": "flowers:mexican_sage"
+                  "Name": "flowers:cape_aloe",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:cape_aloe",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:desert_sturt_pea"
                 },
                 "weight": 1
               }
