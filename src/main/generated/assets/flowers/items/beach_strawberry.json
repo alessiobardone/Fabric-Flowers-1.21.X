@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/beach_strawberry"
+    "model": "flowers:item/beach_strawberry"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/forget_me_not"
+    "model": "flowers:item/forget_me_not"
   }
 }

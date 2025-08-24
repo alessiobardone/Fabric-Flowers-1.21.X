@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/royal_blue_lobelia"
+    "model": "flowers:item/royal_blue_lobelia"
   }
 }

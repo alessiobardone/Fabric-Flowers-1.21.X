@@ -1,6 +1,5 @@
-// 1.21.3	2025-08-23T20:48:16.1043852	Flowers/Tags for minecraft:block
-66db3c7b04c615dda7eff2f70de6c20accb99240 data\minecraft\tags\block\small_flowers.json
-17a1a3f978c5d676f568f4c4fa20e2cb46edf7a5 data\minecraft\tags\block\cave_vines.json
-32a92613336c66924007f288f3813b9f9c995a5b data\minecraft\tags\block\flowers.json
-40946f200d34f61c9b72aaace5444f9cef0a9d1b data\minecraft\tags\block\tall_flowers.json
-419c8c48468da2163a69e98719556b15ff92ef72 data\minecraft\tags\block\leaves.json
+// 1.21.4	-999999999-01-01T00:00:00	Flowers/Tags for minecraft:block
+17a1a3f978c5d676f568f4c4fa20e2cb46edf7a5 data/minecraft/tags/block/cave_vines.json
+42090284b000eb5d6c4da196b8c98c55a2eb250f data/minecraft/tags/block/flowers.json
+419c8c48468da2163a69e98719556b15ff92ef72 data/minecraft/tags/block/leaves.json
+66db3c7b04c615dda7eff2f70de6c20accb99240 data/minecraft/tags/block/small_flowers.json

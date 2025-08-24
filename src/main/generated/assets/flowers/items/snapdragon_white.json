@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/snapdragon_white"
+    "model": "flowers:item/snapdragon_white"
   }
 }

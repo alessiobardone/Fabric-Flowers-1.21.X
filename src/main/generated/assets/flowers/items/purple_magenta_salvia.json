@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/purple_magenta_salvia"
+    "model": "flowers:item/purple_magenta_salvia"
   }
 }

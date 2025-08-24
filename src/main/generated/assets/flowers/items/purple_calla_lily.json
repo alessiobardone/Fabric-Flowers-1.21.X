@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/purple_calla_lily"
+    "model": "flowers:item/purple_calla_lily"
   }
 }

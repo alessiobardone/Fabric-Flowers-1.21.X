@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/dahlia"
+    "model": "flowers:item/dahlia"
   }
 }

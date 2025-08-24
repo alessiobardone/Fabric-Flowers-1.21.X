@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/cloud_blue_corydalis"
+    "model": "flowers:item/cloud_blue_corydalis"
   }
 }

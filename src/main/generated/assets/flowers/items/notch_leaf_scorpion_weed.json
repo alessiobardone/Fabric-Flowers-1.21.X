@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/notch_leaf_scorpion_weed"
+    "model": "flowers:item/notch_leaf_scorpion_weed"
   }
 }

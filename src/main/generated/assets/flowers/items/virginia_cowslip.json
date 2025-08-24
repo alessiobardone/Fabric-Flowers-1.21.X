@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/virginia_cowslip"
+    "model": "flowers:item/virginia_cowslip"
   }
 }

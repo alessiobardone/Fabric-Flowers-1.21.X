@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/commelina"
+    "model": "flowers:item/commelina"
   }
 }

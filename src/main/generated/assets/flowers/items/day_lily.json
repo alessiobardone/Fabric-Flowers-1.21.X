@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/day_lily"
+    "model": "flowers:item/day_lily"
   }
 }

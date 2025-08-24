@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/sprout"
+    "model": "flowers:item/sprout"
   }
 }

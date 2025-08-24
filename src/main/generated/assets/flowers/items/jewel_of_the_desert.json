@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/jewel_of_the_desert"
+    "model": "flowers:item/jewel_of_the_desert"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/echinacea"
+    "model": "flowers:item/echinacea"
   }
 }

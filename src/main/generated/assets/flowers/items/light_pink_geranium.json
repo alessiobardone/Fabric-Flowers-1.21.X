@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/light_pink_geranium"
+    "model": "flowers:item/light_pink_geranium"
   }
 }

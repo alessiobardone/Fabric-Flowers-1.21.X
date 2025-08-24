@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/magenta_orchid"
+    "model": "flowers:item/magenta_orchid"
   }
 }

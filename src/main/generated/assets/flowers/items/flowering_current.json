@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/flowering_current"
+    "model": "flowers:item/flowering_current"
   }
 }

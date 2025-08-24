@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/cosmos_mix"
+    "model": "flowers:item/cosmos_mix"
   }
 }

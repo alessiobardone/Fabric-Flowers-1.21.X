@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/dark_blue_borage"
+    "model": "flowers:item/dark_blue_borage"
   }
 }

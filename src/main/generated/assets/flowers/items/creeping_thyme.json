@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/creeping_thyme"
+    "model": "flowers:item/creeping_thyme"
   }
 }

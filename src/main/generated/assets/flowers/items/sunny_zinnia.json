@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/sunny_zinnia"
+    "model": "flowers:item/sunny_zinnia"
   }
 }

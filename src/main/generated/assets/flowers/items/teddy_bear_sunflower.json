@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/teddy_bear_sunflower"
+    "model": "flowers:item/teddy_bear_sunflower"
   }
 }

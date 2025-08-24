@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "flowers:item/engelmanns_hedgehog_cactus"
+  }
+}

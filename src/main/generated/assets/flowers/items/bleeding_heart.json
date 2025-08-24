@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/bleeding_heart"
+    "model": "flowers:item/bleeding_heart"
   }
 }

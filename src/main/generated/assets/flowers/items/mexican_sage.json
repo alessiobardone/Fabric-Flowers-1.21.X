@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/mexican_sage"
+    "model": "flowers:item/mexican_sage"
   }
 }

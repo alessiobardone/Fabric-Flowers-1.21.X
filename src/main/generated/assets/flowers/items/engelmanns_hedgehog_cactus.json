@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/engelmanns_hedgehog_cactus"
+    "model": "flowers:item/engelmanns_hedgehog_cactus"
   }
 }

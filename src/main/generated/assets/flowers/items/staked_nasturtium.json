@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/staked_nasturtium"
+    "model": "flowers:item/staked_nasturtium"
   }
 }

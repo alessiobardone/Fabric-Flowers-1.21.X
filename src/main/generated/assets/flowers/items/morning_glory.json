@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/morning_glory"
+    "model": "flowers:item/morning_glory"
   }
 }

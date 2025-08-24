@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/inky_cap"
+    "model": "flowers:item/inky_cap"
   }
 }

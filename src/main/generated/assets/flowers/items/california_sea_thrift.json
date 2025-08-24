@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/california_sea_thrift"
+    "model": "flowers:item/california_sea_thrift"
   }
 }

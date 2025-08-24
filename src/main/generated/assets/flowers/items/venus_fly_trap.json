@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/venus_fly_trap"
+    "model": "flowers:item/venus_fly_trap"
   }
 }

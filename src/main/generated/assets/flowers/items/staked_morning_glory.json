@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/staked_morning_glory"
+    "model": "flowers:item/staked_morning_glory"
   }
 }

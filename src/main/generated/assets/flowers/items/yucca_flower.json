@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/yucca_flower"
+    "model": "flowers:item/yucca_flower"
   }
 }

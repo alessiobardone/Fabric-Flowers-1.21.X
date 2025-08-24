@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/lavender_larkspur"
+    "model": "flowers:item/lavender_larkspur"
   }
 }

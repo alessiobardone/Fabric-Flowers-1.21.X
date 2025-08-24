@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/mojave_indigo_bush"
+    "model": "flowers:item/mojave_indigo_bush"
   }
 }

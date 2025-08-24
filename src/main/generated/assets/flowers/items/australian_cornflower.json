@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/australian_cornflower"
+    "model": "flowers:item/australian_cornflower"
   }
 }

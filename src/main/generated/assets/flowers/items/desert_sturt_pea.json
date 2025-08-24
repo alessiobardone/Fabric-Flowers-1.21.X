@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/desert_sturt_pea"
+    "model": "flowers:item/desert_sturt_pea"
   }
 }

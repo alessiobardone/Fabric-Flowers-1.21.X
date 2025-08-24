@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/crocus_mix"
+    "model": "flowers:item/crocus_mix"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/periwinkle"
+    "model": "flowers:item/periwinkle"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/himalayan_blue_poppy"
+    "model": "flowers:item/himalayan_blue_poppy"
   }
 }

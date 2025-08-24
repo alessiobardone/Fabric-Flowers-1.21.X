@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/wolfs_bane"
+    "model": "flowers:item/wolfs_bane"
   }
 }

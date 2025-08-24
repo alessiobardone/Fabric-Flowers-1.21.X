@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/cyan_hyacinth"
+    "model": "flowers:item/cyan_hyacinth"
   }
 }

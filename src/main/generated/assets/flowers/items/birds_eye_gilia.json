@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/birds_eye_gilia"
+    "model": "flowers:item/birds_eye_gilia"
   }
 }

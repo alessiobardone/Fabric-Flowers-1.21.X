@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/salvia"
+    "model": "flowers:item/salvia"
   }
 }

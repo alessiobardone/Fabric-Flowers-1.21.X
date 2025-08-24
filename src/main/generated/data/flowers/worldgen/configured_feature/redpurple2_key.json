@@ -10,7 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:desert_paintbrush"
+                  "Name": "flowers:common_periwinkle"
                 },
                 "weight": 1
               },
@@ -28,7 +28,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:common_periwinkle"
+                  "Name": "flowers:desert_paintbrush"
                 },
                 "weight": 1
               }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/silver_carpet"
+    "model": "flowers:item/silver_carpet"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/ocotillo"
+    "model": "flowers:item/ocotillo"
   }
 }

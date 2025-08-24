@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/mendocino_poppy"
+    "model": "flowers:item/mendocino_poppy"
   }
 }

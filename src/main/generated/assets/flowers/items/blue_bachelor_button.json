@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/blue_bachelor_button"
+    "model": "flowers:item/blue_bachelor_button"
   }
 }

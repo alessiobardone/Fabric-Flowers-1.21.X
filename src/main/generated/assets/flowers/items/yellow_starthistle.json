@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/yellow_starthistle"
+    "model": "flowers:item/yellow_starthistle"
   }
 }

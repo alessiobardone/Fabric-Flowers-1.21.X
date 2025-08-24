@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/darkosto_traposto"
+    "model": "flowers:item/darkosto_traposto"
   }
 }

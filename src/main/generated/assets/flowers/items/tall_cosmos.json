@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/tall_cosmos"
+    "model": "flowers:item/tall_cosmos"
   }
 }

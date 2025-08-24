@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/ornamental_cherry"
+    "model": "flowers:item/ornamental_cherry"
   }
 }

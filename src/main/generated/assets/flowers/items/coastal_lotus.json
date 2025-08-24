@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/coastal_lotus"
+    "model": "flowers:item/coastal_lotus"
   }
 }

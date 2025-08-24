@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/peach_gladiola"
+    "model": "flowers:item/peach_gladiola"
   }
 }

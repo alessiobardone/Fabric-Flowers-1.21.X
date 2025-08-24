@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/tall_lupin"
+    "model": "flowers:item/tall_lupin"
   }
 }

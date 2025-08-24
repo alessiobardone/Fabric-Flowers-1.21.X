@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "flowers:block/white_tinsel_flower"
+    "model": "flowers:item/white_tinsel_flower"
   }
 }
