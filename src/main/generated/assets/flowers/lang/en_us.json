@@ -156,7 +156,6 @@
   "block.flowers.violet": "Violet",
   "block.flowers.violet_webcap": "Violet Webcap",
   "block.flowers.virginia_cowslip": "Virginia Cowslip",
-  "block.flowers.water_lily_small": "Small Lily",
   "block.flowers.white_daffodil": "White Daffodil",
   "block.flowers.white_larkspur": "White Larkspur",
   "block.flowers.white_tinsel_flower": "White Tinsel",
@@ -183,5 +182,6 @@
   "item.flowers.purple_light_lily": "Purple Light Lily",
   "item.flowers.raccoon_grape": "Raccoon Grape",
   "item.flowers.sunfire_large_lily": "Sunfire Large Lily",
-  "item.flowers.sunfire_light_lily": "Sunfire Light Lily"
+  "item.flowers.sunfire_light_lily": "Sunfire Light Lily",
+  "item.flowers.water_lily_small": "Small Lily"
 }

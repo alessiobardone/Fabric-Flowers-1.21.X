@@ -10,6 +10,12 @@
             "entries": [
               {
                 "data": {
+                  "Name": "flowers:desert_paintbrush"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "flowers:blue_eyed_grass"
                 },
                 "weight": 1
@@ -17,12 +23,6 @@
               {
                 "data": {
                   "Name": "flowers:common_periwinkle"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:desert_paintbrush"
                 },
                 "weight": 1
               },

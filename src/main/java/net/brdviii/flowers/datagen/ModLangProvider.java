@@ -174,7 +174,7 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.VIOLET,"Violet");
         translationBuilder.add(ModBlocks.VIOLET_WEBCAP,"Violet Webcap");
         translationBuilder.add(ModBlocks.VIRGINIA_COWSLIP,"Virginia Cowslip");
-        translationBuilder.add(ModBlocks.WATER_LILY_SMALL,"Small Lily");
+        translationBuilder.add(ModItems.WATER_LILY_SMALL,"Small Lily");
         translationBuilder.add(ModBlocks.WHITE_DAFFODIL,"White Daffodil");
         translationBuilder.add(ModBlocks.WHITE_LARKSPUR,"White Larkspur");
         translationBuilder.add(ModBlocks.WHITE_TINSEL,"White Tinsel");

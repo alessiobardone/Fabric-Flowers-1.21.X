@@ -10,7 +10,19 @@
             "entries": [
               {
                 "data": {
+                  "Name": "flowers:desert_sturt_pea"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "flowers:mexican_sage"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:creeping_thyme"
                 },
                 "weight": 1
               },
@@ -20,18 +32,6 @@
                   "Properties": {
                     "half": "lower"
                   }
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:desert_sturt_pea"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:creeping_thyme"
                 },
                 "weight": 1
               }

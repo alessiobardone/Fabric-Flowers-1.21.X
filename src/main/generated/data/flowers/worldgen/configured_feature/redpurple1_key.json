@@ -10,13 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:african_daisy"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:baneberry"
+                  "Name": "flowers:bachelor_button"
                 },
                 "weight": 1
               },
@@ -28,7 +22,13 @@
               },
               {
                 "data": {
-                  "Name": "flowers:bachelor_button"
+                  "Name": "flowers:baneberry"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:african_daisy"
                 },
                 "weight": 1
               }
