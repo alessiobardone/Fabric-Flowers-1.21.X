@@ -19,6 +19,15 @@
               },
               {
                 "data": {
+                  "Name": "flowers:quince",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "flowers:hawthorne",
                   "Properties": {
                     "half": "lower"
@@ -29,15 +38,6 @@
               {
                 "data": {
                   "Name": "flowers:flowering_current",
-                  "Properties": {
-                    "half": "lower"
-                  }
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:quince",
                   "Properties": {
                     "half": "lower"
                   }

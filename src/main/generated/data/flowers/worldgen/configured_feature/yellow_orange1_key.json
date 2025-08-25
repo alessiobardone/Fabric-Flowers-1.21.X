@@ -10,6 +10,12 @@
             "entries": [
               {
                 "data": {
+                  "Name": "flowers:yellow_starthistle"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "flowers:orange_cosmos"
                 },
                 "weight": 1
@@ -23,12 +29,6 @@
               {
                 "data": {
                   "Name": "flowers:nasturtium"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:yellow_starthistle"
                 },
                 "weight": 1
               }

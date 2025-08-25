@@ -22,16 +22,16 @@
               },
               {
                 "data": {
-                  "Name": "flowers:gloriosa_lily",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:orange_day_lily"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:orange_day_lily"
+                  "Name": "flowers:gloriosa_lily",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               }

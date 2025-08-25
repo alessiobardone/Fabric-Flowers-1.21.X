@@ -10,7 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:paradox_sunflower",
+                  "Name": "flowers:skyscraper_sunflower",
                   "Properties": {
                     "half": "lower"
                   }
@@ -19,7 +19,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:skyscraper_sunflower",
+                  "Name": "flowers:red_sunflower",
                   "Properties": {
                     "half": "lower"
                   }
@@ -37,7 +37,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:red_sunflower",
+                  "Name": "flowers:paradox_sunflower",
                   "Properties": {
                     "half": "lower"
                   }

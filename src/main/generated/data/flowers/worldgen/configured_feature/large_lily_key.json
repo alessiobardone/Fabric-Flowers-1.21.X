@@ -10,12 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:purple_large_lily"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:sunfire_large_lily"
                 },
                 "weight": 1
@@ -29,6 +23,12 @@
               {
                 "data": {
                   "Name": "flowers:joy_large_lily"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:purple_large_lily"
                 },
                 "weight": 1
               }

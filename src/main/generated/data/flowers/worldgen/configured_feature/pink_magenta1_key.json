@@ -10,25 +10,25 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:cosmos"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:fuchsia"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:periwinkle"
+                  "Name": "flowers:birds_eye_gilia"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:birds_eye_gilia"
+                  "Name": "flowers:cosmos"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:periwinkle"
                 },
                 "weight": 1
               }

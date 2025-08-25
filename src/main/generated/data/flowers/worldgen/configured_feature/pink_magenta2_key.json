@@ -10,12 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:magenta_orchid"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:bleeding_heart"
                 },
                 "weight": 1
@@ -23,6 +17,12 @@
               {
                 "data": {
                   "Name": "flowers:maroon_mallow"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:magenta_orchid"
                 },
                 "weight": 1
               },

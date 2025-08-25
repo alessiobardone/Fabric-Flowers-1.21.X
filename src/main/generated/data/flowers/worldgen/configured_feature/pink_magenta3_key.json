@@ -16,16 +16,16 @@
               },
               {
                 "data": {
-                  "Name": "flowers:snapdragon_pink"
+                  "Name": "flowers:magenta_sweet_peas",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:magenta_sweet_peas",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:snapdragon_pink"
                 },
                 "weight": 1
               },

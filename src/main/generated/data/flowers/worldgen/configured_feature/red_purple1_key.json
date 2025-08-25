@@ -10,12 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:baneberry"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:buckwheat_red"
                 },
                 "weight": 1
@@ -23,6 +17,12 @@
               {
                 "data": {
                   "Name": "flowers:bachelor_button"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:baneberry"
                 },
                 "weight": 1
               },

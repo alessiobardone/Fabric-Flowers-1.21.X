@@ -10,6 +10,15 @@
             "entries": [
               {
                 "data": {
+                  "Name": "flowers:red_sunflower",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "flowers:lady_slipper_orchid"
                 },
                 "weight": 1
@@ -23,15 +32,6 @@
               {
                 "data": {
                   "Name": "flowers:orange_gladiola",
-                  "Properties": {
-                    "half": "lower"
-                  }
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:red_sunflower",
                   "Properties": {
                     "half": "lower"
                   }

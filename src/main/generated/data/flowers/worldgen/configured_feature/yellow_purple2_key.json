@@ -10,6 +10,12 @@
             "entries": [
               {
                 "data": {
+                  "Name": "flowers:sunny_zinnia"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "flowers:iris",
                   "Properties": {
                     "half": "lower"
@@ -19,19 +25,13 @@
               },
               {
                 "data": {
-                  "Name": "flowers:purple_magenta_salvia"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:sunny_zinnia"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:golden_bean"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:purple_magenta_salvia"
                 },
                 "weight": 1
               }

@@ -10,13 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:crinoline_stinkhorn"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:day_lily"
+                  "Name": "flowers:lantana"
                 },
                 "weight": 1
               },
@@ -28,7 +22,13 @@
               },
               {
                 "data": {
-                  "Name": "flowers:lantana"
+                  "Name": "flowers:crinoline_stinkhorn"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:day_lily"
                 },
                 "weight": 1
               }

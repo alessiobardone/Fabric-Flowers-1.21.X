@@ -10,7 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "minecraft:lily_pad"
+                  "Name": "flowers:water_lily_small"
                 },
                 "weight": 1
               },
@@ -22,7 +22,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:water_lily_small"
+                  "Name": "minecraft:lily_pad"
                 },
                 "weight": 1
               },

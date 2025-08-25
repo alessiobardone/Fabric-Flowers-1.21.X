@@ -10,12 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "minecraft:lily_pad"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:clover_lily"
                 },
                 "weight": 1
@@ -23,6 +17,12 @@
               {
                 "data": {
                   "Name": "flowers:water_lily_small"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:lily_pad"
                 },
                 "weight": 1
               }

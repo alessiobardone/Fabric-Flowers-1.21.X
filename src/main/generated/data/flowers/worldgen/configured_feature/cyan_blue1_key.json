@@ -10,18 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:blue_bachelor_button"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:medium_blue_lobelia"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:australian_cornflower"
                 },
                 "weight": 1
@@ -29,6 +17,18 @@
               {
                 "data": {
                   "Name": "flowers:cyan_hyacinth"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:blue_bachelor_button"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:medium_blue_lobelia"
                 },
                 "weight": 1
               }

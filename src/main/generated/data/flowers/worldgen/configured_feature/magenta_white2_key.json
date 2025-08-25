@@ -10,12 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:parrot_flower"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:magenta_clover"
                 },
                 "weight": 1
@@ -26,6 +20,12 @@
                   "Properties": {
                     "half": "lower"
                   }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:parrot_flower"
                 },
                 "weight": 1
               },

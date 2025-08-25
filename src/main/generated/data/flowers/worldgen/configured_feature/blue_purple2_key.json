@@ -10,10 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:purple_larkspur",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:blue_bell_bachelor_button"
                 },
                 "weight": 1
               },
@@ -25,7 +22,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:larkspur",
+                  "Name": "flowers:purple_larkspur",
                   "Properties": {
                     "half": "lower"
                   }
@@ -34,7 +31,10 @@
               },
               {
                 "data": {
-                  "Name": "flowers:blue_bell_bachelor_button"
+                  "Name": "flowers:larkspur",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               }

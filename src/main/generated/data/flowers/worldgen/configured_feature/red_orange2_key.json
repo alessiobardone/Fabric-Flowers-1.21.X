@@ -10,13 +10,16 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:buckwheat_red"
+                  "Name": "flowers:crimson_gladiola",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:crimson_gladiola",
+                  "Name": "flowers:cape_aloe",
                   "Properties": {
                     "half": "lower"
                   }
@@ -31,10 +34,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:cape_aloe",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:buckwheat_red"
                 },
                 "weight": 1
               }
