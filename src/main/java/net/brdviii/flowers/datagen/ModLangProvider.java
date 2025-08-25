@@ -44,7 +44,7 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.CHRYSANTHENUM,"Chrysanthenum");
         translationBuilder.add(ModBlocks.CINQUEFOIL,"Cinquefoil");
         translationBuilder.add(ModBlocks.CLOUD_BLUE_CORYDALIS,"Cloud Blue Corydalis");
-        translationBuilder.add(ModBlocks.CLOVER_LILY,"Clover Lily");
+        translationBuilder.add(ModItems.CLOVER_LILY,"Clover Lily");
         translationBuilder.add(ModBlocks.COASTAL_LOTUS,"Coastal Lotus");
         translationBuilder.add(ModBlocks.COMMELINA,"Commelina");
         translationBuilder.add(ModBlocks.COMMON_PERIWINKLE,"Common Periwinkle");
@@ -72,7 +72,7 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.ENGELMANNS_HEDGEHOG_CACTUS,"Engelmanns Hedgehog Cactus");
         translationBuilder.add(ModBlocks.FLOWERING_CURRENT,"Flowering Current");
         translationBuilder.add(ModBlocks.FORGET_ME_NOT,"Forget Me Not");
-        translationBuilder.add(ModBlocks.FROGBIT,"Frogbit");
+        translationBuilder.add(ModItems.FROGBIT,"Frogbit");
         translationBuilder.add(ModBlocks.FUCHSIA,"Fuchsia");
         translationBuilder.add(ModBlocks.GLADIOLA,"Gladiola");
         translationBuilder.add(ModBlocks.GLORIOSA_LILY,"Gloriosa Lily");
@@ -190,14 +190,14 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.YUCCA_FLOWER,"Yucca Flower");
 
 
-        translationBuilder.add(ModBlocks.JOY_LARGE_LILY,"Joy Large Lily");
-        translationBuilder.add(ModBlocks.JOY_LIGHT_LILY,"Joy Light Lily");
-        translationBuilder.add(ModBlocks.LAVANDER_LARGE_LILY,"Lavender Large Lily");
-        translationBuilder.add(ModBlocks.LAVANDER_LIGHT_LILY,"Lavender Light Lily");
-        translationBuilder.add(ModBlocks.PURPLE_LARGE_LILY,"Purple Large Lily");
-        translationBuilder.add(ModBlocks.PURPLE_LIGHT_LILY,"Purple Light Lily");
-        translationBuilder.add(ModBlocks.SUNFIRE_LARGE_LILY,"Sunfire Large Lily");
-        translationBuilder.add(ModBlocks.SUNFIRE_LIGHT_LILY,"Sunfire Light Lily");
+        translationBuilder.add(ModItems.JOY_LARGE_LILY,"Joy Large Lily");
+        translationBuilder.add(ModItems.JOY_LIGHT_LILY,"Joy Light Lily");
+        translationBuilder.add(ModItems.LAVANDER_LARGE_LILY,"Lavender Large Lily");
+        translationBuilder.add(ModItems.LAVANDER_LIGHT_LILY,"Lavender Light Lily");
+        translationBuilder.add(ModItems.PURPLE_LARGE_LILY,"Purple Large Lily");
+        translationBuilder.add(ModItems.PURPLE_LIGHT_LILY,"Purple Light Lily");
+        translationBuilder.add(ModItems.SUNFIRE_LARGE_LILY,"Sunfire Large Lily");
+        translationBuilder.add(ModItems.SUNFIRE_LIGHT_LILY,"Sunfire Light Lily");
 
         translationBuilder.add(ModBlocks.WISTERIA_LAVANDER,"Wisteria Lavender");
         translationBuilder.add(ModBlocks.WISTERIA_PURPLE,"Wisteria Purple");
