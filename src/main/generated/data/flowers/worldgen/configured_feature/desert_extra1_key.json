@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "flowers:ocotillo",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:engelmanns_hedgehog_cactus"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:devils_claw"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:jewel_of_the_desert"
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 32,
+    "xz_spread": 7,
+    "y_spread": 3
+  }
+}

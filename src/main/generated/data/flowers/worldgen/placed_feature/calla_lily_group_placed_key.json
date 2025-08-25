@@ -1,9 +1,9 @@
 {
-  "feature": "flowers:raccoon_grape_key",
+  "feature": "flowers:calla_lily_group_key",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 12
+      "chance": 20
     },
     {
       "type": "minecraft:in_square"

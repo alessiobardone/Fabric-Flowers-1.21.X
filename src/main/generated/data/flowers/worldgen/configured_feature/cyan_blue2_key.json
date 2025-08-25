@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "flowers:dark_blue_sweet_peas",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:blue_tinsel_lily"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:staked_morning_glory",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:himalayan_blue_poppy",
+                  "Properties": {
+                    "half": "lower"
+                  }
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 32,
+    "xz_spread": 7,
+    "y_spread": 3
+  }
+}

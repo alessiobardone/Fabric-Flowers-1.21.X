@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "flowers:australian_cornflower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:cyan_hyacinth"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:medium_blue_lobelia"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:blue_bachelor_button"
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 32,
+    "xz_spread": 7,
+    "y_spread": 3
+  }
+}
