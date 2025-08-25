@@ -10,7 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:dark_blue_sweet_peas",
+                  "Name": "flowers:staked_morning_glory",
                   "Properties": {
                     "half": "lower"
                   }
@@ -25,7 +25,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:staked_morning_glory",
+                  "Name": "flowers:himalayan_blue_poppy",
                   "Properties": {
                     "half": "lower"
                   }
@@ -34,7 +34,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:himalayan_blue_poppy",
+                  "Name": "flowers:dark_blue_sweet_peas",
                   "Properties": {
                     "half": "lower"
                   }

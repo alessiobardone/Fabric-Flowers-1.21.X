@@ -10,7 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:flowering_current",
+                  "Name": "flowers:ornamental_cherry",
                   "Properties": {
                     "half": "lower"
                   }
@@ -28,7 +28,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:quince",
+                  "Name": "flowers:flowering_current",
                   "Properties": {
                     "half": "lower"
                   }
@@ -37,7 +37,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:ornamental_cherry",
+                  "Name": "flowers:quince",
                   "Properties": {
                     "half": "lower"
                   }

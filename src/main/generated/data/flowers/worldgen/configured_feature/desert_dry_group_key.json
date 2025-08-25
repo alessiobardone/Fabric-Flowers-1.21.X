@@ -10,16 +10,16 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:dried_sunflower",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:tumble_weed"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:tumble_weed"
+                  "Name": "flowers:dried_sunflower",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               }

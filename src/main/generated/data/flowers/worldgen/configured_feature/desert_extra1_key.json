@@ -10,10 +10,13 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:ocotillo",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:devils_claw"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:jewel_of_the_desert"
                 },
                 "weight": 1
               },
@@ -25,13 +28,10 @@
               },
               {
                 "data": {
-                  "Name": "flowers:devils_claw"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:jewel_of_the_desert"
+                  "Name": "flowers:ocotillo",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               }

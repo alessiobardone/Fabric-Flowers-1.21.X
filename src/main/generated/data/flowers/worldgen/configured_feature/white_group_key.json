@@ -10,6 +10,12 @@
             "entries": [
               {
                 "data": {
+                  "Name": "flowers:white_tinsel_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "flowers:narcissus"
                 },
                 "weight": 1
@@ -23,12 +29,6 @@
               {
                 "data": {
                   "Name": "flowers:snapdragon_white"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:white_tinsel_flower"
                 },
                 "weight": 1
               }

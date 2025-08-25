@@ -10,18 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:yellow_crocus"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:purple_crocus"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:yellow_daffodil"
                 },
                 "weight": 1
@@ -29,6 +17,18 @@
               {
                 "data": {
                   "Name": "flowers:crocus_mix"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:yellow_crocus"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:purple_crocus"
                 },
                 "weight": 1
               }

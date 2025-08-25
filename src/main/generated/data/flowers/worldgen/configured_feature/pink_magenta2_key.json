@@ -10,13 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:maroon_mallow"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:owls_clover"
+                  "Name": "flowers:magenta_orchid"
                 },
                 "weight": 1
               },
@@ -28,7 +22,13 @@
               },
               {
                 "data": {
-                  "Name": "flowers:magenta_orchid"
+                  "Name": "flowers:maroon_mallow"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:owls_clover"
                 },
                 "weight": 1
               }

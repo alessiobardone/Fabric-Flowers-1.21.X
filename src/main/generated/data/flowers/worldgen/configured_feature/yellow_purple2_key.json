@@ -10,7 +10,10 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:golden_bean"
+                  "Name": "flowers:iris",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               },
@@ -22,16 +25,13 @@
               },
               {
                 "data": {
-                  "Name": "flowers:iris",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:sunny_zinnia"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:sunny_zinnia"
+                  "Name": "flowers:golden_bean"
                 },
                 "weight": 1
               }

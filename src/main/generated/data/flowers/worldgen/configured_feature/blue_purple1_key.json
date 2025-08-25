@@ -10,6 +10,18 @@
             "entries": [
               {
                 "data": {
+                  "Name": "flowers:blue_bachelor_button"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:baby_blue_eyes"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "flowers:mojave_indigo_bush",
                   "Properties": {
                     "half": "lower"
@@ -19,22 +31,10 @@
               },
               {
                 "data": {
-                  "Name": "flowers:blue_bachelor_button"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:iris",
                   "Properties": {
                     "half": "lower"
                   }
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:baby_blue_eyes"
                 },
                 "weight": 1
               }

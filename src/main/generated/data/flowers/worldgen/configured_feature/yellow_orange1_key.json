@@ -10,25 +10,25 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:orange_day_lily"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:orange_cosmos"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:yellow_starthistle"
+                  "Name": "flowers:orange_day_lily"
                 },
                 "weight": 1
               },
               {
                 "data": {
                   "Name": "flowers:nasturtium"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:yellow_starthistle"
                 },
                 "weight": 1
               }

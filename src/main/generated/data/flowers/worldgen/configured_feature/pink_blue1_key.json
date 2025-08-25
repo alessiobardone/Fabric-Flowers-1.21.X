@@ -10,12 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:pink_clover"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:baby_blue_eyes"
                 },
                 "weight": 1
@@ -29,6 +23,12 @@
               {
                 "data": {
                   "Name": "flowers:light_pink_geranium"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:pink_clover"
                 },
                 "weight": 1
               }

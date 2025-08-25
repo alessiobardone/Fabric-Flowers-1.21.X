@@ -10,13 +10,13 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:golden_bean"
+                  "Name": "flowers:lewisia"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:lewisia"
+                  "Name": "flowers:jewel_of_the_desert"
                 },
                 "weight": 1
               },
@@ -28,7 +28,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:jewel_of_the_desert"
+                  "Name": "flowers:golden_bean"
                 },
                 "weight": 1
               }

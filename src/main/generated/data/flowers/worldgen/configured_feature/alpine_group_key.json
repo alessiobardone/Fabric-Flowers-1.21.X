@@ -10,13 +10,13 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:sprout"
+                  "Name": "flowers:borage"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:borage"
+                  "Name": "flowers:albuca_namaquensis"
                 },
                 "weight": 1
               },
@@ -28,7 +28,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:albuca_namaquensis"
+                  "Name": "flowers:sprout"
                 },
                 "weight": 1
               }

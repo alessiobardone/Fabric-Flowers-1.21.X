@@ -10,25 +10,25 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:orange_freesia"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:orange_australian_flame_pea"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:yellow_freesia"
+                  "Name": "flowers:orange_freesia"
                 },
                 "weight": 1
               },
               {
                 "data": {
                   "Name": "flowers:australian_flame_pea"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:yellow_freesia"
                 },
                 "weight": 1
               }

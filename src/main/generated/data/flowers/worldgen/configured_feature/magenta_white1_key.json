@@ -10,7 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:snapdragon_white"
+                  "Name": "flowers:white_tinsel_flower"
                 },
                 "weight": 1
               },
@@ -22,13 +22,13 @@
               },
               {
                 "data": {
-                  "Name": "flowers:white_tinsel_flower"
+                  "Name": "flowers:magenta_zinnia"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:magenta_zinnia"
+                  "Name": "flowers:snapdragon_white"
                 },
                 "weight": 1
               }

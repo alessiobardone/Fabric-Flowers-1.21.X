@@ -10,13 +10,13 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:clover_lily"
+                  "Name": "minecraft:lily_pad"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "minecraft:lily_pad"
+                  "Name": "flowers:clover_lily"
                 },
                 "weight": 1
               },

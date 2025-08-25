@@ -10,7 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:pitcher_plant"
+                  "Name": "flowers:coastal_lotus"
                 },
                 "weight": 1
               },
@@ -25,7 +25,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:coastal_lotus"
+                  "Name": "flowers:pitcher_plant"
                 },
                 "weight": 1
               },

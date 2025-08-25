@@ -10,15 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:purple_sweet_peas",
-                  "Properties": {
-                    "half": "lower"
-                  }
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:staked_morning_glory",
                   "Properties": {
                     "half": "lower"
@@ -28,7 +19,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:mixed_pink_sweet_peas",
+                  "Name": "flowers:purple_sweet_peas",
                   "Properties": {
                     "half": "lower"
                   }
@@ -38,6 +29,15 @@
               {
                 "data": {
                   "Name": "flowers:morning_glory"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:mixed_pink_sweet_peas",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               }

@@ -10,7 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:light_pink_geranium"
+                  "Name": "flowers:red_geranium"
                 },
                 "weight": 1
               },
@@ -28,7 +28,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:red_geranium"
+                  "Name": "flowers:light_pink_geranium"
                 },
                 "weight": 1
               }

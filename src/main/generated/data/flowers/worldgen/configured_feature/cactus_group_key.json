@@ -10,16 +10,16 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:venus_fly_trap"
+                  "Name": "flowers:tall_cactus",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:manzanita_bush",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:venus_fly_trap"
                 },
                 "weight": 1
               },
@@ -31,7 +31,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:tall_cactus",
+                  "Name": "flowers:manzanita_bush",
                   "Properties": {
                     "half": "lower"
                   }

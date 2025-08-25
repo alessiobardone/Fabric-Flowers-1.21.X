@@ -19,7 +19,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:iris_fancy_dress",
+                  "Name": "flowers:light_pink_larkspur",
                   "Properties": {
                     "half": "lower"
                   }
@@ -37,7 +37,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:light_pink_larkspur",
+                  "Name": "flowers:iris_fancy_dress",
                   "Properties": {
                     "half": "lower"
                   }

@@ -10,13 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:joy_light_lily"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:sunfire_light_lily"
+                  "Name": "flowers:lavander_light_lily"
                 },
                 "weight": 1
               },
@@ -28,7 +22,13 @@
               },
               {
                 "data": {
-                  "Name": "flowers:lavander_light_lily"
+                  "Name": "flowers:sunfire_light_lily"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:joy_light_lily"
                 },
                 "weight": 1
               }

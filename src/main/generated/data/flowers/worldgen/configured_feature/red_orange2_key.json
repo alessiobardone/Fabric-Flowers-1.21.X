@@ -10,6 +10,12 @@
             "entries": [
               {
                 "data": {
+                  "Name": "flowers:buckwheat_red"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "flowers:crimson_gladiola",
                   "Properties": {
                     "half": "lower"
@@ -29,12 +35,6 @@
                   "Properties": {
                     "half": "lower"
                   }
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:buckwheat_red"
                 },
                 "weight": 1
               }

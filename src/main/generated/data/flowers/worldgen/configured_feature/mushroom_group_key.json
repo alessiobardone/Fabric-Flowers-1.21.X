@@ -10,18 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:cracking_russula"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:darkosto_traposto"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:inky_cap"
                 },
                 "weight": 1
@@ -29,6 +17,18 @@
               {
                 "data": {
                   "Name": "flowers:violet_webcap"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:cracking_russula"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:darkosto_traposto"
                 },
                 "weight": 1
               }

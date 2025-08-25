@@ -16,16 +16,16 @@
               },
               {
                 "data": {
-                  "Name": "flowers:cyan_hyacinth"
+                  "Name": "flowers:himalayan_blue_poppy",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:himalayan_blue_poppy",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:cyan_hyacinth"
                 },
                 "weight": 1
               },

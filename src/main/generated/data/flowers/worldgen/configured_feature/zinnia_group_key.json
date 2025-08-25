@@ -10,7 +10,13 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:sunny_zinnia"
+                  "Name": "flowers:striped_zinnia"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:magenta_zinnia"
                 },
                 "weight": 1
               },
@@ -22,13 +28,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:striped_zinnia"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:magenta_zinnia"
+                  "Name": "flowers:sunny_zinnia"
                 },
                 "weight": 1
               }

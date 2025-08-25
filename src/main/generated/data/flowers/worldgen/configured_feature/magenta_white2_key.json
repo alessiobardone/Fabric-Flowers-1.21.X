@@ -10,15 +10,6 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:white_larkspur",
-                  "Properties": {
-                    "half": "lower"
-                  }
-                },
-                "weight": 1
-              },
-              {
-                "data": {
                   "Name": "flowers:parrot_flower"
                 },
                 "weight": 1
@@ -26,6 +17,15 @@
               {
                 "data": {
                   "Name": "flowers:magenta_clover"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "flowers:white_larkspur",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               },

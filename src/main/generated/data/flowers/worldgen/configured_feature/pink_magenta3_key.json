@@ -10,6 +10,12 @@
             "entries": [
               {
                 "data": {
+                  "Name": "flowers:cosmos_mix"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
                   "Name": "flowers:snapdragon_pink"
                 },
                 "weight": 1
@@ -26,12 +32,6 @@
               {
                 "data": {
                   "Name": "flowers:wooly_thyme"
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "Name": "flowers:cosmos_mix"
                 },
                 "weight": 1
               }

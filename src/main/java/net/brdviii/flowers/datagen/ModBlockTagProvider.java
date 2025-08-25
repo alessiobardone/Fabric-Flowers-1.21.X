@@ -16,7 +16,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(BlockTags.FLOWERS)
+        valueLookupBuilder(BlockTags.FLOWERS)
                 .add(ModBlocks.BLUE_BELL_SWEET_PEAS)
                 .add(ModBlocks.BRIGHT_MAGENTA_SWEET_PEAS)
                 .add(ModBlocks.CAPE_ALOE)
@@ -68,7 +68,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
 
-        getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
+        valueLookupBuilder(BlockTags.SMALL_FLOWERS)
                 .add(ModBlocks.AFRICAN_DAISY)
                 .add(ModBlocks.ALBUCA_NAMAQUENSIS)
                 .add(ModBlocks.AUSTRALIAN_CORNFLOWER)
@@ -191,7 +191,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
 
-        getOrCreateTagBuilder(BlockTags.LEAVES)
+        valueLookupBuilder(BlockTags.LEAVES)
                 .add(ModBlocks.BEACH_GRASS)
                 .add(ModBlocks.BLUE_EYED_GRASS)
                 .add(ModBlocks.CACTUS)
@@ -199,7 +199,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TUMBLE_WEED);
 
 
-        getOrCreateTagBuilder(BlockTags.FLOWERS)
+        valueLookupBuilder(BlockTags.FLOWERS)
                 .add(ModBlocks.CLOVER_LILY)
                 .add(ModBlocks.FROGBIT)
                 .add(ModBlocks.JOY_LARGE_LILY)
