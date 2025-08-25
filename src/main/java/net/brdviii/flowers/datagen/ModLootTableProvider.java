@@ -216,14 +216,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SUNFIRE_LARGE_LILY);
         addDrop(ModBlocks.SUNFIRE_LIGHT_LILY);
 
-        addDrop(ModBlocks.WISTERIA_LAVANDER);
-        addDrop(ModBlocks.WISTERIA_PURPLE);
-        addDrop(ModBlocks.WISTERIA_WHITE);
-
-        addDrop(ModBlocks.WISTERIA_LAVANDER_PLANT,ModBlocks.WISTERIA_LAVANDER);
-        addDrop(ModBlocks.WISTERIA_PURPLE_PLANT,ModBlocks.WISTERIA_PURPLE);
-        addDrop(ModBlocks.WISTERIA_WHITE_PLANT,ModBlocks.WISTERIA_WHITE);
-
         this.addDrop(
                 ModBlocks.RACCOON_GRAPES_BUSH,
                 block -> this.applyExplosionDecay(

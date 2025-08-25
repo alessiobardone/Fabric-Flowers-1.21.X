@@ -1832,67 +1832,6 @@ public class ModBlocks {
                     .offset(AbstractBlock.OffsetType.XZ)
                     .pistonBehavior(PistonBehavior.DESTROY)));
 
-
-    public static final Block WISTERIA_LAVANDER = registerBlock("wisteria_lavander",
-            properties -> new WisteriaLavanderBlock(properties			
-                    .mapColor(MapColor.DARK_GREEN)
-                    .noCollision()
-                    .breakInstantly()
-                    .sounds(BlockSoundGroup.CAVE_VINES)
-                    .pistonBehavior(PistonBehavior.DESTROY)
-                    .luminance((BlockState state) -> 0)
-                    .ticksRandomly()));
-
-    public static final Block WISTERIA_LAVANDER_PLANT = registerBlock("wisteria_lavander_plant",
-            properties -> new WisteriaLavanderPlantBlock(properties
-                    .mapColor(MapColor.DARK_GREEN)
-                    .noCollision()
-                    .breakInstantly()
-                    .sounds(BlockSoundGroup.CAVE_VINES)
-                    .pistonBehavior(PistonBehavior.DESTROY)
-                    .luminance((BlockState state) -> 0)));
-
-    public static final Block WISTERIA_PURPLE = registerBlock("wisteria_purple",
-            properties -> new WisteriaPurpleBlock(properties			
-                    .mapColor(MapColor.DARK_GREEN)
-                    .noCollision()
-                    .breakInstantly()
-                    .sounds(BlockSoundGroup.CAVE_VINES)
-                    .pistonBehavior(PistonBehavior.DESTROY)
-                    .luminance((BlockState state) -> 0)
-                    .ticksRandomly()));
-
-    public static final Block WISTERIA_PURPLE_PLANT = registerBlock("wisteria_purple_plant",
-            properties -> new WisteriaPurplePlantBlock(properties
-                    .mapColor(MapColor.DARK_GREEN)
-                    .noCollision()
-                    .breakInstantly()
-                    .sounds(BlockSoundGroup.CAVE_VINES)
-                    .pistonBehavior(PistonBehavior.DESTROY)
-                    .luminance((BlockState state) -> 0)));
-
-    public static final Block WISTERIA_WHITE = registerBlock("wisteria_white",
-            properties -> new WisteriaWhiteBlock(properties			
-                    .mapColor(MapColor.DARK_GREEN)
-                    .noCollision()
-                    .breakInstantly()
-                    .sounds(BlockSoundGroup.CAVE_VINES)
-                    .pistonBehavior(PistonBehavior.DESTROY)
-                    .luminance((BlockState state) -> 0)
-                    .ticksRandomly()));
-
-    public static final Block WISTERIA_WHITE_PLANT = registerBlock("wisteria_white_plant",
-            properties -> new WisteriaWhitePlantBlock(properties
-                    .mapColor(MapColor.DARK_GREEN)
-                    .noCollision()
-                    .breakInstantly()
-                    .sounds(BlockSoundGroup.CAVE_VINES)
-                    .pistonBehavior(PistonBehavior.DESTROY)
-                    .luminance((BlockState state) -> 0)));
-
-
-
-
     public static final Block JOY_LARGE_LILY = registerBlockWithoutItem("joy_large_lily",
             properties -> new LilyPadBlock(properties
                     .mapColor(MapColor.DARK_GREEN)
@@ -2159,10 +2098,6 @@ public class ModBlocks {
             entries.add(ModBlocks.YELLOW_PATCHES);
             entries.add(ModBlocks.YELLOW_STARTHISTLE);
             entries.add(ModBlocks.YUCCA_FLOWER);
-
-            entries.add(ModBlocks.WISTERIA_LAVANDER);
-            entries.add(ModBlocks.WISTERIA_PURPLE);
-            entries.add(ModBlocks.WISTERIA_WHITE);
         });
     }
 }

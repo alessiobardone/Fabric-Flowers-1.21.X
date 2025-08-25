@@ -10,16 +10,16 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:tall_calla_lily",
-                  "Properties": {
-                    "half": "lower"
-                  }
+                  "Name": "flowers:calla_lily"
                 },
                 "weight": 1
               },
               {
                 "data": {
-                  "Name": "flowers:calla_lily"
+                  "Name": "flowers:tall_calla_lily",
+                  "Properties": {
+                    "half": "lower"
+                  }
                 },
                 "weight": 1
               },

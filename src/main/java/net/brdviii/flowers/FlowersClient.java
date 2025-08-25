@@ -316,13 +316,6 @@ public class FlowersClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SUNFIRE_LIGHT_LILY, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WATER_LILY_SMALL, RenderLayer.getCutout());
 
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WISTERIA_LAVANDER, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WISTERIA_LAVANDER_PLANT, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WISTERIA_PURPLE, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WISTERIA_PURPLE_PLANT, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WISTERIA_WHITE, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WISTERIA_WHITE_PLANT, RenderLayer.getCutout());
-
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RACCOON_GRAPES_BUSH, RenderLayer.getCutout());
     }
 }

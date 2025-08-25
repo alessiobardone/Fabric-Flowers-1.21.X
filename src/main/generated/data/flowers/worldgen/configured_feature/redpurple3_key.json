@@ -10,7 +10,7 @@
             "entries": [
               {
                 "data": {
-                  "Name": "flowers:desert_sturt_pea"
+                  "Name": "flowers:creeping_thyme"
                 },
                 "weight": 1
               },
@@ -22,7 +22,7 @@
               },
               {
                 "data": {
-                  "Name": "flowers:creeping_thyme"
+                  "Name": "flowers:desert_sturt_pea"
                 },
                 "weight": 1
               },

@@ -10,13 +10,14 @@ import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.collection.DataPool;
+import net.minecraft.util.collection.Pool;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.stateprovider.WeightedBlockStateProvider;
 import org.jetbrains.annotations.NotNull;
 
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -107,15 +108,16 @@ public class ModConfiguredFeatures {
         );
     }
 
+
     public static RandomPatchFeatureConfig createMixedPatch(Map<Block, Integer> blocksWithWeights, int tries) {
         Flowers.LOGGER.info("[Configured] Created Mixed Patch of Tries " + tries);
 
-        DataPool.Builder<BlockState> poolBuilder = DataPool.builder();
+        Pool.Builder<BlockState> builder = Pool.builder();
         for (Map.Entry<Block, Integer> entry : blocksWithWeights.entrySet()) {
-            poolBuilder.add(entry.getKey().getDefaultState(), entry.getValue());
+            builder.add(entry.getKey().getDefaultState(), entry.getValue());
         }
 
-        WeightedBlockStateProvider provider = new WeightedBlockStateProvider(poolBuilder.build());
+        WeightedBlockStateProvider provider = new WeightedBlockStateProvider(builder);
         SimpleBlockFeatureConfig config = new SimpleBlockFeatureConfig(provider);
 
         return ConfiguredFeatures.createRandomPatchFeatureConfig(

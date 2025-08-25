@@ -189,7 +189,6 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.YELLOW_STARTHISTLE,"Yellow Starthistle");
         translationBuilder.add(ModBlocks.YUCCA_FLOWER,"Yucca Flower");
 
-
         translationBuilder.add(ModItems.JOY_LARGE_LILY,"Joy Large Lily");
         translationBuilder.add(ModItems.JOY_LIGHT_LILY,"Joy Light Lily");
         translationBuilder.add(ModItems.LAVANDER_LARGE_LILY,"Lavender Large Lily");
@@ -198,10 +197,6 @@ public class ModLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.PURPLE_LIGHT_LILY,"Purple Light Lily");
         translationBuilder.add(ModItems.SUNFIRE_LARGE_LILY,"Sunfire Large Lily");
         translationBuilder.add(ModItems.SUNFIRE_LIGHT_LILY,"Sunfire Light Lily");
-
-        translationBuilder.add(ModBlocks.WISTERIA_LAVANDER,"Wisteria Lavender");
-        translationBuilder.add(ModBlocks.WISTERIA_PURPLE,"Wisteria Purple");
-        translationBuilder.add(ModBlocks.WISTERIA_WHITE,"Wisteria White");
 
         translationBuilder.add(ModItems.RACCOON_GRAPE,"Raccoon Grape");
     }
